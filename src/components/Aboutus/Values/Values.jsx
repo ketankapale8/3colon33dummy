@@ -32,7 +32,7 @@ const valuesArray = [
   {
     id : 5,
     identity : '05',
-    title : "Lead Courageously",
+    title : "Lead Courageously ",
   }
 ]
 
