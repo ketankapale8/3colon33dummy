@@ -1,0 +1,98 @@
+.desccommon{
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    flex: 1;
+
+    .descLeft{
+        display: flex;
+        flex: 0.5;
+        align-items: center;
+        justify-content: center;    
+        // position: relative;
+        flex-direction: column;
+
+        .descbannerImg{
+            width: 694px;
+            height: 755px;
+            // object-position: 0 , 2055 ;
+            z-index: 0;
+        }
+
+       
+
+    }
+
+    .descRight{
+        display: flex;
+        flex-direction: column;
+        flex: 0.5;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+
+        .descDetails{
+           
+           line-height: 0.7;
+           display: flex;
+           align-content: flex-start;
+           justify-content: center;
+           flex-direction: column;
+           z-index: 1;
+
+            .title{
+                font-size: 24px !important;
+                color : #817F7F !important;
+                
+            }
+                .subtitle{
+                    padding-top: 20px;
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                    color : #020E5A
+                }
+            .divBelowsubtitle{
+                margin-left: 160px ;
+                margin-top: 20px;
+                width: 79px;
+                height: 12px;
+                background-color: #C13895;
+            }
+
+            .descriptionDiv{
+                margin-left: 25px;
+                padding-top: 60px;
+                line-height: 15px;
+                
+                p{
+                    width: 600px;
+                    line-height: 1.4;
+                    padding-left: 50px;
+                    padding-right: 20px;
+                    color : #000000;
+                    font-size : 1.1rem
+                }
+            }
+
+            .roleBtn{
+                margin-left: 30%;
+                width:353px ;
+                 height:54px;
+                 background-color: #D22599;
+                 color: #FFFF;
+                 border: none;
+                border-radius:70px;
+                margin-top:70px ;
+                border:none;
+                cursor: pointer;
+            }
+
+
+        }
+
+        
+    }
+
+}

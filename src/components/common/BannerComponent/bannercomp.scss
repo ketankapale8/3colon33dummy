@@ -1,0 +1,45 @@
+.bannercomponent{
+    width: 100%;
+    height: 1050px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+
+    .backgroundimg{
+        height: 1050px;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+
+    
+        h1{
+            font-size: 4.0rem;
+            position: absolute;
+            top: 630px;
+            color: #FFFF
+        
+        }
+        h4{
+            color: #FFFF;
+            top: 750px;
+            font-size: 1.4rem;
+            position: absolute;
+    
+        }
+        .icon{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            top: 860px;
+        }
+
+
+
+
+    
+
+
+}
