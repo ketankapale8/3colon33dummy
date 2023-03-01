@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/3colon33dummy/static/css/main.bcad7bbd.css",
+    "main.js": "/3colon33dummy/static/js/main.2cf5a652.js",
+    "static/js/787.7bba2172.chunk.js": "/3colon33dummy/static/js/787.7bba2172.chunk.js",
+    "static/media/aboutus.png": "/3colon33dummy/static/media/aboutus.61995cf520b0d48e75c1.png",
+    "static/media/careers.png": "/3colon33dummy/static/media/careers.c100d065816fe75e56d4.png",
+    "static/media/digital1.png": "/3colon33dummy/static/media/digital1.f95036b7a04d8877ddd9.png",
+    "static/media/values.png": "/3colon33dummy/static/media/values.0d476ffed57fc6240d98.png",
+    "static/media/BannerCircle.png": "/3colon33dummy/static/media/BannerCircle.b89ef846341e29c4cd41.png",
+    "static/media/BannerWork.png": "/3colon33dummy/static/media/BannerWork.f5e713b6b3c04d08a5e2.png",
+    "static/media/servicesImg.png": "/3colon33dummy/static/media/servicesImg.1f65e2cd1b40589d14e9.png",
+    "static/media/logoc.png": "/3colon33dummy/static/media/logoc.ba0c87bd8cfbe8a3e039.png",
+    "static/media/logo.png": "/3colon33dummy/static/media/logo.33ab0b7040b4c8d9abab.png",
+    "static/media/2.png": "/3colon33dummy/static/media/2.65d4792cdb96a69122ec.png",
+    "static/media/1.png": "/3colon33dummy/static/media/1.62eb5cdfd41cfa261cd4.png",
+    "static/media/rect1.png": "/3colon33dummy/static/media/rect1.0602f0d8d18964c79737.png",
+    "static/media/rect3.png": "/3colon33dummy/static/media/rect3.668fddefe1cf6c7d6dca.png",
+    "static/media/rect2.png": "/3colon33dummy/static/media/rect2.b3edcb7a8c1126ed6a88.png",
+    "static/media/img1.png": "/3colon33dummy/static/media/img1.9b17964d2e3f45894b9b.png",
+    "static/media/Image4.png": "/3colon33dummy/static/media/Image4.8fe3e45e5b966aeec269.png",
+    "static/media/gcloud.png": "/3colon33dummy/static/media/gcloud.fcf505213a8be4034c9f.png",
+    "static/media/Image3.png": "/3colon33dummy/static/media/Image3.12c20d825f1124d4960a.png",
+    "index.html": "/3colon33dummy/index.html",
+    "main.bcad7bbd.css.map": "/3colon33dummy/static/css/main.bcad7bbd.css.map",
+    "main.2cf5a652.js.map": "/3colon33dummy/static/js/main.2cf5a652.js.map",
+    "787.7bba2172.chunk.js.map": "/3colon33dummy/static/js/787.7bba2172.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcad7bbd.css",
+    "static/js/main.2cf5a652.js"
+  ]
+}
