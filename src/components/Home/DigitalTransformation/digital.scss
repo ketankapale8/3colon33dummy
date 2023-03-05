@@ -11,8 +11,8 @@
         margin-left: 201px;
         display: flex;
         flex-direction: column;
-        align-items: start;
-        flex: 0.5;
+        align-items: flex-start;
+        flex: 0.3;
 
         .digitalLeft{
             padding-top: 100px;
@@ -39,21 +39,31 @@
         margin-right: 201px;
         display: flex;
         flex-direction: column;
-        align-items: start;
+        justify-content: space-between;
+        align-items: flex-start !important;
         flex: 0.5;
         position: relative;
 
         .digitalRight{
+            width: 100%;
             padding-top: 90px;
             flex-direction: column;
-            padding-left: 35px;
+            align-items: flex-start;
+            // justify-content: space-evenly;
+            position: absolute;
+            // left: 150px;
+
+            
     
             .title{
-                color : #817F7F
+                color : #817F7F;
+                padding-right: 590px;
             }
     
             .subtitleDiv{
                 line-height: 4px;
+                padding-right: 200px;
+                
     
                 .subtitle{
                     color: #020E5A;
@@ -61,7 +71,7 @@
                     font-weight: bold;
                 }
                 .divBelowsubtitle{
-                    margin-left: 80px;
+                    margin-left:110px;
                     margin-top: 60px;
                     width: 76px;
                     height: 2px;
@@ -73,15 +83,19 @@
             .descriptionDiv{
                 width: 100%;
                 display: flex;
-                flex-direction: column;
                 padding-top: 90px;
-                line-height: 5px;
-                align-items: start;
+                padding-left: 55px;
+                line-height: 42px;
+                // align-items: start;
                 
                 p{
-                    margin-left: 35px;
+                    display: flex;
+
+                    // flex-direction: column;
+                    align-items: flex-start;
+                    margin-left: 55px;
                     color : #000000;
-                    font-size : 1.1rem
+                    font-size : 22px
                 }
             }
     
@@ -97,7 +111,7 @@
                 background-color: #477DFF;
                 position: absolute;
                 z-index: 2;
-                right: 570px;
+                right: 180px;
                 // left: 950px;
                 line-height: 0.2;
     

@@ -3,14 +3,13 @@ import './banner.scss';
 import BannerWork from '../../../assets/BannerWork.png';
 import BannerCircle from '../../../assets/BannerCircle.png';
 
-
-
 const Banner = () => {
   return (
     <div className='banner'>
         <div className="left">
             <img src={BannerWork} className="bannerImg" alt="bannerImg"/>
-            <div style={{marginLeft: '201px', display:'flex' , flexDirection:'column', alignItems:'start' }}>
+            
+            <div style={{marginLeft: '221px', display:'flex' , flexDirection:'column', alignItems:'flex-start' }}>
                   <h1 className='title'> 
                   Innovative 
                   </h1>
@@ -21,17 +20,15 @@ const Banner = () => {
                   world
                   </h1>
 
-              <p style={{paddingRight:'30px'}}>
+              <p >
               Lorem Ipsum is simply dummy text of the printing and 
               </p>
               <p>
               typesetting industry. Lorem Ipsum has been the industry’s 
               </p>
-              <p style={{paddingRight:'120px'}}>
+              <p >
               standard dummy text ever since the 1500s.
               </p>
-
-
             </div>
         </div>
 

@@ -1,9 +1,13 @@
 .banner{
     width: 100%;
-    height: 1100px;
+    max-height: 1100px;
+    max-width: 100%;
+    height: 1080px;
     background-color: #040E56;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    // align-items: center;
     flex: 1;
 
     .left{
@@ -13,14 +17,14 @@
         line-height: 0px;
 
         .bannerImg{
-            width: 970px;
-            height: 513.88px;
+            width: 900px;
+            height: 490.93px;
             object-position: -10 , -77.88;
         }
 
         h1{
             font-weight: bold;
-            font-size: 90px;
+            font-size: 70px;
             color :#FFFFFF;
         }
         p{
@@ -31,12 +35,14 @@
 
     .right{
         flex: 0.5;
+        display: flex;
+        justify-content: space-evenly;
 
         .CircleImg{
             width: 666px;
             height: 650px;
             padding-top: 310px;
-            object-position: 1052 , 274;
+            object-position: 1052 , 274 !important;
         }
     }
 }

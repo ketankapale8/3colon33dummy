@@ -1,6 +1,6 @@
 .footer{
     width: 100%;
-    height: 500px;
+    height: 380px;
     background-color: #040E56;
     display: flex;
     flex-direction: row;
@@ -9,7 +9,7 @@
     .footerLeft{
         display: flex;
         align-items: flex-start;
-        margin: 150px 90px;
+        margin: 90px 60px;
         padding-left: 30px;
         flex: 0.5;
         flex-direction: column;
@@ -41,12 +41,16 @@
         display: flex;
         flex: 0.5;
         flex-direction: column;
-        margin: 150px 90px;
+        margin: 90px 60px;
         padding-right: 30px;
 
         .top{
+            padding-left: 65%;
             color: #05A8DA;
             letter-spacing: 2px;
+            font-size: 0.9rem;
+
+            
         }
         .middle{
             width: 100%;
@@ -111,7 +115,7 @@
             p{
                 color: 'white';
                 font-size: 1.2rem;
-                padding: 40px;
+                padding: 30px;
             }
 
         }

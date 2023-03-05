@@ -1,6 +1,6 @@
 import React from 'react';
 import './digital.scss';
-import Digital1 from '../../../assets/digital/digital1.png';
+import Digital1 from '../../../assets/digital/digital.png';
 
 const descImgData = [
     {
@@ -44,20 +44,14 @@ const Digital = () => {
                 <div className='descriptionDiv'>
                     <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting
-                    </p>
-                    <p>
                     industry. Lorem Ipsum has been the industry’s standard dummy text
-                    </p>
-                    <p>
                     ever since the 1500s, when an unknown printer took a galley of type 
-                    </p>
-                    <p>
                     and scrambled it to make a type specimen book. It has survived.    
                     </p>
 
                 </div>
 
-                <div className='descriptionImg'>
+                {/* <div className='descriptionImg'>
                     {descImgData.map(item=>{
                         return (
                             <div key={item.title} style={{flexDirection: 'column', padding: '15px'}}>
@@ -70,7 +64,7 @@ const Digital = () => {
                             </div>
                         )
                     })}
-                </div>
+                </div> */}
 
 
                 

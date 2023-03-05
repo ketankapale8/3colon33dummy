@@ -11,7 +11,8 @@ import { Link } from 'react-router-dom';
 
 const Carrers = () => {
   const title = "Careers";
-  const pageName = "Meaningful Work , Meaningful Life";
+  const pageName = "Meaningful Work "
+  const pageName1 = "Meaningful Life";
   const descTitle = "TITLE";
   const subtitle = "Find Your Next Step at 3:33";
   const commonImg = careers;
@@ -20,7 +21,7 @@ const Carrers = () => {
   
   return (
     <div className='careers'>
-      <BannerComponent img={img} title={title} pageName={pageName} icon={icon}/>
+      <BannerComponent img={img} title={title} pageName={pageName} pageName1={pageName1} icon={icon}/>
       <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1}  commonImg={commonImg} showBtn={true} btnTitle={btnTitle}/>
       
       <Footer />

@@ -6,15 +6,19 @@ import Services from './Services/Services';
 import HomeCareers from './HomeCareers/HomeCareers'
 import Partners from './Partners/Partners';
 import Footer from '../../components/common/Footer/Footer'
+import Digital1 from './Digital1/Digital1';
+import Testimonials from './Testimonials/Testimonials';
 
 const Home = () => {
   return (
     <div className='homeComponent'>
       <Banner/>
-      <Digital/>
+      <Digital1/>
+      {/* <Digital/> */}
       <Services/>
       <HomeCareers/>
       <Partners/>
+      <Testimonials/>
       <Footer/>
     </div>
   )

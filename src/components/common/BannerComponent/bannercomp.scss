@@ -2,9 +2,11 @@
     width: 100%;
     height: 1050px;
     align-items: center;
+    justify-content: center;
     position: relative;
     display: flex;
     flex-direction: column;
+    line-height: 4;
 
 
     .backgroundimg{
@@ -12,28 +14,30 @@
         width: 100%;
         object-fit: cover;
         position: relative;
+        
     }
 
-    
-        h1{
-            font-size: 4.0rem;
-            position: absolute;
-            top: 630px;
-            color: #FFFF
-        
-        }
+    h1{
+        top: 490px;
+        font-size: 75px;
+        color: #FFFF;
+        position: absolute;
+        line-height: 3;
+    }
+       
         h4{
             color: #FFFF;
             top: 750px;
-            font-size: 1.4rem;
+            font-size: 24px;
             position: absolute;
+            color: #00FFB8;
     
         }
         .icon{
             position: absolute;
-            width: 60px;
-            height: 60px;
-            top: 860px;
+            width: 26px;
+            height: 40px;
+            top: 920px;
         }
 
 
