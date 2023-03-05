@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import CultureComp from './cultureComp/CultureComp';
 import Network from './Network/Network';
 import Values from '../Aboutus/Values/Values'
+import CareersTestimonials from './CareersTestimonials/CareersTestimonials';
 
 const Carrers = () => {
   const title = "Careers";
@@ -28,6 +29,7 @@ const Carrers = () => {
       <CultureComp/>
       <Network/>
       <Values/>
+      <CareersTestimonials/>
       <Footer />
 
 
