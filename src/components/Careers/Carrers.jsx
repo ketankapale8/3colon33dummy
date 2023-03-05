@@ -7,7 +7,9 @@ import icon from '../../assets/banner/icon.png';
 import careers from '../../assets/commondesc/careers.png';
 import DescriptionCommon from '../common/DescriptionCommon/DescriptionCommon';
 import { Link } from 'react-router-dom';
-
+import CultureComp from './cultureComp/CultureComp';
+import Network from './Network/Network';
+import Values from '../Aboutus/Values/Values'
 
 const Carrers = () => {
   const title = "Careers";
@@ -23,7 +25,9 @@ const Carrers = () => {
     <div className='careers'>
       <BannerComponent img={img} title={title} pageName={pageName} pageName1={pageName1} icon={icon}/>
       <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1}  commonImg={commonImg} showBtn={true} btnTitle={btnTitle}/>
-      
+      <CultureComp/>
+      <Network/>
+      <Values/>
       <Footer />
 
 

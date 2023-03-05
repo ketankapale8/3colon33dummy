@@ -1,0 +1,57 @@
+.presence {
+  width: 100%;
+  height: 200px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+
+  .presenceContainer {
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    
+    flex-direction: row;
+    text-align: start;
+    line-height: 1.5;
+
+    .list{
+      flex-direction: column;
+      display: flex;
+      padding: 30px;
+      align-items: stretch;
+      justify-content: space-evenly;
+      // justify-content: center;
+        
+        .no{
+                   padding-top: 5px;
+                    color: #0623D9;
+                    font-size: 4.0rem;
+                    font-weight: bold;
+        }
+    
+        .desc{
+            padding-top: 5px;
+            padding-left: 10px;
+            display: flex;
+            color: #707070;
+            font-size: 1.0rem;
+            text-transform: uppercase;
+        }
+    }
+
+    .lineContainer{
+        width: 0;
+        height: 109px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 40px;
+        padding-left: 120px;
+        padding-bottom: 100px;
+    }
+
+  }
+}

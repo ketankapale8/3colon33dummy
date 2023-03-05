@@ -10,29 +10,32 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        background-image: linear-gradient(rgba(0,0,0,0.7),#002939),url(../../../assets/values/values.png);
+        // background-image: linear-gradient(rgba(0,0,0,0.7),#002939),url(../../../assets/values/values.png);
         position: relative;
     }
 
+    
+
     .servicesTop{
+        margin-left: 90px;
+        margin-right: 90px;
         display: flex;
-        align-items: flex-start;
-        justify-content: left;
+        align-items: column;
+        justify-content: flex-start;
         position: absolute;
-        top: 35px;
         flex: 0.7;
         flex-direction: column;
 
         .valuesDesc{
+            text-align: start;
             display: flex;
             flex-direction: column;
             align-items: start;
-            padding-left: 150px;
             padding-top: 30px;
-           line-height: 1.2;
+        //    line-height: 1.2;
 
             .title{
-                font-size: 24px !important;
+                // font-size: 24px !important;
                 color : #00FFB8 !important;
                 
             }
@@ -43,31 +46,29 @@
                     color : #FFFFFF
                 }
             .divBelowsubtitle{
-                margin-left: 30px ;
-                margin-top: 20px;
-                width: 79px;
-                height: 12px;
+                margin-top: 30px;
+                width: 76px;
+                height: 2px;
                 background-color: #C13895;
             }
 
             .descriptionDiv{
-                margin-left: 25px;
-                padding-top: 50px;
-                line-height: 15px;
+                display: flex;
+                align-items: start;
     
                 p{
-                    width: 350px;
+                    width: 450px;
                     display: flex;
                     align-self: flex-start;
                     line-height: 1.5;
                     color :#FFFFFF;
-                    font-size : 1.1rem
+                    font-size : 1.5rem
                 }
             }
 
             .arrows{
-                padding-top: 60px;
-                padding-left: 20px;
+                width: 45px;
+                padding-top: 30px;
                 
             }
 
@@ -82,27 +83,41 @@
         flex-direction: row;
         height: 200px;
         position: absolute;
-        padding-top: 550px;
-        padding-left: 150px;
+        padding-top: 500px;
 
 
         .valuesContainer{
-            display: flex;
-            flex-direction: column;
-            padding: 50px;
 
-            h4{
+            padding-left: 90px;
+            padding-right: 90px;
+            display: flex;
+            align-self: flex-start;
+            flex-direction: column;
+            text-align: start;
+            line-height: 1.5;
+
+            .no{
+                margin-top: 50px;
+                font-size: 1rem;
                 color: #FFFFFF;
             }
-            h5{
+            .desc{
+                padding-top: 5px;
+                flex-direction: row;
+                display: flex;
                 color: #FFFFFF;
+                font-size: 1rem;
+                font-weight: bold;
             }
             
         }
 
         .lineContainer{
+            width: 0;
+            height: 109px;
             display: flex;
             flex-direction: row;
+            padding-top: 50px;
         }
     }
 

@@ -1,7 +1,8 @@
 import React from 'react';
-import './flipped.scss'
+import './flipped.scss';
+import { Link } from 'react-router-dom';
 
-const Flipped = ({descTitle2 ,subtitle2 , pageName2 , contenta , contentb , commonImg2 , showBtn , btnTitle}) => {
+const Flipped = ({descTitle2 ,subtitle2 , pageName2 , contenta , contentb , commonImg2 , showBtn , btnTitle , to }) => {
   return (
     <div className='flipped'>
         <div className="flippedContainer">
@@ -16,12 +17,15 @@ const Flipped = ({descTitle2 ,subtitle2 , pageName2 , contenta , contentb , comm
                         <p>{contenta}</p>
                         <p>{contentb}</p>
                     </div>
-                    {showBtn == true && (
-                            <button className='roleBtn'>
-                                {btnTitle}
-                            </button>
+                    <Link style={{textDecoration:'none'}} to={to}>
+                        {showBtn == true && (
+                                <button className='roleBtn'>
+                                    {btnTitle}
+                                </button>
 
-                        )}
+                            )}
+                    
+                    </Link>
                 </div>
 
 

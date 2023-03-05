@@ -9,30 +9,35 @@ const valuesArray = [
     id : 1,
     identity : '01',
     title : "Commit to Excellence",
-    img : line
+    img : line,
+    color : '#00FFB2'
   },
   {
     id : 2,
     identity : '02',
     title : "Serve with Humanity and Compassion",
-    img : line
+    img : line,
+    color : '#FFFF'
   },
   {
     id : 3,
     identity : '03',
     title : "Learn & Grow Everyday",
-    img : line
+    img : line,
+    color : '#FFFF'
   },
   {
     id : 4,
     identity : '04',
     title : "Creatively Solve Problems",
-    img : line
+    img : line,
+    color : '#FFFF'
   },
   {
     id : 5,
     identity : '05',
     title : "Lead Courageously ",
+    color : '#FFFF'
   }
 ]
 
@@ -41,7 +46,8 @@ const Values = () => {
 
   return (
     <div className="values">
-      <img className="backgroundImg" />
+      <img className="backgroundImg" src={values}/>
+
       <div className="servicesTop">
         <div className="valuesDesc">
           <div className="title">CORE VALUES</div>
@@ -62,8 +68,9 @@ const Values = () => {
           return (
             <>
               <div className="valuesContainer">
-                <h4>{item.identity}</h4>
-                <h5>{item.title}</h5>
+                <div style={{color: item.color}} className='no'>
+                  {item.identity}</div>
+                <div style={{color: item.color}} className="desc">{item.title}</div>
               </div>
               <div className="lineContainer">
                   <img src={item?.img} />
