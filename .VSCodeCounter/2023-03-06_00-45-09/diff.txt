@@ -1,0 +1,70 @@
+Date : 2023-03-06 00:45:09
+Directory : c:\Users\ketan\colon33\src\components
+Total : 26 files,  732 codes, 15 comments, 102 blanks, all 849 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| SCSS           |         13 |        421 |         11 |         65 |        497 |
+| JavaScript JSX |         13 |        311 |          4 |         37 |        352 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                       | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                          |         26 |        732 |         15 |        102 |        849 |
+| Aboutus                                                                                    |          3 |         19 |          3 |          4 |         26 |
+| Aboutus (Files)                                                                            |          1 |          4 |          0 |          0 |          4 |
+| Aboutus\Values                                                                             |          2 |         15 |          3 |          4 |         22 |
+| Careers                                                                                    |          7 |        539 |          2 |         89 |        630 |
+| Careers (Files)                                                                            |          1 |          9 |          0 |         -2 |          7 |
+| Careers\CareersTestimonials                                                                |          2 |        304 |          2 |         54 |        360 |
+| Careers\Network                                                                            |          2 |         80 |          0 |         15 |         95 |
+| Careers\cultureComp                                                                        |          2 |        146 |          0 |         22 |        168 |
+| Home                                                                                       |          4 |         52 |          1 |          0 |         53 |
+| Home\Partners                                                                              |          2 |         28 |          0 |          0 |         28 |
+| Home\Testimonials                                                                          |          2 |         24 |          1 |          0 |         25 |
+| Leadership                                                                                 |          2 |         27 |          2 |          3 |         32 |
+| common                                                                                     |         10 |         95 |          7 |          6 |        108 |
+| common\BannerComponent                                                                     |          2 |          5 |          2 |          2 |          9 |
+| common\DescriptionCommon                                                                   |          2 |          1 |          0 |         -4 |         -3 |
+| common\FlippedDescCommon                                                                   |          2 |         -5 |          5 |         -7 |         -7 |
+| common\Footer                                                                              |          1 |          1 |          0 |          0 |          1 |
+| common\Navbar                                                                              |          1 |         -1 |         -1 |          0 |         -2 |
+| common\PresenceComp                                                                        |          2 |         94 |          1 |         15 |        110 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                   | language       | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\ketan\colon33\src\components\Aboutus\Aboutus.jsx                                  | JavaScript JSX |          4 |          0 |          0 |          4 |
+| c:\Users\ketan\colon33\src\components\Aboutus\Values\Values.jsx                            | JavaScript JSX |          6 |          0 |          1 |          7 |
+| c:\Users\ketan\colon33\src\components\Aboutus\Values\values.scss                           | SCSS           |          9 |          3 |          3 |         15 |
+| c:\Users\ketan\colon33\src\components\Careers\CareersTestimonials\CareersTestimonials.jsx  | JavaScript JSX |         96 |          0 |         15 |        111 |
+| c:\Users\ketan\colon33\src\components\Careers\CareersTestimonials\careerstestimonials.scss | SCSS           |        208 |          2 |         39 |        249 |
+| c:\Users\ketan\colon33\src\components\Careers\Carrers.jsx                                  | JavaScript JSX |          9 |          0 |         -2 |          7 |
+| c:\Users\ketan\colon33\src\components\Careers\Network\Network.jsx                          | JavaScript JSX |         26 |          0 |          5 |         31 |
+| c:\Users\ketan\colon33\src\components\Careers\Network\network.scss                         | SCSS           |         54 |          0 |         10 |         64 |
+| c:\Users\ketan\colon33\src\components\Careers\cultureComp\CultureComp.jsx                  | JavaScript JSX |         61 |          0 |         10 |         71 |
+| c:\Users\ketan\colon33\src\components\Careers\cultureComp\culture.scss                     | SCSS           |         85 |          0 |         12 |         97 |
+| c:\Users\ketan\colon33\src\components\Home\Partners\Partners.jsx                           | JavaScript JSX |         26 |          0 |          0 |         26 |
+| c:\Users\ketan\colon33\src\components\Home\Partners\partners.scss                          | SCSS           |          2 |          0 |          0 |          2 |
+| c:\Users\ketan\colon33\src\components\Home\Testimonials\Testimonials.jsx                   | JavaScript JSX |          7 |          0 |         -3 |          4 |
+| c:\Users\ketan\colon33\src\components\Home\Testimonials\testimonials.scss                  | SCSS           |         17 |          1 |          3 |         21 |
+| c:\Users\ketan\colon33\src\components\Leadership\Leadership.jsx                            | JavaScript JSX |         22 |          2 |          3 |         27 |
+| c:\Users\ketan\colon33\src\components\Leadership\leadership.scss                           | SCSS           |          5 |          0 |          0 |          5 |
+| c:\Users\ketan\colon33\src\components\common\BannerComponent\BannerComponent.jsx           | JavaScript JSX |          1 |          2 |          2 |          5 |
+| c:\Users\ketan\colon33\src\components\common\BannerComponent\bannercomp.scss               | SCSS           |          4 |          0 |          0 |          4 |
+| c:\Users\ketan\colon33\src\components\common\DescriptionCommon\DescriptionCommon.jsx       | JavaScript JSX |          5 |          0 |         -3 |          2 |
+| c:\Users\ketan\colon33\src\components\common\DescriptionCommon\descommon.scss              | SCSS           |         -4 |          0 |         -1 |         -5 |
+| c:\Users\ketan\colon33\src\components\common\FlippedDescCommon\Flipped.jsx                 | JavaScript JSX |          3 |          0 |          2 |          5 |
+| c:\Users\ketan\colon33\src\components\common\FlippedDescCommon\flipped.scss                | SCSS           |         -8 |          5 |         -9 |        -12 |
+| c:\Users\ketan\colon33\src\components\common\Footer\footer.scss                            | SCSS           |          1 |          0 |          0 |          1 |
+| c:\Users\ketan\colon33\src\components\common\Navbar\navbar.scss                            | SCSS           |         -1 |         -1 |          0 |         -2 |
+| c:\Users\ketan\colon33\src\components\common\PresenceComp\Presence.jsx                     | JavaScript JSX |         45 |          0 |          7 |         52 |
+| c:\Users\ketan\colon33\src\components\common\PresenceComp\presence.scss                    | SCSS           |         49 |          1 |          8 |         58 |
+| Total                                                                                      |                |        732 |         15 |        102 |        849 |
++--------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

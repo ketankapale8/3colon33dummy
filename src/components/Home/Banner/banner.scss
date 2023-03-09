@@ -4,45 +4,223 @@
     max-width: 100%;
     height: 1080px;
     background-color: #040E56;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    // align-items: center;
+    background-position: center;
+    position: relative;
     flex: 1;
 
-    .left{
-        display: flex;
-        flex-direction: column;
-        flex: 0.5;
-        line-height: 0px;
+    .sticky{
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        // background-color: #FFFFFF;
+        // overflow: hidden;
+        // width: 100%;
+        // height: 85px;
+        box-sizing: border-box;
+        
+        // background: url('../../../assets/BannerWork.png') no-repeat;
+        // z-index: 0;
 
+        
+        .navContainer{
+            display: flex;
+            flex: 1;
+            .logoContainer{
+                flex : 0.3;
+                display: flex;
+                justify-content: center;
+                
+        
+        
+                .logo{
+                    padding-top: 20px;
+                    width: 120px;
+                    height: 40px;
+                }
+            }
+        
+            .linksContainer{
+                padding-left: 90px;
+                flex : 0.7;
+                display: flex;
+                text-transform: uppercase;
+                align-items: center;
+                justify-content: center;
+        
+                .links{
+                    text-decoration: none;
+                    list-style: none;
+                
+        
+                    h4{
+                        margin: 40px;
+                        font-size: 13px;
+                        font-weight:normal;
+                        cursor: pointer;
+                        color :#FFFFFF;
+                        text-decoration: none;
+                    }
+                }
+        
+                .links:hover{
+        
+                    h4{
+                        color: #BD3B98;
+                    }
+                }
+        
+        
+                
+        
+        
+            }
+    
+        }
+        
+        
+        
+        
+    
+    }
+    
+    .top{
+        display: flex;
+        flex : 0.1;
+        flex-direction: row;
+        z-index: -1;
+        transition: .3s;
+
+        
+
+
+
+
+
+
+        .navbar{
+            overflow: hidden;
+            width: 100%;
+            height: 85px;
+            box-sizing: border-box;
+            
+            // background: url('../../../assets/BannerWork.png') no-repeat;
+            // z-index: 0;
+
+       
+            
+            .navContainer{
+                display: flex;
+                flex: 1;
+                // background-color: white;
+                .logoContainer{
+                    flex : 0.3;
+                    display: flex;
+                    justify-content: center;
+                    
+            
+            
+                    .logo{
+                        padding-top: 20px;
+                        width: 120px;
+                        height: 40px;
+                    }
+                }
+            
+                .linksContainer{
+                    padding-left: 90px;
+                    flex : 0.7;
+                    display: flex;
+                    text-transform: uppercase;
+                    align-items: center;
+                    justify-content: center;
+            
+                    .links{
+                        text-decoration: none;
+                        list-style: none;
+                    
+            
+                        h4{
+                            margin: 40px;
+                            font-size: 13px;
+                            font-weight:normal;
+                            cursor: pointer;
+                            color :#FFFFFF;
+                            text-decoration: none;
+                        }
+                    }
+            
+                    .links:hover{
+            
+                        h4{
+                            color: #BD3B98;
+                        }
+                    }
+            
+            
+                    
+            
+            
+                }
+        
+            }
+            
+            
+            
+            
+        
+        }
+
+
+        
+        
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex : 0.9;
+        
         .bannerImg{
-            width: 900px;
-            height: 490.93px;
-            object-position: -10 , -77.88;
+            top: 0px;
+            left: 0px;
+            width: 700px;
+            height: 410.93px;
+            object-position: -10 , -57.88 !important;
+            position: absolute;
+            z-index: 1;
         }
-
-        h1{
-            font-weight: bold;
-            font-size: 70px;
-            color :#FFFFFF;
+        .left{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            flex: 0.45;
+            text-align: start;
+    
+    
+            .title{
+                font-weight: bold;
+                font-size: 65px;
+                color :#FFFFFF;
+            }
+            p{
+                font-size: 1.0rem;
+                color : #FFFFFF
+            }
         }
-        p{
-            font-size: 1.0rem;
-            color : #FFFFFF
+    
+        .right{
+            flex: 0.45;
+            display: flex;
+            // justify-content: center;
+    
+            .CircleImg{
+                width: 666px;
+                height: 650px;
+                padding-top: 190px;
+                
+                object-position: 1052 , 274 !important;
+            }
         }
     }
 
-    .right{
-        flex: 0.5;
-        display: flex;
-        justify-content: space-evenly;
-
-        .CircleImg{
-            width: 666px;
-            height: 650px;
-            padding-top: 310px;
-            object-position: 1052 , 274 !important;
-        }
-    }
 }

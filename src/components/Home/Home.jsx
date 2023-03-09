@@ -8,6 +8,7 @@ import Partners from './Partners/Partners';
 import Footer from '../../components/common/Footer/Footer'
 import Digital1 from './Digital1/Digital1';
 import Testimonials from './Testimonials/Testimonials';
+import Navbar from '../common/Navbar/Navbar';
 
 const Home = () => {
   return (

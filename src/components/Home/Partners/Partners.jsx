@@ -80,7 +80,7 @@ const Partners = () => {
               {current.map(item=>{
                   return (
                     <>
-                      <img src={four} style={{width:'55px', height:"25px", paddingTop:'670px' , position:'absolute' , paddingRight:'450px' , cursor:'pointer'}} onClick={()=>onRight(item.batch)}/>
+                      <img src={four} style={{width:'55px', height:"25px", paddingTop:'370px' , position:'absolute' , paddingRight:'750px' , cursor:'pointer'}} onClick={()=>onRight(item.batch)}/>
               <div className="containerOne" key={item.id}>
                   <div className="box1">
                       <img src={item.img} className="boxImg"/>

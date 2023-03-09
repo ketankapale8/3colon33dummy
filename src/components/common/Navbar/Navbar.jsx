@@ -29,21 +29,24 @@ const Navbar = () => {
   ]
   return (
     <div className='navbar'>
-      <div className="logoContainer">
-        <Link to="/">
-          <img src={BrandLogo} className="logo" alt='brandlogo'/>
-        </Link>
-      </div>
-      <div className="linksContainer">
-        {navItems.map(item=>{
-          return (
-            <div className='links'>
-              <Link to={item.to} style={{textDecoration:'none'}}>
-                <h4>{item.title}</h4>
-              </Link>
-            </div>
-          )
-        })}
+      <div className="navContainer">
+        <div className="logoContainer">
+          <Link to="/">
+            <img src={BrandLogo} className="logo" alt='brandlogo'/>
+          </Link>
+        </div>
+        <div className="linksContainer">
+          {navItems.map(item=>{
+            return (
+              <div className='links'>
+                <Link to={item.to} style={{textDecoration:'none'}}>
+                  <h4>{item.title}</h4>
+                </Link>
+              </div>
+            )
+          })}
+
+        </div>
 
       </div>
     </div>
