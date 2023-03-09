@@ -1,0 +1,121 @@
+.leadershipDetails{
+    width: 100%;
+    height: 600px;
+    
+    .leadershipDetailsContainer{
+        margin-left: 90px;
+        margin-right: 90px;
+        display: flex;
+        flex-direction: column;
+        flex : 1;
+        
+        .leadershipDetailsTop{
+          
+            display: flex;
+            // flex: 0.6;
+            flex-direction: column;
+
+            
+            .headlines{
+                // flex: 0.2;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .title {
+                    font-size: 24px !important;
+                    color: #817f7f !important;
+                  }
+                
+                  .subtitle {
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                    color: #020e5a;
+                  }
+                  .divBelowsubtitle {
+                    margin-top: 30px;
+                    width: 76px;
+                    height: 2px;
+                    background-color: #c13895;
+                  }
+    
+            }
+
+            .desc{
+       
+                width: 100%;
+                flex: 0.6;
+                display: flex;
+                flex-direction: row;
+                text-align: start;
+                margin-top: 40px;
+                
+
+                .descImg{
+                    flex : 0.3;
+                    padding-left: 350px;                   
+
+                    .leader{
+                        width: 260px;
+                        height: 350px;
+                    }
+                }
+
+
+                .descList{
+                    flex: 0.3;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    // font-size: 1.2rem;
+                    text-align: start;
+                    padding-left: 30px;
+
+                    
+                    .title{
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        color: #317FFF;
+                        margin-bottom: -30px;
+                    }
+
+                    .desc{
+                        
+                        text-transform: uppercase;
+                        // letter-spacing: 2px;
+                        font-size: 1rem;
+                    }
+
+                    .paragraph{
+
+                        padding-top: 10px;
+                        font-size: 0.7rem;
+                    }
+
+                }
+            }
+        }
+
+        .leadershipDetailsMiddle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex : 0.1;
+            padding-top: 30px;
+
+            .barImg{
+                width: 650px;
+                height: 1px;
+            }
+        }
+
+        .leadershipBottom{
+            display: flex;
+            flex: 0.3;
+        }
+    }
+
+}

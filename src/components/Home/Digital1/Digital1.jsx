@@ -2,6 +2,21 @@ import React from 'react'
 import './digital1.scss';
 import Digital from '../../../assets/digital/digital.png';
 
+const descImgData = [
+    {
+        title : "Customers",
+        number : "100+"
+    },
+    {
+        title : "Employees",
+        number : "100+"
+    },
+    {
+        title : "Locations",
+        number : "05"
+    }
+]
+
 const Digital1 = () => {
   return (
     <div className="digital">
@@ -23,6 +38,20 @@ const Digital1 = () => {
                         and scrambled it to make a type specimen book. It has survived. 
 
                     </p>
+                </div>
+                <div className='descriptionImg'>
+                    {descImgData.map(item=>{
+                        return (
+                            <div key={item.title} style={{flexDirection: 'column', padding: '15px'}}>
+                                <h2 className='descNo'>
+                                    {item.number}
+                                </h2>
+                                <h4 className='descTitle'>
+                                    {item.title}
+                                </h4>
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
         </div>

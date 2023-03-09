@@ -51,7 +51,6 @@ const Partners = () => {
     const [count ,setCount] = useState(0);
     const current = sliderArray.filter(item=>item.batch == count)
     const onRight = (batch) =>{
-        console.log(count)
         if(batch>=0 && count<1){
             setCount(count+1)
         }else if(count==1){
@@ -80,7 +79,7 @@ const Partners = () => {
               {current.map(item=>{
                   return (
                     <>
-                      <img src={four} style={{width:'55px', height:"25px", paddingTop:'370px' , position:'absolute' , paddingRight:'750px' , cursor:'pointer'}} onClick={()=>onRight(item.batch)}/>
+                      <img src={four} style={{width:'55px', height:"25px", marginTop:'490px' , position:'absolute' , marginRight:'590px' , cursor:'pointer'}} onClick={()=>onRight(item.batch)}/>
               <div className="containerOne" key={item.id}>
                   <div className="box1">
                       <img src={item.img} className="boxImg"/>

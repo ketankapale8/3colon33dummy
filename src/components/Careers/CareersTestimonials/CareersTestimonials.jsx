@@ -26,7 +26,7 @@ const CareersTestimonials = () => {
               </div>
             </div>
             <div className="container2">
-                <img src={rating1} style={{paddingTop:'10px'}}/>
+                <img src={rating1} style={{paddingTop:'30px'}}/>
             <div className="title">Really love the leve of Experience…</div>
             <div className="descriptionDiv">
                 <p>

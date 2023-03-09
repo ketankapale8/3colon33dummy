@@ -4,7 +4,9 @@ import img from '../../assets/leadership/lbanner.png';
 import leadership from '../../assets/leadership/1.png';
 import BannerComponent from '../common/BannerComponent/BannerComponent';
 import DescriptionCommon from '../common/DescriptionCommon/DescriptionCommon';
-import icon from '../../assets/banner/icon.png'
+import icon from '../../assets/banner/icon.png';
+import LeadershipDetails from './LeadershipDetails/LeadershipDetails';
+import Footer from '../common/Footer/Footer'
 
 
 const Leadership = () => {
@@ -19,7 +21,11 @@ const Leadership = () => {
   return (
     <div className='leadership'>
         <BannerComponent img={img} title={title} pageName={pageName} icon={icon}/>
-      <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1}  commonImg={commonImg} showBtn={false} />
+        <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1}  commonImg={commonImg} showBtn={false} />
+        <LeadershipDetails/>
+        <Footer/>
+        
+        
     </div>
   )
 }

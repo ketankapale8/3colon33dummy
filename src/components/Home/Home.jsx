@@ -15,7 +15,6 @@ const Home = () => {
     <div className='homeComponent'>
       <Banner/>
       <Digital1/>
-      {/* <Digital/> */}
       <Services/>
       <HomeCareers/>
       <Partners/>

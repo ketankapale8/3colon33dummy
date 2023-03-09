@@ -24,8 +24,8 @@ const DescriptionCommon = ({
             <p>{content2}</p>
           </div>
 
-          <div>
-            {showBtn == true && <button className="roleBtn">{btnTitle}</button>}
+          <div style={{paddingBottom:'30px'}}>
+            {showBtn === true && <button className="roleBtn">{btnTitle}</button>}
           </div>
         </div>
         <div className="descRight">
