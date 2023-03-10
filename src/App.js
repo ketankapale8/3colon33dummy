@@ -6,6 +6,7 @@ import Navbar from './components/common/Navbar/Navbar';
 import Aboutus from './components/Aboutus/Aboutus';
 import Careers from './components/Careers/Carrers';
 import Leadership from './components/Leadership/Leadership';
+import Letstalk from './components/LetsTalk/Letstalk';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route element={<Aboutus/>} path="/aboutus"/>
           <Route element={<Careers/>} path="/careers"/>
           <Route element={<Leadership/>} path="/leadership"/>
+          <Route element={<Letstalk/>} path="/letstalk"/>
         </Routes>
       </Router>
 

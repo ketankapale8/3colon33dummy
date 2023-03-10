@@ -1,0 +1,145 @@
+.contactusContainer{
+    padding-top: 30px;
+    width: 100%;
+    height: 850px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+    .contactusLeft{
+        display: flex;
+        flex: 0.5;
+        flex-direction: column;
+        text-align: start;
+
+        .subtitle {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #020e5a;
+          }
+          .divBelowsubtitle {
+            margin-top: 30px;
+            width: 76px;
+            height: 2px;
+            background-color: #c13895;
+          }
+
+          .contactusDetails{
+            display: flex;
+            flex-direction: column;
+
+            .imgs{
+                width: 30px;
+                height: 30px;
+            }
+
+            .details{
+                padding-top: 15px;
+                font-size: 1.0rem;
+                padding-left: 40px;
+            }
+          }
+
+          .breaker{
+            padding-top: 30px;
+          }
+
+          .social{
+            justify-content: start;
+            display: flex;
+            flex-direction: row;
+            cursor: pointer;
+            align-items: flex-start;
+            
+
+          }
+
+
+    }
+
+    .contactusRight{
+        display: flex;
+        flex: 0.5;
+
+        .rightContainer{
+            padding-top: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 80%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            border-radius: 20px;
+            background-color: #FFFFFF;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+            .formItems{
+              display: flex;
+              flex-direction: row;
+              // align-items: center;
+              justify-content: center;
+              
+              .inputFields{
+                text-transform: uppercase;
+                margin: 10px;
+                padding-left: 5px;
+                width: 190px;
+                height: 33px;
+                border: 0.5px solid lightgray;
+                font-size: 0.8rem;
+              }
+
+              .select{
+                text-transform: uppercase;
+                margin: 8px;
+                padding-left: 0px;
+                width: 200px;
+                height: 33px;
+                font-size: 0.8rem;
+                border-radius: 0%;
+              }
+
+              
+            }
+
+            .helpComp{
+              display: flex;
+              padding-top: 50px;
+              padding-left: 15%;
+              font-weight: bold;
+              text-align: start;
+              flex-direction: column;
+
+              .helpSelect{
+                padding-top: 30px;
+                padding-left: 0px;
+                margin-top: 3px;
+                width: 425px;
+                height: 33px;
+                font-size: 0.8rem;
+                border-radius: 0%;
+                background-color: white;
+              }
+            }
+
+            .checkboxComp{
+              padding-top: 160px;
+              padding-left: 13%;
+              display: flex;
+              flex-direction: column;
+
+              .terms{
+                display: flex;
+                flex-direction: row;
+                margin: 10px;
+              }
+            }
+
+            
+        }
+
+        
+    }
+}

@@ -26,7 +26,7 @@ const navItems = [
   },
   {
     title : "let's talk",
-    to: "/"
+    to: "/letstalk"
   }
 ]
 
