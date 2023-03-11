@@ -1,0 +1,122 @@
+.bannercomponent1 {
+    width: 100%;
+    height: 570px;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+  
+    // .top {
+    //   position: relative;
+    //   display: flex;
+    //   flex: 0.1;
+    //   flex-direction: row;
+    //   z-index: 1;
+  
+    //   .navbar {
+    //     overflow: hidden;
+    //     width: 100%;
+    //     height: 85px;
+    //     box-sizing: border-box;
+  
+    //     .navContainer {
+    //       display: flex;
+    //       flex: 1;
+    //       background-color: transparent;
+  
+    //       .logoContainer {
+    //         flex: 0.3;
+    //         display: flex;
+    //         justify-content: center;
+  
+    //         .logo {
+    //           padding-top: 20px;
+    //           width: 120px;
+    //           height: 40px;
+    //         }
+    //       }
+  
+    //       .linksContainer {
+    //         padding-bottom: 20px;
+    //         padding-left: 90px;
+    //         flex: 0.7;
+    //         display: flex;
+    //         text-transform: uppercase;
+    //       //   align-items: center;
+    //       //   justify-content: center;
+  
+    //         .links {
+    //           text-decoration: none;
+    //           list-style: none;
+  
+    //           h4 {
+    //           //   margin: 40px;
+    //             font-size: 13px;
+    //             font-weight: normal;
+    //             cursor: pointer;
+    //             color: #ffffff;
+    //             text-decoration: none;
+    //           }
+    //         }
+  
+    //         .links:hover {
+    //           h4 {
+    //             color: #bd3b98;
+    //           }
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+  
+    .bottom {
+      width: 100%;
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: absolute;
+  
+      .backgroundimg {
+        height: 520px;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+      }
+  
+      h1 {
+        top: 90px;
+        font-size: 55px;
+        color: #ffff;
+        position: absolute;
+        line-height: 3;
+      }
+  
+      h4 {
+        color: #ffff;
+        top: 190px;
+        font-size: 24px;
+        position: absolute;
+        color: #00ffb8;
+      }
+
+      .roleBtn {
+        margin-top: -150px;
+        width: 200px;
+        height: 34px;
+        background-color: #d22599;
+        color: #ffff;
+        border: none;
+        border-radius: 70px;
+        cursor: pointer;
+        z-index: 99;
+      }
+      // .icon {
+      //   position: absolute;
+      //   width: 26px;
+      //   height: 40px;
+      //   top: 920px;
+      // }
+    }
+  }
+  

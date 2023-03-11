@@ -36,7 +36,7 @@ const Footer = () => {
           {social.map(item=>{
             return (
               <>
-              <img className='mediaImg' src={item} />
+              <img className='mediaImg' src={item} alt="socialImgs"/>
               </>
             )
           })}

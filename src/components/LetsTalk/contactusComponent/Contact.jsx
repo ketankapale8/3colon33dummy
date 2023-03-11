@@ -159,11 +159,13 @@ const Contact = () => {
               </div>
               <div className="terms">
                 <input type="checkbox"/>
-                <div>I Have Read And Agree With <span style={{color:'#0076FF'}}>Privacy Policy </span>(Required)</div>
+                <div>I Have Read And Agree With <span style={{color:'#0076FF', cursor:'pointer'}}>Privacy Policy </span>(Required)</div>
               </div>
           </div>
 
-          
+          <button className="roleBtn">Submit</button>
+
+
 
           
         </div>

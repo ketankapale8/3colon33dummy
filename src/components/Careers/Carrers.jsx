@@ -25,7 +25,7 @@ const Carrers = () => {
   return (
     <div className='careers'>
       <BannerComponent img={img} title={title} pageName={pageName} pageName1={pageName1} icon={icon}/>
-      <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1}  commonImg={commonImg} showBtn={true} btnTitle={btnTitle}/>
+      <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1}  commonImg={commonImg} showBtn={true} btnTitle={btnTitle} to="/currentopenings"/>
       <CultureComp/>
       <Network/>
       <Values/>

@@ -1,5 +1,7 @@
 import React from "react";
 import "./descommon.scss";
+import { Link } from "react-router-dom";
+
 
 const DescriptionCommon = ({
   descTitle,
@@ -10,6 +12,7 @@ const DescriptionCommon = ({
   commonImg,
   showBtn,
   btnTitle,
+  to
 }) => {
   // const [btn , showBtns] = useState(false)
   return (
@@ -23,10 +26,12 @@ const DescriptionCommon = ({
             <p>{content1}</p>
             <p>{content2}</p>
           </div>
-
-          <div style={{paddingBottom:'30px'}}>
-            {showBtn === true && <button className="roleBtn">{btnTitle}</button>}
-          </div>
+          <Link style={{textDecoration : 'none'}} to={to}>
+            <div style={{paddingBottom:'30px'}}>
+              {showBtn === true && <button className="roleBtn">{btnTitle}</button>}
+            </div>
+          
+          </Link>
         </div>
         <div className="descRight">
           <img className="descbannerImg" src={commonImg} alt="descBanner" />

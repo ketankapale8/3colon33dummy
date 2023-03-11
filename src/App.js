@@ -7,6 +7,7 @@ import Aboutus from './components/Aboutus/Aboutus';
 import Careers from './components/Careers/Carrers';
 import Leadership from './components/Leadership/Leadership';
 import Letstalk from './components/LetsTalk/Letstalk';
+import Openings from './components/Openings/Openings';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route element={<Careers/>} path="/careers"/>
           <Route element={<Leadership/>} path="/leadership"/>
           <Route element={<Letstalk/>} path="/letstalk"/>
+          <Route element={<Openings/>} path="/currentopenings"/>
         </Routes>
       </Router>
 
