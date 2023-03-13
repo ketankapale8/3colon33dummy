@@ -1,8 +1,8 @@
 import React, {useState , useEffect , useRef} from "react";
 import "./leadershipDetails.scss";
 import one from "../../../assets/leadershipImgs/1.png";
-import bar from "../../../assets/leadershipImgs/bar.png";
-import LeadershipCarousal from "../LeadershipCarousal/LeadershipCarousal";
+import bar from "../../../assets/leadershipImgs/bar1.png";
+// import LeadershipCarousal from "../LeadershipCarousal/LeadershipCarousal";
 import leader1 from '../../../assets/leadership/leader1.png'
 import leader2 from '../../../assets/leadership/leader2.png'
 import leader3 from '../../../assets/leadership/leader3.png'

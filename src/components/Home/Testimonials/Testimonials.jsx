@@ -1,6 +1,9 @@
 import React , {useState} from 'react';
 import './testimonials.scss';
 import review1 from '../../../assets/testimonials/review1.png';
+import leader2 from '../../../assets/leadership/leader1.png';
+import leader3 from '../../../assets/leadership/leader3.png';
+
 import rating from '../../../assets/testimonials/rating.png';
 import right from '../../../assets/testimonials/right.png';
 import left from '../../../assets/testimonials/left.png';
@@ -21,20 +24,20 @@ const reviewArray = [
   },
   {
     id : 1,
-    title : "Indra Nooyi",
-    position : "CEO , PepsiCo",
+    title : "Fiona Smith",
+    position : "President, Swiss Re",
     ratingImg : rating,
-    titleImg : review1,
+    titleImg : leader2,
     reviewTitle : "Digital Transformation at its best",
     reviewDesc : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived."
 
   },
   {
     id : 2,
-    title : "Naval Ravikant",
-    position : "CEO , Angel",
+    title : "Andrew Watts",
+    position : "CTO , Expedia",
     ratingImg : rating,
-    titleImg : review1,
+    titleImg : leader3,
     reviewTitle : "Needed a service like this",
     reviewDesc : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived."
 

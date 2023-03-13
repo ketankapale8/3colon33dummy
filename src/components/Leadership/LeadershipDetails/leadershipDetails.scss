@@ -1,6 +1,6 @@
 .leadershipDetails {
   width: 100%;
-  height: 800px;
+  height: 860px;
 
   .leadershipDetailsContainer {
     margin-left: 90px;
@@ -97,8 +97,8 @@
       padding-top: 30px;
 
       .barImg {
-        width: 650px;
-        height: 5px;
+        width: 520px;
+        height: 1px;
       }
     }
 
@@ -117,6 +117,7 @@
             // }
             
             .carousal {
+              padding-top: 20px;
             display: flex;
           position: relative;
           align-items: center;
@@ -138,7 +139,7 @@
 
               .carousal__image {
                 margin-right: 10px;
-                height: 170px;
+                height: 190px;
                 min-width: 150px;
                 border: 3px solid #ffa70000;
                 background-position: center center;
@@ -178,14 +179,14 @@
 
               .carousel__button-left {
                 position: relative;
-                right: 50px;
+                right: 53px;
                 width: 21px;
                 height: 38px;
               }
               
               .carousel__button-right {
                 position: relative;
-                left: 490px;
+                left: 500px;
                 width: 21px;
                 height: 38px;
               }
