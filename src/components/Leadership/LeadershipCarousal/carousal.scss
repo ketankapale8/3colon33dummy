@@ -1,0 +1,37 @@
+.carousalContainer{
+    margin: 20px;
+
+    // .selectedItem{
+
+    // }
+
+    .carousal{
+        position: relative;
+        .carousal__images{
+            display: flex;
+            max-width: 100%;
+            overflow-x: hidden;
+
+            .carousal__image{
+                margin-right: 10px;
+  height: 150px;
+  min-width: 150px;
+  border: 3px solid #ffa70000;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+            }
+        }
+
+        .carousel__image-selected {
+            border: 3px solid #ffa700 !important;
+          }
+
+        .carousal_buttons{
+            position: absolute;
+            top: 40%;
+        }
+    }
+
+
+}
