@@ -46,8 +46,8 @@ const Banner = () => {
   return (
     <>
     <div className='banner'>
-        <div className={`${ sticky ? 'sticky' : 'top'}`}>
-        <div className="navbar">
+        {/* <div className={`${ sticky ? 'sticky' : 'top'}`}> */}
+        {/* <div className="navbar">
         <div className="navContainer">
           <div className="logoContainer">
             <Link to="/">
@@ -68,8 +68,8 @@ const Banner = () => {
           </div>
 
         </div>
-      </div>
-        </div>
+      </div> */}
+        {/* </div> */}
 
       <div className="bottom">
           <div className="left">
