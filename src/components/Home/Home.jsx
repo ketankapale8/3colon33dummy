@@ -12,7 +12,7 @@ import Navbar from '../common/Navbar/Navbar';
 
 const Home = () => {
   return (
-    <div className='homeComponent'>
+    <div className='homeComponent' >
       <Banner/>
       <Digital1/>
       <Services/>
