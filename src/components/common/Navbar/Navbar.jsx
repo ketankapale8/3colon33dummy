@@ -1,6 +1,7 @@
-import React , {useState} from 'react';
+import React , {useEffect, useState} from 'react';
 import './navbar.scss';
 import BrandLogo from '../../../assets/logo.png';
+import footerLogo from '../../../assets/footer/logoc.png'
 import { Link } from 'react-router-dom';
 import ServicesDropdown from '../../ServicesNav/ServicesNav';
 
@@ -10,6 +11,8 @@ const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  const [navbarChange ,setNavbarChange] = useState(false);
+  const [changeLogo , setChangeLogo] = useState(BrandLogo)
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
       setDropdown(false);
@@ -25,6 +28,20 @@ const Navbar = () => {
       setDropdown(false);
     }
   };
+
+  const changeBackground = () =>{
+      if(window.scrollY >= 85){
+        // console.log(window.scrollY)
+        setNavbarChange(true)
+      }else {
+        setNavbarChange(false)
+      }
+  }
+
+  window.addEventListener('scroll', changeBackground)
+  useEffect(()=>{
+    changeBackground()
+  },[])
 
   // const navItems = [
   //   {
@@ -49,11 +66,11 @@ const Navbar = () => {
   //   }
   // ]
   return (
-    <div className='navbar'>
+    <div className={navbarChange  ? 'navbar-active': 'navbar'}>
       {/* <div className="navContainer"> */}
         <div className="logoContainer">
           <Link to="/">
-            <img src={BrandLogo} className="logo" alt='brandlogo'/>
+            <img src={window.scrollY < 85 ? footerLogo : BrandLogo} className="logo" alt='brandlogo'/>
           </Link>
         </div>
         <div className="linksContainer">

@@ -36,7 +36,6 @@ const Banner = () => {
   useEffect(()=>{
     const handleScroll = () =>{
       setSticky(window.scrollY > 110);
-      console.log(window.scrollY)
     }
     window.addEventListener('scroll' , handleScroll);
     return () => window.removeEventListener('scroll' , handleScroll)
