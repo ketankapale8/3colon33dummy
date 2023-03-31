@@ -70,7 +70,7 @@ const Navbar = () => {
       {/* <div className="navContainer"> */}
         <div className="logoContainer">
           <Link to="/">
-            <img src={window.scrollY < 85 ? footerLogo : BrandLogo} className="logo" alt='brandlogo'/>
+            <img src={window.scrollY <= 85 ? footerLogo : BrandLogo} className="logo" alt='brandlogo'/>
           </Link>
         </div>
         <div className="linksContainer">
