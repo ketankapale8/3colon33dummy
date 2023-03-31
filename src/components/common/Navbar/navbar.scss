@@ -1,23 +1,15 @@
 .navbar{
-    // padding-top: 90px;
     overflow: hidden;
-    background-color: inherit;
     width: 100%;
     height: 85px;
-    top: -5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // position: sticky ;
-    // z-index: 999;
     
-    // .navContainer{
-    //     display: flex;
-    //     flex: 1;
-        
+    .navContainer{
+        display: flex;
+        flex: 1;
         .logoContainer{
-            // display: flex;
-            // justify-content: center;
+            flex : 0.3;
+            display: flex;
+            justify-content: center;
     
     
             .logo{
@@ -28,58 +20,41 @@
         }
     
         .linksContainer{
+            flex : 0.7;
             display: flex;
-            flex-direction: row;
             text-transform: uppercase;
             align-items: center;
             justify-content: center;
-            list-style: none;
-            width: 50vw; 
-            height: 85px;
-            // justify-content: end;
-            margin-right: 2rem;
-            .nav-menu{
-                display: flex;
-                flex-direction: row;
-                margin-right: 2rem;
-                
-                .nav-item{
-                    padding-top: 50px;
-                    height: 85px;
-                    list-style: none;
+    
+            .links{
+                text-decoration: none;
+                list-style: none;
+            
+    
+                h4{
+                    margin: 40px;
+                    font-size: 13px;
+                    font-weight:normal;
+                    cursor: pointer;
+                    color :#020E5A;
                     text-decoration: none;
                 }
+            }
     
-                .nav-item:hover{
+            .links:hover{
+    
+                h4{
                     color: #BD3B98;
                 }
-        
-                .links{
-                    flex-direction: row;
-                    list-style: none;
-                    text-decoration: none;
-                    color :#020E5A;
-                    list-style: none;
-                    padding-left: 20px;
-                    height: 85px;
-                
-        
-                }
-        
-                .links:hover{
-                        color: #BD3B98;
-                }
-        
-        
-
             }
-
+    
+    
             
     
     
         }
 
-    // }
+    }
     
     
     

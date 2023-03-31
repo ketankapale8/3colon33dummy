@@ -32,7 +32,7 @@ const BannerComponent = ({img , title , pageName , icon , pageName1}) => {
   return (
     <div className='bannercomponent'>
         <div className="top">
-        {/* <div className="navbar">
+        <div className="navbar">
         <div className="navContainer">
           <div className="logoContainer">
             <Link to="/">
@@ -53,7 +53,7 @@ const BannerComponent = ({img , title , pageName , icon , pageName1}) => {
           </div>
 
         </div>
-      </div> */}
+      </div>
 
         </div>
         <div className="bottom">
