@@ -8,6 +8,7 @@ import Careers from './components/Careers/Carrers';
 import Leadership from './components/Leadership/Leadership';
 import Letstalk from './components/LetsTalk/Letstalk';
 import Openings from './components/Openings/Openings';
+import Services from './components/Services/Services';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route element={<Leadership/>} path="/leadership"/>
           <Route element={<Letstalk/>} path="/letstalk"/>
           <Route element={<Openings/>} path="/currentopenings"/>
+          <Route element={<Services/>} path="/services"/>
+
         </Routes>
       </Router>
 

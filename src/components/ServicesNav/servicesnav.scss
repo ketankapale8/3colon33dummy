@@ -1,12 +1,14 @@
 .dropdown-menu{
     // margin-right: 90px;
-    width: 550px;
+    width: 450px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: absolute;
     left: 530px;
     top: 85px;
-    height: 370px;
+    height: 270px;
     background: rgb(22,22,21);
-    background: radial-gradient(circle, rgba(53, 53, 52, 0.895) 100%, rgba(200,201,175,1) 100%);
+    background: radial-gradient(circle, rgba(53, 53, 52, 0.895) 100%, rgb(212, 212, 201) 100%);
     list-style: none;
     text-align: center;
     z-index: 13;
@@ -14,7 +16,6 @@
 
     li{
         padding-top: 10px;
-        flex:2;
         border-radius: 5px;
         text-transform: uppercase;
         text-decoration: none;
@@ -30,7 +31,10 @@
         text-align: start;
         flex-direction: column;
         z-index: 13;
-        font-size: 15px;
+        font-size: 12px;
+        display: inline-block;
+        position: relative;
+        color: #00FFB8;
 
         .dropdown-link {
              color: #FFFFFF;
@@ -47,25 +51,46 @@
 
         .dropdown-link:hover{
             color: #00FFB8;
-
-
         }
     }
 
     li:hover {
         background: none;
-        text-decoration-style: solid;
-        text-decoration: underline;
+        // text-decoration-style: solid;
+        // text-decoration: underline;
         list-style: none;
-        text-underline-position:above;
+        // text-underline-position:above;
         height: 50px;
         list-style: none;
         color: #00FFB8;
-        text-decoration: underline;
+        // text-decoration: underline;
         text-decoration-style: solid;
-        text-decoration-thickness: 3px;
+        // text-decoration-thickness: 3px;
         z-index: 13;
+      
       }
+      
+      li::after{
+        content: '';
+  position: absolute;
+  width: 65%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 15px;
+  // padding-left: 5px;
+  background-color: #00FFB8;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+      }
+
+      li:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+
+      
 
 
 }
