@@ -1,13 +1,13 @@
 .servicesdesc {
     top: 0px;
     width: 100%;
-    height: 1800px;
+    height: 1900px;
     display: flex;
-    margin-left: 90px;
-    margin-right: 90px;
-    // flex-direction: column;
+    // margin-left: 90px;
+    // margin-right: 90px;
+    flex-direction: column;
     align-items: center;
-    // justify-content: center;
+    justify-content: center;
   
     .servicesdescContainer {
       height: 100%;
@@ -22,7 +22,7 @@
         // justify-content: center;
         flex-direction: column;
         flex: 0.3;
-        padding-left: 230px;
+        // padding-left: 230px;
   
         .subtitle {
           font-size: 2.3rem;
@@ -37,7 +37,8 @@
         }
 
         p{
-            width: 890px;
+            width: 990px;
+            padding-left: 30px;
             margin-top: 25px;
             font-size: 1.0rem;
         }
@@ -47,7 +48,7 @@
         margin-top: 190px;
         display: flex;
         flex: 0.7;
-        margin-left: 12%;
+        // margin-left: 12%;
         position: absolute;
         flex-direction: column;
         
@@ -220,5 +221,36 @@
   
       }
     }
+
+    .connectwithusBox{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      padding-top: 30px;
+      margin: 30px;
+
+      .subtitle{
+          color: #020E5A;
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin-right: 20px;
+      }
+
+      .roleBtn{
+          width:233px ;
+           height:54px;
+           background-color: #D22599;
+           color: #FFFF;
+           border: none;
+          border-radius:70px;
+          border:none;
+          cursor: pointer;
+      }
+      
+  }
+
+
   }
   

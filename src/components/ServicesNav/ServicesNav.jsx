@@ -16,10 +16,10 @@ const ServicesDropdown = () => {
     onMouseEnter();
     onMouseLeave();
 
-    // return () =>{
-    //   onMouseEnter();
-    //   onMouseLeave()
-    // }
+    return () =>{
+      onMouseEnter();
+      onMouseLeave()
+    }
   },[])
 
   const onMouseEnter = (ref) => {

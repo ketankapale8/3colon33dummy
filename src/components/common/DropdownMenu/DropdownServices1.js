@@ -63,6 +63,42 @@ const DropdownServices1 = [
         cName: 'dropdown-link',
         ref: 'cloud'
     },
+
+    {
+        id:10,
+        title : 'IoT',
+        path : '/iot',
+        cName: 'dropdown-link',
+        ref: 'digital'
+    },{
+        id:11,
+        title : 'Conversational AI         ',
+        path : '/conversational-ai',
+        cName: 'dropdown-link',
+        ref: 'digital'
+    },
+    {
+        id:12,
+        title : 'AR/VR/XR',
+        path : '/ar-vr',
+        cName: 'dropdown-link',
+        ref: 'digital'
+    },
+
+    {
+        id:13,
+        title : 'Digital Twin',
+        path : 'digital-twin',
+        cName: 'dropdown-link',
+        ref: 'digital'
+    },
+    {
+        id:14,
+        title : 'IPA',
+        path : '/ipa',
+        cName: 'dropdown-link',
+        ref: 'digital'
+    },
 ]
 
 export default DropdownServices1;

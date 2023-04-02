@@ -80,7 +80,7 @@ const sliderArray3 = [
 ]
 
 
-const Location = () => {
+const ServicesDesc = () => {
   return (
     <div className='servicesdesc'>
     <div className="servicesdescContainer">
@@ -171,8 +171,18 @@ const Location = () => {
         </div>
     </div>
 
+    <div className="connectwithusBox">
+                <div className="subtitle">Lets connect to start a conversation</div>
+                <Link to="/aboutus" style={{textDecoration:'none'}}>
+              <button className='roleBtn'>
+                Connect with us
+              </button>
+            
+            </Link>
+                </div>
+
     </div>
   )
 }
 
-export default Location
+export default ServicesDesc
