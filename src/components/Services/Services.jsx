@@ -6,6 +6,8 @@ import icon from '../../assets/banner/icon.png';
 import BannerComponent from '../common/BannerComponent/BannerComponent';
 import servicesRightImg from '../../assets/MainServices/servicesright.png'
 import DescriptionCommon from '../common/DescriptionCommon/DescriptionCommon';
+import ServicesDesc from './ServicesDesc/ServicesDesc'
+
 const Services = () => {
     const title = "SERVICES";
     const pageName = "Overview"
@@ -23,6 +25,7 @@ const Services = () => {
     <div className='services1'>
         <BannerComponent img={img} title={title} pageName={pageName} icon={icon}/>
         <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1}  commonImg={commonImg} showBtn={false} />
+        <ServicesDesc/>
         <Footer/>
     </div>
   )

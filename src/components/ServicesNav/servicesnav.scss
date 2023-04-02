@@ -6,7 +6,7 @@
     position: absolute;
     left: 530px;
     top: 85px;
-    height: 270px;
+    height: 440px;
     background: rgb(22,22,21);
     background: radial-gradient(circle, rgba(53, 53, 52, 0.895) 100%, rgb(212, 212, 201) 100%);
     list-style: none;
@@ -47,8 +47,9 @@
 
             /* color: #fff; */
             padding: 15px;
-          }
+        }
 
+    // 
         .dropdown-link:hover{
             color: #00FFB8;
         }
