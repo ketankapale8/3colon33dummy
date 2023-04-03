@@ -66,7 +66,7 @@ const DropdownServices1 = [
 
     {
         id:10,
-        title : 'IoT',
+        title : 'IoT ',
         path : '/iot',
         cName: 'dropdown-link',
         ref: 'digital'

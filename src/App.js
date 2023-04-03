@@ -9,6 +9,7 @@ import Leadership from './components/Leadership/Leadership';
 import Letstalk from './components/LetsTalk/Letstalk';
 import Openings from './components/Openings/Openings';
 import Services from './components/Services/Services';
+import ApplicationEngg from './components/ApplicationEngg/ApplicationEngg';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route element={<Letstalk/>} path="/letstalk"/>
           <Route element={<Openings/>} path="/currentopenings"/>
           <Route element={<Services/>} path="/services"/>
+          <Route element={<ApplicationEngg/>} path="/application-engg"/>
 
         </Routes>
       </Router>
