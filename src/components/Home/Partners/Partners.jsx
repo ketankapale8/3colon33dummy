@@ -61,8 +61,8 @@ const Partners = () => {
     <div className="partners">
       <div className="partnersContainer">
             <div className="partnersLeft">
-            <h4 className='title'>TITLE</h4>
-              <div className="subtitle">What We do?</div>
+            <h4 className='title'>PARTNERS</h4>
+              <div className="subtitle">Our Partners</div>
                 <div className='divBelowsubtitle'/>
                 <div className="descriptionDiv">
                     <p className='desc'>

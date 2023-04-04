@@ -10,7 +10,7 @@ import Letstalk from './components/LetsTalk/Letstalk';
 import Openings from './components/Openings/Openings';
 import Services from './components/Services/Services';
 import ApplicationEngg from './components/ApplicationEngg/ApplicationEngg';
-import DummySlider from './components/dummySlider/DummySlider';
+import ProductEngg from './components/SubtoSubServices/ProductEngg/ProductEngg';
 
 function App() {
   return (
@@ -26,8 +26,7 @@ function App() {
           <Route element={<Openings/>} path="/currentopenings"/>
           <Route element={<Services/>} path="/services"/>
           <Route element={<ApplicationEngg/>} path="/application-engg"/>
-          {/* <Route element={<DummySlider/>} path="/slider"/> */}
-
+          <Route element={<ProductEngg/>} path="/product-engineering"/>
 
         </Routes>
       </Router>

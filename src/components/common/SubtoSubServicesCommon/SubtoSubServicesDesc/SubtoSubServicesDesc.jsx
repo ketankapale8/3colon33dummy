@@ -1,20 +1,22 @@
 import React , {useState} from 'react';
-import './subservicesdesc.scss';
+import './subtosubservicesdesc.scss';
 import Line from '../../../../assets/SubservicesBanner/line.png';
 import { Link } from 'react-router-dom';
 
 
 
-const SubServicesDesc = ({subServicesArray}) => {
+const SubtosubServicesDesc = ({subtosubServicesArray}) => {
   return (
     <div className="subservicesdesc">
         <div className="subservicesContainer">
          
             <div className="subservicesLeft">
-              <div className="container">
-                {subServicesArray.map(item=>{
+              <div className="subcontainer">
+                {subtosubServicesArray.map(item=>{
                   return (
-                    <div className="box" style={{backgroundColor: item.color}}>
+                    <>
+                    <img alt="dividers" className='lines' src={item.line}/>
+                    <div className="box" >
                         <div className="boxleft">
                       <img className='icons' alt="servicesIcons" src={item.icon}/>
 
@@ -26,6 +28,8 @@ const SubServicesDesc = ({subServicesArray}) => {
 
                     </div>
                     </div>
+                    
+                    </>
 
                   )
                 })}
@@ -37,16 +41,16 @@ const SubServicesDesc = ({subServicesArray}) => {
            
           <div className="subservicesRight">
             <div className="container1">
-              {subServicesArray.map(item=>{
+              {subtosubServicesArray.map(item=>{
                 return (
               <div className="box">
                   <img alt="divider" className='line' src={item.line}/>
                     <p>{item.content}</p>
                     <p>{item.content1}</p>
-                    <Link style={{textDecoration:'none'}} to={item.path}>
+                    {/* <Link style={{textDecoration:'none'}} to={item.path}>
                         <button className='roleBtn'>Learn More..</button>
                     
-                    </Link>
+                    </Link> */}
               </div>
 
                 )
@@ -55,14 +59,9 @@ const SubServicesDesc = ({subServicesArray}) => {
 
             </div>
           </div>
-      
-
-
-              
-          
         </div>
     </div>
   )
 }
 
-export default SubServicesDesc
+export default SubtosubServicesDesc

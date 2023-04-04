@@ -1,0 +1,29 @@
+.connectwithusBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 170px;
+    padding-top: 20px;
+    // margin: 30px;
+
+    .subtitle{
+        color: #020E5A;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+    .roleBtn{
+        width:233px ;
+         height:54px;
+         background-color: #D22599;
+         color: #FFFF;
+         border: none;
+        border-radius:70px;
+        border:none;
+        cursor: pointer;
+    }
+    
+}

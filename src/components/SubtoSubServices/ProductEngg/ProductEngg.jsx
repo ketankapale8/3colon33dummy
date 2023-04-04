@@ -1,25 +1,26 @@
 import React from 'react';
-import './appengg.scss';
-import SubServicesCommon from '../common/SubServicesCommon/SubServicesCommon';
-import Line from '../../assets/SubservicesBanner/line.png';
-import One from '../../assets/SubservicesBanner/icons/1.png';
-import Two from '../../assets/SubservicesBanner/icons/2.png';
-import Three from '../../assets/SubservicesBanner/icons/3.png';
-import casestudyBanner from '../../assets/casestudy/casestudy.png'
+import './productengg.scss';
+import SubtoSubServicesCommon from '../../common/SubtoSubServicesCommon/SubtoSubServicesCommon';
+import Line from '../../../assets/SubservicesBanner/line.png';
+import casestudyBanner from '../../../assets/casestudy/casestudy.png';
+import One from '../../../assets/subtosubservices/1.png';
+import Two from '../../../assets/subtosubservices/2.png'
 
-const ApplicationEngg = () => {  
-  const title = "Application Engineering";
+// import casestudyBanner from '../../../assets/casestudy/casestudy.png'
+
+const ProductEngg = () => {
+    const title = "Product Engineering";
   const pageName = "Services";
   const descTitle = "TITLE";
   const subtitle = "Drive value and speed of business impact";
-  const casestudytitle = "Application Engineering";
+  const casestudytitle = "Product Engineering";
   const caseStudySituation1 = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam hic deserunt culpa reprehenderit, similique porro voluptates expedita eveniet voluptas voluptatum.";
   const caseStudySituation2 = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam hic deserunt culpa reprehenderit, similique porro voluptates expedita eveniet voluptas voluptatum.";
-  
-  const subServicesArray = [
+
+  const subtosubServicesArray = [
     {
       id:1,
-      title : 'Product Engineering',
+      title : 'New Product Development',
       icon: One,
       color :"#0623D9",
       path : '/product-engineering',
@@ -31,7 +32,7 @@ const ApplicationEngg = () => {
   },
   {
       id:2,
-      title : 'Legacy Modernization',
+      title : 'Product Customization',
       icon: Two,
       color :"#00B47E",
       path : '/legacy-modernization',
@@ -43,9 +44,9 @@ const ApplicationEngg = () => {
   },
   {
       id:3,
-      title : 'Low Code Architecture',
+      title : 'Product , Software and Services Lifecycle Management',
       color :"#020C4E",
-      icon: Three,
+      icon: One,
       path : '/low-code-no-code-architecture',
       cName: 'dropdown-link',
       ref: 'application',
@@ -56,8 +57,8 @@ const ApplicationEngg = () => {
 
   {
       id:4,
-      title : 'Quality Assurance',
-      icon: One,
+      title : 'Product Quality Compliance',
+      icon: Two,
       color :"#00B47E",
       path : '/quality-assurance',
       cName: 'dropdown-link',
@@ -68,8 +69,8 @@ const ApplicationEngg = () => {
   },
   {
       id:5,
-      title : 'Mobile App Development',
-      icon: Two,
+      title : 'Simulation Process and Data Management',
+      icon: One,
       color :"#0623D9",
       path : '/mobile-app-development',
       cName: 'dropdown-link',
@@ -79,13 +80,11 @@ const ApplicationEngg = () => {
       line: Line 
   }
   ]
-
-
   return (
-      <div className='app-engg'>
-         <SubServicesCommon title={title} pageName={pageName} descTitle={descTitle} subtitle={subtitle} subServicesArray={subServicesArray} casestudytitle={casestudytitle} caseStudySituation1={caseStudySituation1} caseStudySituation2={caseStudySituation2} casestudyBanner={casestudyBanner}/>
+    <div className='productengg'>
+        <SubtoSubServicesCommon title={title} pageName={pageName} descTitle={descTitle} subtitle={subtitle} subtosubServicesArray={subtosubServicesArray} casestudytitle={casestudytitle} caseStudySituation1={caseStudySituation1} caseStudySituation2={caseStudySituation2} casestudyBanner={casestudyBanner} />
     </div>
   )
 }
 
-export default ApplicationEngg
+export default ProductEngg
