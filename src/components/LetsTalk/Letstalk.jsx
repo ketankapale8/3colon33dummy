@@ -15,7 +15,6 @@ const Letstalk = () => {
   const title = "LETS TALK";
   const pageName = "Don't be a strainger"
   const pageName1 = "Just say hello!";
-
   const pageTitle = "Join our Community";
   const pageTitle2 = "Find your next job @ 3:33";
   const to = "/currentopenings" 

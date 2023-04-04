@@ -1,0 +1,99 @@
+Date : 2023-04-03 12:03:54
+Directory : c:\Users\ketan\colon33\src\components\common\SubServicesCommon
+Total : 46 files,  -2366 codes, -33 comments, -452 blanks, all -2851 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JavaScript JSX |         23 |       -978 |         37 |       -155 |     -1,096 |
+| SCSS           |         23 |     -1,388 |        -70 |       -297 |     -1,755 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                   |         46 |     -2,366 |        -33 |       -452 |     -2,851 |
+| . (Files)                                                                                           |          2 |         28 |          2 |          2 |         32 |
+| ..                                                                                                  |         42 |     -2,538 |       -107 |       -501 |     -3,146 |
+| ..\..                                                                                               |         30 |     -1,942 |        -92 |       -384 |     -2,418 |
+| ..\..\Aboutus                                                                                       |          4 |       -225 |         -3 |        -37 |       -265 |
+| ..\..\Aboutus (Files)                                                                               |          2 |        -46 |          0 |         -6 |        -52 |
+| ..\..\Aboutus\Values                                                                                |          2 |       -179 |         -3 |        -31 |       -213 |
+| ..\..\Careers                                                                                       |          8 |       -570 |         -2 |        -99 |       -671 |
+| ..\..\Careers (Files)                                                                               |          2 |        -40 |          0 |         -8 |        -48 |
+| ..\..\Careers\CareersTestimonials                                                                   |          2 |       -304 |         -2 |        -54 |       -360 |
+| ..\..\Careers\Network                                                                               |          2 |        -80 |          0 |        -15 |        -95 |
+| ..\..\Careers\cultureComp                                                                           |          2 |       -146 |          0 |        -22 |       -168 |
+| ..\..\Home                                                                                          |         16 |     -1,120 |        -85 |       -245 |     -1,450 |
+| ..\..\Home (Files)                                                                                  |          2 |        -29 |         -1 |         -4 |        -34 |
+| ..\..\Home\Banner                                                                                   |          2 |        -81 |         -1 |        -12 |        -94 |
+| ..\..\Home\Digital1                                                                                 |          2 |        -84 |         -4 |        -19 |       -107 |
+| ..\..\Home\DigitalTransformation                                                                    |          2 |       -155 |        -21 |        -45 |       -221 |
+| ..\..\Home\HomeCareers                                                                              |          2 |       -108 |         -2 |        -22 |       -132 |
+| ..\..\Home\Partners                                                                                 |          2 |       -189 |         -6 |        -31 |       -226 |
+| ..\..\Home\Services                                                                                 |          2 |       -272 |        -45 |        -80 |       -397 |
+| ..\..\Home\Testimonials                                                                             |          2 |       -202 |         -5 |        -32 |       -239 |
+| ..\..\Leadership                                                                                    |          2 |        -27 |         -2 |         -3 |        -32 |
+| ..\BannerComponent                                                                                  |          2 |        -50 |         -2 |        -18 |        -70 |
+| ..\DescriptionCommon                                                                                |          2 |       -106 |         -5 |        -16 |       -127 |
+| ..\FlippedDescCommon                                                                                |          2 |       -101 |         -7 |        -16 |       -124 |
+| ..\Footer                                                                                           |          2 |       -155 |          0 |        -33 |       -188 |
+| ..\Navbar                                                                                           |          2 |        -90 |          0 |        -19 |       -109 |
+| ..\PresenceComp                                                                                     |          2 |        -94 |         -1 |        -15 |       -110 |
+| SubServicesDesc                                                                                     |          2 |        144 |         72 |         47 |        263 |
++-----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                            | language       | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\ketan\colon33\src\components\Aboutus\Aboutus.jsx                                           | JavaScript JSX |        -41 |          0 |         -5 |        -46 |
+| c:\Users\ketan\colon33\src\components\Aboutus\Values\Values.jsx                                     | JavaScript JSX |        -80 |          0 |         -9 |        -89 |
+| c:\Users\ketan\colon33\src\components\Aboutus\Values\values.scss                                    | SCSS           |        -99 |         -3 |        -22 |       -124 |
+| c:\Users\ketan\colon33\src\components\Aboutus\aboutus.scss                                          | SCSS           |         -5 |          0 |         -1 |         -6 |
+| c:\Users\ketan\colon33\src\components\Careers\CareersTestimonials\CareersTestimonials.jsx           | JavaScript JSX |        -96 |          0 |        -15 |       -111 |
+| c:\Users\ketan\colon33\src\components\Careers\CareersTestimonials\careerstestimonials.scss          | SCSS           |       -208 |         -2 |        -39 |       -249 |
+| c:\Users\ketan\colon33\src\components\Careers\Carrers.jsx                                           | JavaScript JSX |        -35 |          0 |         -5 |        -40 |
+| c:\Users\ketan\colon33\src\components\Careers\Network\Network.jsx                                   | JavaScript JSX |        -26 |          0 |         -5 |        -31 |
+| c:\Users\ketan\colon33\src\components\Careers\Network\network.scss                                  | SCSS           |        -54 |          0 |        -10 |        -64 |
+| c:\Users\ketan\colon33\src\components\Careers\careers.scss                                          | SCSS           |         -5 |          0 |         -3 |         -8 |
+| c:\Users\ketan\colon33\src\components\Careers\cultureComp\CultureComp.jsx                           | JavaScript JSX |        -61 |          0 |        -10 |        -71 |
+| c:\Users\ketan\colon33\src\components\Careers\cultureComp\culture.scss                              | SCSS           |        -85 |          0 |        -12 |        -97 |
+| c:\Users\ketan\colon33\src\components\Home\Banner\Banner.jsx                                        | JavaScript JSX |        -39 |          0 |         -7 |        -46 |
+| c:\Users\ketan\colon33\src\components\Home\Banner\banner.scss                                       | SCSS           |        -42 |         -1 |         -5 |        -48 |
+| c:\Users\ketan\colon33\src\components\Home\Digital1\Digital1.jsx                                    | JavaScript JSX |        -29 |          0 |         -4 |        -33 |
+| c:\Users\ketan\colon33\src\components\Home\Digital1\digital1.scss                                   | SCSS           |        -55 |         -4 |        -15 |        -74 |
+| c:\Users\ketan\colon33\src\components\Home\DigitalTransformation\Digital.jsx                        | JavaScript JSX |        -51 |        -14 |        -14 |        -79 |
+| c:\Users\ketan\colon33\src\components\Home\DigitalTransformation\digital.scss                       | SCSS           |       -104 |         -7 |        -31 |       -142 |
+| c:\Users\ketan\colon33\src\components\Home\Home.jsx                                                 | JavaScript JSX |        -24 |         -1 |         -2 |        -27 |
+| c:\Users\ketan\colon33\src\components\Home\HomeCareers\HomeCareers.jsx                              | JavaScript JSX |        -35 |          0 |         -7 |        -42 |
+| c:\Users\ketan\colon33\src\components\Home\HomeCareers\homecareers.scss                             | SCSS           |        -73 |         -2 |        -15 |        -90 |
+| c:\Users\ketan\colon33\src\components\Home\Partners\Partners.jsx                                    | JavaScript JSX |        -97 |          0 |        -13 |       -110 |
+| c:\Users\ketan\colon33\src\components\Home\Partners\partners.scss                                   | SCSS           |        -92 |         -6 |        -18 |       -116 |
+| c:\Users\ketan\colon33\src\components\Home\Services\Services.jsx                                    | JavaScript JSX |        -84 |         -1 |        -29 |       -114 |
+| c:\Users\ketan\colon33\src\components\Home\Services\services.scss                                   | SCSS           |       -188 |        -44 |        -51 |       -283 |
+| c:\Users\ketan\colon33\src\components\Home\Testimonials\Testimonials.jsx                            | JavaScript JSX |       -100 |          0 |        -13 |       -113 |
+| c:\Users\ketan\colon33\src\components\Home\Testimonials\testimonials.scss                           | SCSS           |       -102 |         -5 |        -19 |       -126 |
+| c:\Users\ketan\colon33\src\components\Home\home.scss                                                | SCSS           |         -5 |          0 |         -2 |         -7 |
+| c:\Users\ketan\colon33\src\components\Leadership\Leadership.jsx                                     | JavaScript JSX |        -22 |         -2 |         -3 |        -27 |
+| c:\Users\ketan\colon33\src\components\Leadership\leadership.scss                                    | SCSS           |         -5 |          0 |          0 |         -5 |
+| c:\Users\ketan\colon33\src\components\common\BannerComponent\BannerComponent.jsx                    | JavaScript JSX |        -14 |         -2 |         -5 |        -21 |
+| c:\Users\ketan\colon33\src\components\common\BannerComponent\bannercomp.scss                        | SCSS           |        -36 |          0 |        -13 |        -49 |
+| c:\Users\ketan\colon33\src\components\common\DescriptionCommon\DescriptionCommon.jsx                | JavaScript JSX |        -35 |         -1 |         -4 |        -40 |
+| c:\Users\ketan\colon33\src\components\common\DescriptionCommon\descommon.scss                       | SCSS           |        -71 |         -4 |        -12 |        -87 |
+| c:\Users\ketan\colon33\src\components\common\FlippedDescCommon\Flipped.jsx                          | JavaScript JSX |        -31 |          0 |         -7 |        -38 |
+| c:\Users\ketan\colon33\src\components\common\FlippedDescCommon\flipped.scss                         | SCSS           |        -70 |         -7 |         -9 |        -86 |
+| c:\Users\ketan\colon33\src\components\common\Footer\Footer.jsx                                      | JavaScript JSX |        -51 |          0 |        -13 |        -64 |
+| c:\Users\ketan\colon33\src\components\common\Footer\footer.scss                                     | SCSS           |       -104 |          0 |        -20 |       -124 |
+| c:\Users\ketan\colon33\src\components\common\Navbar\Navbar.jsx                                      | JavaScript JSX |        -49 |          0 |         -4 |        -53 |
+| c:\Users\ketan\colon33\src\components\common\Navbar\navbar.scss                                     | SCSS           |        -41 |          0 |        -15 |        -56 |
+| c:\Users\ketan\colon33\src\components\common\PresenceComp\Presence.jsx                              | JavaScript JSX |        -45 |          0 |         -7 |        -52 |
+| c:\Users\ketan\colon33\src\components\common\PresenceComp\presence.scss                             | SCSS           |        -49 |         -1 |         -8 |        -58 |
+| c:\Users\ketan\colon33\src\components\common\SubServicesCommon\SubServicesCommon.jsx                | JavaScript JSX |         22 |          2 |          2 |         26 |
+| c:\Users\ketan\colon33\src\components\common\SubServicesCommon\SubServicesDesc\SubServicesDesc.jsx  | JavaScript JSX |         45 |         56 |         24 |        125 |
+| c:\Users\ketan\colon33\src\components\common\SubServicesCommon\SubServicesDesc\subservicesdesc.scss | SCSS           |         99 |         16 |         23 |        138 |
+| c:\Users\ketan\colon33\src\components\common\SubServicesCommon\subservicescommon.scss               | SCSS           |          6 |          0 |          0 |          6 |
+| Total                                                                                               |                |     -2,366 |        -33 |       -452 |     -2,851 |
++-----------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

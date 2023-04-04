@@ -9,11 +9,13 @@ import Footer from '../../components/common/Footer/Footer'
 import Digital1 from './Digital1/Digital1';
 import Testimonials from './Testimonials/Testimonials';
 import Navbar from '../common/Navbar/Navbar';
+import DummySlider from '../dummySlider/DummySlider';
 
 const Home = () => {
   return (
     <div className='homeComponent' >
-      <Banner/>
+      <DummySlider/>
+      {/* <Banner/> */}
       <Digital1/>
       <Services/>
       <HomeCareers/>
