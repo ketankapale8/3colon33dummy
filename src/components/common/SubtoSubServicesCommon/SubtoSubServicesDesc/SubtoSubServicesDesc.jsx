@@ -8,6 +8,11 @@ import { Link } from 'react-router-dom';
 const SubtosubServicesDesc = ({subtosubServicesArray}) => {
   return (
     <div className="subservicesdesc">
+          <div className="titleContent">
+        <div className="subtitle">Key Focus Areas</div>
+          <div className="divBelowsubtitle"></div>
+
+          </div>
         <div className="subservicesContainer">
          
             <div className="subservicesLeft">
