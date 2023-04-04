@@ -9,8 +9,8 @@ import Two from '../../../assets/subtosubservices/2.png'
 // import casestudyBanner from '../../../assets/casestudy/casestudy.png'
 
 const ProductEngg = () => {
-    const title = "Product Engineering";
-  const pageName = "Services";
+  const title = "Product Engineering";
+  const pageName = "Application Engineering";
   const descTitle = "TITLE";
   const subtitle = "Drive value and speed of business impact";
   const casestudytitle = "Product Engineering";

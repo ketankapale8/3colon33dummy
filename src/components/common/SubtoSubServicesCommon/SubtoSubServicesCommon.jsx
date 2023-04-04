@@ -1,10 +1,10 @@
 import React from 'react';
 import './subtosubservices.scss';
 import Footer from '../Footer/Footer';
-import img from '../../../assets/SubservicesBanner/Banner1.png';
+import img from '../../../assets/subtosubservices/subservicesBanner.png';
 import icon from '../../../assets/banner/icon.png';
 import BannerComponent from '../BannerComponent/BannerComponent';
-import servicesRightImg from '../../../assets/SubservicesBanner/servicesleft.png';
+import servicesRightImg from '../../../assets/subtosubservices/subservices.png';
 // import Line from '../../../assets/SubservicesBanner/line.png';
 import DescriptionCommon from '../DescriptionCommon/DescriptionCommon';
 // import SubServicesDesc from './SubtoSubServicesDesc/SubtoSubServicesDesc';
