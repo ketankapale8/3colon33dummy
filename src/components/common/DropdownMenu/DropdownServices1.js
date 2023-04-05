@@ -124,7 +124,7 @@ const DropdownServices1 = [
     {
         id:18,
         title : 'Data Analytics',
-        path : '/data-analytics',
+        path : '/dataanalytics',
         cName: 'dropdown-link',
         ref: 'data'
     },
@@ -166,7 +166,7 @@ const DropdownServices1 = [
     {
         id:24,
         title : 'Oracle',
-        path : '/Oracle',
+        path : '/oracle',
         cName: 'dropdown-link',
         ref: 'enterprise'
     },
