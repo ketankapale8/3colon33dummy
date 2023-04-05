@@ -32,19 +32,22 @@ const DropdownServices = [
         id:5,
         title : 'Infrastructure Services',
         path : '/infra',
-        cName: 'dropdown-link'
+        cName: 'dropdown-link',
+        ref: 'infra'
     },
     {
         id:6,
         title : 'Enterprise Applications',
         path : '/enterprise-applications',
-        cName: 'dropdown-link'
+        cName: 'dropdown-link',
+        ref: 'enterprise'
     },
     {
         id:7,
         title : 'Digital Defense',
         path : '/digital-security',
-        cName: 'dropdown-link'
+        cName: 'dropdown-link',
+        ref: 'digital-defence'
     },
     // {
     //     id:5,

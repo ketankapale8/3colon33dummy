@@ -99,6 +99,112 @@ const DropdownServices1 = [
         cName: 'dropdown-link',
         ref: 'digital'
     },
+ 
+    {
+        id:15,
+        title : 'Data Modelling',
+        path : '/data-modelling',
+        cName: 'dropdown-link',
+        ref: 'data'
+    },
+    {
+        id:16,
+        title : 'Data Visualization',
+        path : '/data-visualization',
+        cName: 'dropdown-link',
+        ref: 'data'
+    },
+    {
+        id:17,
+        title : 'Machine Learning',
+        path : '/machine-learning',
+        cName: 'dropdown-link',
+        ref: 'data'
+    },
+    {
+        id:18,
+        title : 'Data Analytics',
+        path : '/data-analytics',
+        cName: 'dropdown-link',
+        ref: 'data'
+    },
+    {
+        id:19,
+        title : 'Workplace Services',
+        path : '/workplace-services',
+        cName: 'dropdown-link',
+        ref: 'infra'
+    },
+    {
+        id:20,
+        title : 'DC & Network Services',
+        path : '/dc-network-services',
+        cName: 'dropdown-link',
+        ref: 'infra'
+    },
+    {
+        id:21,
+        title : 'Next-Gen Support Services',
+        path : '/next-gen-support-services',
+        cName: 'dropdown-link',
+        ref: 'infra'
+    },
+    {
+        id:22,
+        title : 'ServiceNow',
+        path : '/servicenow',
+        cName: 'dropdown-link',
+        ref: 'enterprise'
+    },
+    {
+        id:23,
+        title : 'SalesForce',
+        path : '/salesforce',
+        cName: 'dropdown-link',
+        ref: 'enterprise'
+    },
+    {
+        id:24,
+        title : 'Oracle',
+        path : '/Oracle',
+        cName: 'dropdown-link',
+        ref: 'enterprise'
+    },
+    {
+        id:25,
+        title : 'SAP',
+        path : '/sap',
+        cName: 'dropdown-link',
+        ref: 'enterprise'
+    },
+    {
+        id:26,
+        title : 'IAM',
+        path : '/iam',
+        cName: 'dropdown-link',
+        ref: 'digital-defence'
+    },
+    {
+        id:27,
+        title : 'Governance, Risk & Compliance',
+        path : '/govt-risk',
+        cName: 'dropdown-link',
+        ref: 'digital-defence'
+    },
+    {
+        id:28,
+        title : 'Application Security',
+        path : '/application-security',
+        cName: 'dropdown-link',
+        ref: 'digital-defence'
+    },
+    {
+        id:29,
+        title : 'Digital Identity',
+        path : '/digital-identity',
+        cName: 'dropdown-link',
+        ref: 'digital-defence'
+    },
 ]
 
 export default DropdownServices1;

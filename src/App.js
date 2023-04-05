@@ -27,10 +27,8 @@ function App() {
           <Route element={<Services/>} path="/services"/>
           <Route element={<ApplicationEngg/>} path="/application-engg"/>
           <Route element={<ProductEngg/>} path="/product-engineering"/>
-
         </Routes>
       </Router>
-
     </div>
   );
 }
