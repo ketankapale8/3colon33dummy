@@ -18,7 +18,7 @@ const DummySlider = () => {
         <AutoplaySlider cssModule={styles}
         play={true}
         cancelOnInteraction={false}
-        interval={3000}
+        interval={2000}
         >
     <div data-src={one} style={{position:"absolute"}}>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'110px' , paddingLeft:'75px'}}>
