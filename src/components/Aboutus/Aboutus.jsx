@@ -16,9 +16,9 @@ const Aboutus = () => {
   const descTitle = "TITLE";
   const subtitle = "Great Place to Work";
   const commonImg = aboutus;
-  const pageName = "Creating Meaningful Impact ";
-  const pageName1 = "For Better Tomorrow";
-  const content1 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived."
+  const pageName = "Revolutionizing business. ";
+  const pageName1 = " Harnessing the power of technology.";
+  const content1 = "At 3:33, we have a diverse community of people who believe in the work we do. Our collective aspiration is to offer game-changing digital services and solutions for our clients all over the world. We are continuously focused on making each career here fulfilling and successful, and continuously looking for ways to equip our people with the tools they need today to solve for tomorrow.."
   const content2 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less  normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English .Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy."
 
 
@@ -34,7 +34,7 @@ const Aboutus = () => {
   return (
     <div className='aboutus'>
       <BannerComponent img={img} title={title} pageName={pageName} pageName1={pageName1} icon={icon}/>
-      <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1} content2={content2} commonImg={commonImg} showBtn={false}/>
+      <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1} commonImg={commonImg} showBtn={false}/>
       <PresenceComp style={{paddingLeft:'50%'}}/>
       <Values />
       <Flipped descTitle2={descTitle2} subtitle2={subtitle2} contenta={contenta} contentb={contentb} commonImg2={commonImg2} showBtn={true} btnTitle={btnTitle} to={to}/>

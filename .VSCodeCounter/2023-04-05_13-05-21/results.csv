@@ -1,0 +1,164 @@
+"filename", "language", "JavaScript", "XML", "CSS", "SCSS", "JavaScript JSX", "comment", "blank", "total"
+"c:\Users\ketan\colon33\src\App.js", "JavaScript", 102, 0, 0, 0, 0, 1, 5, 108
+"c:\Users\ketan\colon33\src\App.scss", "SCSS", 0, 0, 0, 3, 0, 4, 8, 15
+"c:\Users\ketan\colon33\src\App.test.js", "JavaScript", 7, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\ketan\colon33\src\components\Aboutus\Aboutus.jsx", "JavaScript JSX", 0, 0, 0, 0, 41, 0, 5, 46
+"c:\Users\ketan\colon33\src\components\Aboutus\Values\Values.jsx", "JavaScript JSX", 0, 0, 0, 0, 80, 0, 9, 89
+"c:\Users\ketan\colon33\src\components\Aboutus\Values\values.scss", "SCSS", 0, 0, 0, 99, 0, 3, 22, 124
+"c:\Users\ketan\colon33\src\components\Aboutus\aboutus.scss", "SCSS", 0, 0, 0, 6, 0, 0, 1, 7
+"c:\Users\ketan\colon33\src\components\ApplicationEngg\ApplicationEngg.jsx", "JavaScript JSX", 0, 0, 0, 0, 85, 0, 6, 91
+"c:\Users\ketan\colon33\src\components\ApplicationEngg\appengg.scss", "SCSS", 0, 0, 0, 8, 0, 0, 5, 13
+"c:\Users\ketan\colon33\src\components\Careers\CareersTestimonials\CareersTestimonials.jsx", "JavaScript JSX", 0, 0, 0, 0, 96, 0, 15, 111
+"c:\Users\ketan\colon33\src\components\Careers\CareersTestimonials\careerstestimonials.scss", "SCSS", 0, 0, 0, 208, 0, 2, 39, 249
+"c:\Users\ketan\colon33\src\components\Careers\Carrers.jsx", "JavaScript JSX", 0, 0, 0, 0, 35, 0, 5, 40
+"c:\Users\ketan\colon33\src\components\Careers\Network\Network.jsx", "JavaScript JSX", 0, 0, 0, 0, 26, 0, 5, 31
+"c:\Users\ketan\colon33\src\components\Careers\Network\network.scss", "SCSS", 0, 0, 0, 54, 0, 0, 10, 64
+"c:\Users\ketan\colon33\src\components\Careers\careers.scss", "SCSS", 0, 0, 0, 6, 0, 0, 0, 6
+"c:\Users\ketan\colon33\src\components\Careers\cultureComp\CultureComp.jsx", "JavaScript JSX", 0, 0, 0, 0, 61, 0, 10, 71
+"c:\Users\ketan\colon33\src\components\Careers\cultureComp\culture.scss", "SCSS", 0, 0, 0, 85, 0, 0, 12, 97
+"c:\Users\ketan\colon33\src\components\CloudEngg\CloudEngg.jsx", "JavaScript JSX", 0, 0, 0, 0, 73, 0, 5, 78
+"c:\Users\ketan\colon33\src\components\CloudEngg\cloudengg.scss", "SCSS", 0, 0, 0, 8, 0, 0, 2, 10
+"c:\Users\ketan\colon33\src\components\Data&Analytics\Data&Analytics.jsx", "JavaScript JSX", 0, 0, 0, 0, 73, 0, 7, 80
+"c:\Users\ketan\colon33\src\components\Data&Analytics\data&analytics.scss", "SCSS", 0, 0, 0, 8, 0, 0, 1, 9
+"c:\Users\ketan\colon33\src\components\DigitalDefence\DigitalDefense.jsx", "JavaScript JSX", 0, 0, 0, 0, 73, 0, 7, 80
+"c:\Users\ketan\colon33\src\components\DigitalDefence\digitaldefense.scss", "SCSS", 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\ketan\colon33\src\components\DigitalInnovation\DigitalInnovation.jsx", "JavaScript JSX", 0, 0, 0, 0, 85, 0, 6, 91
+"c:\Users\ketan\colon33\src\components\DigitalInnovation\digital-innovation.scss", "SCSS", 0, 0, 0, 8, 0, 0, 4, 12
+"c:\Users\ketan\colon33\src\components\EnterpriseApplications\Enterprise.jsx", "JavaScript JSX", 0, 0, 0, 0, 73, 0, 7, 80
+"c:\Users\ketan\colon33\src\components\EnterpriseApplications\enterprise.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\Home\Banner\Banner.jsx", "JavaScript JSX", 0, 0, 0, 0, 80, 25, 17, 122
+"c:\Users\ketan\colon33\src\components\Home\Banner\banner.scss", "SCSS", 0, 0, 0, 148, 0, 10, 68, 226
+"c:\Users\ketan\colon33\src\components\Home\Digital1\Digital1.jsx", "JavaScript JSX", 0, 0, 0, 0, 57, 0, 5, 62
+"c:\Users\ketan\colon33\src\components\Home\Digital1\digital1.scss", "SCSS", 0, 0, 0, 79, 0, 7, 26, 112
+"c:\Users\ketan\colon33\src\components\Home\DigitalTransformation\Digital.jsx", "JavaScript JSX", 0, 0, 0, 0, 51, 14, 14, 79
+"c:\Users\ketan\colon33\src\components\Home\DigitalTransformation\digital.scss", "SCSS", 0, 0, 0, 104, 0, 7, 31, 142
+"c:\Users\ketan\colon33\src\components\Home\Home.jsx", "JavaScript JSX", 0, 0, 0, 0, 26, 1, 2, 29
+"c:\Users\ketan\colon33\src\components\Home\HomeCareers\HomeCareers.jsx", "JavaScript JSX", 0, 0, 0, 0, 35, 0, 7, 42
+"c:\Users\ketan\colon33\src\components\Home\HomeCareers\homecareers.scss", "SCSS", 0, 0, 0, 73, 0, 2, 15, 90
+"c:\Users\ketan\colon33\src\components\Home\Partners\Partners.jsx", "JavaScript JSX", 0, 0, 0, 0, 96, 0, 13, 109
+"c:\Users\ketan\colon33\src\components\Home\Partners\partners.scss", "SCSS", 0, 0, 0, 92, 0, 6, 18, 116
+"c:\Users\ketan\colon33\src\components\Home\Services\Services.jsx", "JavaScript JSX", 0, 0, 0, 0, 84, 1, 29, 114
+"c:\Users\ketan\colon33\src\components\Home\Services\services.scss", "SCSS", 0, 0, 0, 188, 0, 44, 51, 283
+"c:\Users\ketan\colon33\src\components\Home\Testimonials\Testimonials.jsx", "JavaScript JSX", 0, 0, 0, 0, 102, 0, 14, 116
+"c:\Users\ketan\colon33\src\components\Home\Testimonials\testimonials.scss", "SCSS", 0, 0, 0, 103, 0, 5, 19, 127
+"c:\Users\ketan\colon33\src\components\Home\home.scss", "SCSS", 0, 0, 0, 9, 0, 0, 2, 11
+"c:\Users\ketan\colon33\src\components\Industries\Industries.jsx", "JavaScript JSX", 0, 0, 0, 0, 21, 0, 2, 23
+"c:\Users\ketan\colon33\src\components\Industries\industries.scss", "SCSS", 0, 0, 0, 8, 0, 0, 1, 9
+"c:\Users\ketan\colon33\src\components\InfrastructureServices\Infra.jsx", "JavaScript JSX", 0, 0, 0, 0, 61, 0, 7, 68
+"c:\Users\ketan\colon33\src\components\InfrastructureServices\infra.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\Leadership\Leadership.jsx", "JavaScript JSX", 0, 0, 0, 0, 26, 2, 5, 33
+"c:\Users\ketan\colon33\src\components\Leadership\LeadershipCarousal\LeadershipCarousal.jsx", "JavaScript JSX", 0, 0, 0, 0, 52, 3, 5, 60
+"c:\Users\ketan\colon33\src\components\Leadership\LeadershipCarousal\carousal.scss", "SCSS", 0, 0, 0, 27, 0, 2, 8, 37
+"c:\Users\ketan\colon33\src\components\Leadership\LeadershipDetails\LeadershipDetails.jsx", "JavaScript JSX", 0, 0, 0, 0, 130, 7, 25, 162
+"c:\Users\ketan\colon33\src\components\Leadership\LeadershipDetails\leadershipDetails.scss", "SCSS", 0, 0, 0, 157, 0, 9, 34, 200
+"c:\Users\ketan\colon33\src\components\Leadership\leadership.scss", "SCSS", 0, 0, 0, 6, 0, 0, 1, 7
+"c:\Users\ketan\colon33\src\components\LetsTalk\Letstalk.jsx", "JavaScript JSX", 0, 0, 0, 0, 28, 0, 6, 34
+"c:\Users\ketan\colon33\src\components\LetsTalk\Location\Location.jsx", "JavaScript JSX", 0, 0, 0, 0, 90, 0, 20, 110
+"c:\Users\ketan\colon33\src\components\LetsTalk\Location\location.scss", "SCSS", 0, 0, 0, 135, 0, 8, 19, 162
+"c:\Users\ketan\colon33\src\components\LetsTalk\contactusComponent\Contact.jsx", "JavaScript JSX", 0, 0, 0, 0, 144, 0, 39, 183
+"c:\Users\ketan\colon33\src\components\LetsTalk\contactusComponent\contact.scss", "SCSS", 0, 0, 0, 131, 0, 2, 27, 160
+"c:\Users\ketan\colon33\src\components\LetsTalk\letstalk.scss", "SCSS", 0, 0, 0, 6, 0, 0, 1, 7
+"c:\Users\ketan\colon33\src\components\Openings\CurrentOpenings\CurrentOpenings.jsx", "JavaScript JSX", 0, 0, 0, 0, 110, 0, 21, 131
+"c:\Users\ketan\colon33\src\components\Openings\CurrentOpenings\current.scss", "SCSS", 0, 0, 0, 122, 0, 6, 28, 156
+"c:\Users\ketan\colon33\src\components\Openings\Openings.jsx", "JavaScript JSX", 0, 0, 0, 0, 20, 0, 2, 22
+"c:\Users\ketan\colon33\src\components\Openings\openings.scss", "SCSS", 0, 0, 0, 6, 0, 0, 1, 7
+"c:\Users\ketan\colon33\src\components\ServicesNav\ServicesNav.jsx", "JavaScript JSX", 0, 0, 0, 0, 83, 4, 22, 109
+"c:\Users\ketan\colon33\src\components\ServicesNav\servicesnav.scss", "SCSS", 0, 0, 0, 79, 0, 12, 16, 107
+"c:\Users\ketan\colon33\src\components\Services\Services.jsx", "JavaScript JSX", 0, 0, 0, 0, 26, 4, 4, 34
+"c:\Users\ketan\colon33\src\components\Services\ServicesDesc\ServicesDesc.jsx", "JavaScript JSX", 0, 0, 0, 0, 153, 0, 35, 188
+"c:\Users\ketan\colon33\src\components\Services\ServicesDesc\servicesdesc.scss", "SCSS", 0, 0, 0, 211, 0, 13, 32, 256
+"c:\Users\ketan\colon33\src\components\Services\services1.scss", "SCSS", 0, 0, 0, 6, 0, 0, 0, 6
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\AR\AR.jsx", "JavaScript JSX", 0, 0, 0, 0, 84, 1, 5, 90
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\AR\ar.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\ApplicationSecurity\ApplicationSecurity.jsx", "JavaScript JSX", 0, 0, 0, 0, 72, 1, 6, 79
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\ApplicationSecurity\app-security.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\CloudMigration\CloudMigration.jsx", "JavaScript JSX", 0, 0, 0, 0, 72, 1, 6, 79
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\CloudMigration\cloudmigration.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\CloudOptimization\Cloudoptimization.jsx", "JavaScript JSX", 0, 0, 0, 0, 72, 1, 6, 79
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\CloudOptimization\cloudoptimization.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\ConversationalAI\Conversationalai.jsx", "JavaScript JSX", 0, 0, 0, 0, 60, 1, 6, 67
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\ConversationalAI\conversationalai.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DCNetwork\DCNetwork.jsx", "JavaScript JSX", 0, 0, 0, 0, 60, 1, 6, 67
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DCNetwork\dcnetwork.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DataAnalytics\DataAnalytics.jsx", "JavaScript JSX", 0, 0, 0, 0, 72, 1, 6, 79
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DataAnalytics\dataanalytics.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DataModelling\DataModelling.jsx", "JavaScript JSX", 0, 0, 0, 0, 60, 1, 6, 67
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DataModelling\datamodelling.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DataVisualization\DataVisualization.jsx", "JavaScript JSX", 0, 0, 0, 0, 48, 1, 5, 54
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DataVisualization\datavisualization.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\Devops\Devops.jsx", "JavaScript JSX", 0, 0, 0, 0, 72, 1, 5, 78
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\Devops\devops.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DigitalIdentity\DigitalIdentity.jsx", "JavaScript JSX", 0, 0, 0, 0, 84, 1, 5, 90
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DigitalIdentity\digitalidentity.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DigitalTwin\DigitalTwin.jsx", "JavaScript JSX", 0, 0, 0, 0, 60, 1, 5, 66
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\DigitalTwin\digitaltwin.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\GovtRisk\GovtRisk.jsx", "JavaScript JSX", 0, 0, 0, 0, 48, 1, 5, 54
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\GovtRisk\govtrisk.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\HybridCloud\HybridCloud.jsx", "JavaScript JSX", 0, 0, 0, 0, 36, 1, 5, 42
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\HybridCloud\hybridcloud.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\IAM\IAM.jsx", "JavaScript JSX", 0, 0, 0, 0, 72, 1, 6, 79
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\IAM\iam.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\IOT\iot.jsx", "JavaScript JSX", 0, 0, 0, 0, 84, 1, 5, 90
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\IOT\iot.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\IPA\IPA.jsx", "JavaScript JSX", 0, 0, 0, 0, 84, 1, 5, 90
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\IPA\ipa.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\LegacyModernization\Legacy.jsx", "JavaScript JSX", 0, 0, 0, 0, 84, 1, 5, 90
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\LegacyModernization\legacy.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\LowCode\Lodecode.jsx", "JavaScript JSX", 0, 0, 0, 0, 72, 1, 6, 79
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\LowCode\lowcode.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\MachineLearning\MachineLearning.jsx", "JavaScript JSX", 0, 0, 0, 0, 72, 1, 6, 79
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\MachineLearning\machinelearning.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\MobileApp\AppDevelopment.jsx", "JavaScript JSX", 0, 0, 0, 0, 72, 1, 6, 79
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\MobileApp\appdev.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\NextGenSupport\NextGenSupport.jsx", "JavaScript JSX", 0, 0, 0, 0, 48, 1, 5, 54
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\NextGenSupport\nextgensupport.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\Oracle\Oracle.jsx", "JavaScript JSX", 0, 0, 0, 0, 36, 1, 5, 42
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\Oracle\oracle.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\ProductEngg\ProductEngg.jsx", "JavaScript JSX", 0, 0, 0, 0, 84, 1, 5, 90
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\ProductEngg\productengg.scss", "SCSS", 0, 0, 0, 8, 0, 0, 4, 12
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\QualityAssurance\QualityAssurance.jsx", "JavaScript JSX", 0, 0, 0, 0, 72, 1, 6, 79
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\QualityAssurance\qualityassurance.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\SAP\Sap.jsx", "JavaScript JSX", 0, 0, 0, 0, 36, 1, 5, 42
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\SAP\sap.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\SalesForce\SalesForce.jsx", "JavaScript JSX", 0, 0, 0, 0, 36, 1, 5, 42
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\SalesForce\salesforce.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\ServiceNow\ServiceNow.jsx", "JavaScript JSX", 0, 0, 0, 0, 36, 1, 5, 42
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\ServiceNow\servicenow.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\Workplace\Workplace.jsx", "JavaScript JSX", 0, 0, 0, 0, 60, 1, 6, 67
+"c:\Users\ketan\colon33\src\components\SubtoSubServices\Workplace\workplace.scss", "SCSS", 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\ketan\colon33\src\components\common\BannerComponent\BannerComponent.jsx", "JavaScript JSX", 0, 0, 0, 0, 42, 24, 10, 76
+"c:\Users\ketan\colon33\src\components\common\BannerComponent\bannercomp.scss", "SCSS", 0, 0, 0, 44, 0, 55, 14, 113
+"c:\Users\ketan\colon33\src\components\common\BannerForInside\BannerInside.jsx", "JavaScript JSX", 0, 0, 0, 0, 18, 0, 6, 24
+"c:\Users\ketan\colon33\src\components\common\BannerForInside\bannerinside.scss", "SCSS", 0, 0, 0, 47, 0, 60, 15, 122
+"c:\Users\ketan\colon33\src\components\common\DescriptionCommon\DescriptionCommon.jsx", "JavaScript JSX", 0, 0, 0, 0, 39, 1, 5, 45
+"c:\Users\ketan\colon33\src\components\common\DescriptionCommon\descommon.scss", "SCSS", 0, 0, 0, 70, 0, 5, 12, 87
+"c:\Users\ketan\colon33\src\components\common\DropdownMenu\DropdownServices.js", "JavaScript", 52, 0, 0, 0, 0, 6, 3, 61
+"c:\Users\ketan\colon33\src\components\common\DropdownMenu\DropdownServices1.js", "JavaScript", 204, 0, 0, 0, 0, 0, 6, 210
+"c:\Users\ketan\colon33\src\components\common\FlippedDescCommon\Flipped.jsx", "JavaScript JSX", 0, 0, 0, 0, 31, 0, 7, 38
+"c:\Users\ketan\colon33\src\components\common\FlippedDescCommon\flipped.scss", "SCSS", 0, 0, 0, 70, 0, 7, 9, 86
+"c:\Users\ketan\colon33\src\components\common\Footer\Footer.jsx", "JavaScript JSX", 0, 0, 0, 0, 51, 0, 13, 64
+"c:\Users\ketan\colon33\src\components\common\Footer\footer.scss", "SCSS", 0, 0, 0, 104, 0, 0, 20, 124
+"c:\Users\ketan\colon33\src\components\common\Navbar\Navbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 86, 30, 16, 132
+"c:\Users\ketan\colon33\src\components\common\Navbar\navbar.scss", "SCSS", 0, 0, 0, 102, 0, 36, 41, 179
+"c:\Users\ketan\colon33\src\components\common\PresenceComp\Presence.jsx", "JavaScript JSX", 0, 0, 0, 0, 45, 0, 7, 52
+"c:\Users\ketan\colon33\src\components\common\PresenceComp\presence.scss", "SCSS", 0, 0, 0, 49, 0, 1, 8, 58
+"c:\Users\ketan\colon33\src\components\common\SubServicesCommon\SubServicesCommon.jsx", "JavaScript JSX", 0, 0, 0, 0, 26, 2, 2, 30
+"c:\Users\ketan\colon33\src\components\common\SubServicesCommon\SubServicesDesc\SubServicesDesc.jsx", "JavaScript JSX", 0, 0, 0, 0, 45, 0, 23, 68
+"c:\Users\ketan\colon33\src\components\common\SubServicesCommon\SubServicesDesc\subservicesdesc.scss", "SCSS", 0, 0, 0, 99, 0, 16, 23, 138
+"c:\Users\ketan\colon33\src\components\common\SubServicesCommon\subservicescommon.scss", "SCSS", 0, 0, 0, 6, 0, 0, 0, 6
+"c:\Users\ketan\colon33\src\components\common\SubtoSubServicesCommon\SubtoSubServicesCommon.jsx", "JavaScript JSX", 0, 0, 0, 0, 27, 72, 4, 103
+"c:\Users\ketan\colon33\src\components\common\SubtoSubServicesCommon\SubtoSubServicesDesc\SubtoSubServicesDesc.jsx", "JavaScript JSX", 0, 0, 0, 0, 49, 4, 19, 72
+"c:\Users\ketan\colon33\src\components\common\SubtoSubServicesCommon\SubtoSubServicesDesc\subtosubservicesdesc.scss", "SCSS", 0, 0, 0, 123, 0, 17, 26, 166
+"c:\Users\ketan\colon33\src\components\common\SubtoSubServicesCommon\subtosubservices.scss", "SCSS", 0, 0, 0, 6, 0, 0, 0, 6
+"c:\Users\ketan\colon33\src\components\common\casestudy\CaseStudy.jsx", "JavaScript JSX", 0, 0, 0, 0, 23, 1, 2, 26
+"c:\Users\ketan\colon33\src\components\common\casestudy\casestudy.scss", "SCSS", 0, 0, 0, 79, 0, 2, 14, 95
+"c:\Users\ketan\colon33\src\components\common\connectwithus\Connectwithus.jsx", "JavaScript JSX", 0, 0, 0, 0, 16, 0, 2, 18
+"c:\Users\ketan\colon33\src\components\common\connectwithus\connectwithus.scss", "SCSS", 0, 0, 0, 25, 0, 1, 3, 29
+"c:\Users\ketan\colon33\src\components\dummySlider\DummySlider.jsx", "JavaScript JSX", 0, 0, 0, 0, 117, 14, 8, 139
+"c:\Users\ketan\colon33\src\components\dummySlider\dummys.scss", "SCSS", 0, 0, 0, 7, 0, 0, 0, 7
+"c:\Users\ketan\colon33\src\index.css", "CSS", 0, 0, 13, 0, 0, 1, 2, 16
+"c:\Users\ketan\colon33\src\index.js", "JavaScript", 12, 0, 0, 0, 0, 3, 3, 18
+"c:\Users\ketan\colon33\src\logo.svg", "XML", 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\ketan\colon33\src\reportWebVitals.js", "JavaScript", 12, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\ketan\colon33\src\setupTests.js", "JavaScript", 1, 0, 0, 0, 0, 4, 1, 6
+"Total", "-", 390, 1, 13, 3262, 4739, 595, 1379, 10379

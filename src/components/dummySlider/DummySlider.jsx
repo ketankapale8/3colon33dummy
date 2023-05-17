@@ -23,25 +23,25 @@ const DummySlider = () => {
     <div data-src={one} style={{position:"absolute"}}>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'110px' , paddingLeft:'75px'}}>
         
-        <div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}> 
-                      Innovative 
+        <div className='title' style={{fontWeight:'bold', fontSize:'55px', color:"#FFFF" , paddingRight:'835px'}}> 
+        Harnessing insights.
                       </div>
-                      <div className='title'style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}} >
-                      future of digital 
+                      <div className='title'style={{fontWeight:'bold', fontSize:'55px', color:"#FFFF" , paddingRight:'835px'}} >
+                      Catalyzing change
                       </div>
-                      < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
+                      {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
                       world
-                      </div>
+                      </div> */}
         <div>
         <p style={{fontSize:'1rem', color:"#FFFF"}}>
-                  Lorem Ipsum is simply dummy text of the printing and 
+        Accelerating business growth through digital transformation, 
                   </p>
                   <p style={{fontSize:'1rem', color:"#FFFF"}}>
-                  typesetting industry. Lorem Ipsum has been the industry’s 
+                  optimizing operations and unlocking innovation. 
                   </p>
-                  <p style={{fontSize:'1rem', color:"#FFFF"}}>
+                  {/* <p style={{fontSize:'1rem', color:"#FFFF"}}>
                   standard dummy text ever since the 1500s.
-                  </p>
+                  </p> */}
         </div>
         </div>
       {/* <p style={{color:'red' , paddingTop:'150px' , position:"relative"}}>I want to see what you got.</p> */}
@@ -49,10 +49,10 @@ const DummySlider = () => {
     <div data-src={two} style={{position:"absolute"}}>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
-        <div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}> 
+        <div className='title' style={{fontWeight:'bold', fontSize:'55px', color:"#FFFF" , paddingRight:'835px'}}> 
                       Digital Quality
                       </div>
-                      <div className='title'style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}} >
+                      <div className='title'style={{fontWeight:'bold', fontSize:'55px', color:"#FFFF" , paddingRight:'835px'}} >
                       Assurance
                       </div>
                       {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
@@ -75,10 +75,10 @@ const DummySlider = () => {
     <div data-src={three} style={{position:"absolute"}}>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
-        <div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}> 
+        <div className='title' style={{fontWeight:'bold', fontSize:'55px', color:"#FFFF" , paddingRight:'835px'}}> 
                       A Brigde to a
                       </div>
-                      <div className='title'style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}} >
+                      <div className='title'style={{fontWeight:'bold', fontSize:'55px', color:"#FFFF" , paddingRight:'835px'}} >
                       Brighter future.
                       </div>
                       {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
@@ -101,10 +101,10 @@ const DummySlider = () => {
     <div data-src={four} style={{position:"absolute"}}>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
-        <div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}> 
+        <div className='title' style={{fontWeight:'bold', fontSize:'55px', color:"#FFFF" , paddingRight:'835px'}}> 
                       A key towards
                       </div>
-                      <div className='title'style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}} >
+                      <div className='title'style={{fontWeight:'bold', fontSize:'55px', color:"#FFFF" , paddingRight:'835px'}} >
                       a better tomorrow.
                       </div>
                       {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>

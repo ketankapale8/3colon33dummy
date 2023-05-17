@@ -8,7 +8,7 @@ const DescriptionCommon = ({
   subtitle,
   pageName,
   content1,
-  content2,
+  // content2,
   commonImg,
   showBtn,
   btnTitle,
@@ -19,12 +19,12 @@ const DescriptionCommon = ({
     <div className="desccommon">
       <div className="desccommonContainer">
         <div className="descLeft">
-          <div className="title">{descTitle}</div>
+          {/* <div className="title">{descTitle}</div> */}
           <div className="subtitle">{subtitle}</div>
           <div className="divBelowsubtitle"></div>
           <div className="descriptionDiv">
             <p>{content1}</p>
-            <p>{content2}</p>
+            {/* <p>{content2}</p> */}
           </div>
           <Link style={{textDecoration : 'none'}} to={to}>
             <div style={{paddingBottom:'30px'}}>

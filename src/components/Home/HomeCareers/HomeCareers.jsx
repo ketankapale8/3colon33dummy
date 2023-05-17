@@ -11,16 +11,13 @@ const HomeCareers = () => {
           <img className='leftImg' alt="cimg" src={homec}/>
         </div>
         <div className="homecareersRight">
-        <h4 className='title'>CAREERS</h4>
-                  <div className="subtitle">Move your career</div>
-                  <div className="subtitle">forward</div>
+        {/* <h4 className='title'>CAREERS</h4> */}
+                  <div className="subtitle">Give your career </div>
+                  <div className="subtitle">the 3:33 edge</div>
                   <div className='divBelowsubtitle'/>
                   <div className="descriptionDiv">
                       <p className='desc'>
-                      Lorem Ipsum is simply dummy text of the printing and typesetting
-                          industry. Lorem Ipsum has been the industry’s standard dummy text
-                          ever since the 1500s, when an unknown printer took a galley of type 
-                          and scrambled it to make a type specimen book. It has survived. 
+                      If you are energized by the power of digital in reimagining business, you have come to the right place. With us, you will get to work with world-class technologies to solve real issues businesses face today. Join us.
 
                       </p>
                   </div>

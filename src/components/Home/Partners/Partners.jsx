@@ -61,15 +61,12 @@ const Partners = () => {
     <div className="partners">
       <div className="partnersContainer">
             <div className="partnersLeft">
-            <h4 className='title'>PARTNERS</h4>
-              <div className="subtitle">Our Partners</div>
+            {/* <h4 className='title'>PARTNERS</h4> */}
+              <div className="subtitle">Our service partners</div>
                 <div className='divBelowsubtitle'/>
                 <div className="descriptionDiv">
                     <p className='desc'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry’s standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it to make a type specimen book. It has survived. 
+                    We work with the world’s leading technology partners to bring in the right balance of strategy, expertise and technology for your business, at the right time. 
                     </p>
                 </div>
               

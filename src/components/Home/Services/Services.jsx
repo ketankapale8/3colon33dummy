@@ -53,15 +53,12 @@ const Services = () => {
 
         <div className="servicesContainer">
               <div className="servicesLeft">
-              <h4 className='title'>TITLE</h4>
+              {/* <h4 className='title'>TITLE</h4> */}
               <div className="subtitle">What We do?</div>
                 <div className='divBelowsubtitle'/>
                 <div className="descriptionDiv">
                     <p className='desc'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry’s standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it to make a type specimen book. It has survived. 
+                    We bring together our industry expertise and proven global experience to partner with you, so that you can operate in a continuously changing world, pre-empt disruption and act on it. Connect with us to reinvent your business, uncover new value drivers, and embrace the future.
                     </p>
                 </div>
 

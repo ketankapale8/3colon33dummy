@@ -26,16 +26,13 @@ const Digital1 = () => {
             </div>
 
             <div className="digitalRight">
-                <h4 className='title'>TITLE</h4>
-                <div className="subtitle">We Enable Continuous</div>
-                <div className="subtitle">Digital Transformation</div>
+                {/* <h4 className='title'>TITLE</h4> */}
+                <div className="subtitle">Creating continuous value </div>
+                <div className="subtitle"> at the intersection of change</div>
                 <div className='divBelowsubtitle'/>
                 <div className="descriptionDiv">
                     <p className='desc'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry’s standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it to make a type specimen book. It has survived. 
+                    The world is changing at a breakneck speed – disruption is everywhere and in everything we do.  Businesses looking to thrive must keep up with the pace so that they can offer new sources of value to customers, while ensuring profitability. We help businesses navigate this dynamic and complex environment through deep insights and technology-led approach.
 
                     </p>
                 </div>

@@ -1,0 +1,280 @@
+Date : 2023-04-05 13:05:21
+Directory : c:\Users\ketan\colon33\src
+Total : 162 files,  8405 codes, 595 comments, 1379 blanks, all 10379 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JavaScript JSX |         76 |      4,739 |        238 |        663 |      5,640 |
+| SCSS           |         77 |      3,262 |        342 |        692 |      4,296 |
+| JavaScript     |          7 |        390 |         14 |         22 |        426 |
+| CSS            |          1 |         13 |          1 |          2 |         16 |
+| XML            |          1 |          1 |          0 |          0 |          1 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                               | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                  |        162 |      8,405 |        595 |      1,379 |     10,379 |
+| . (Files)                                                                                                          |          8 |        151 |         13 |         23 |        187 |
+| components                                                                                                         |        154 |      8,254 |        582 |      1,356 |     10,192 |
+| components\Aboutus                                                                                                 |          4 |        226 |          3 |         37 |        266 |
+| components\Aboutus (Files)                                                                                         |          2 |         47 |          0 |          6 |         53 |
+| components\Aboutus\Values                                                                                          |          2 |        179 |          3 |         31 |        213 |
+| components\ApplicationEngg                                                                                         |          2 |         93 |          0 |         11 |        104 |
+| components\Careers                                                                                                 |          8 |        571 |          2 |         96 |        669 |
+| components\Careers (Files)                                                                                         |          2 |         41 |          0 |          5 |         46 |
+| components\Careers\CareersTestimonials                                                                             |          2 |        304 |          2 |         54 |        360 |
+| components\Careers\Network                                                                                         |          2 |         80 |          0 |         15 |         95 |
+| components\Careers\cultureComp                                                                                     |          2 |        146 |          0 |         22 |        168 |
+| components\CloudEngg                                                                                               |          2 |         81 |          0 |          7 |         88 |
+| components\Data&Analytics                                                                                          |          2 |         81 |          0 |          8 |         89 |
+| components\DigitalDefence                                                                                          |          2 |         73 |          0 |          8 |         81 |
+| components\DigitalInnovation                                                                                       |          2 |         93 |          0 |         10 |        103 |
+| components\EnterpriseApplications                                                                                  |          2 |         81 |          0 |          7 |         88 |
+| components\Home                                                                                                    |         16 |      1,327 |        122 |        331 |      1,780 |
+| components\Home (Files)                                                                                            |          2 |         35 |          1 |          4 |         40 |
+| components\Home\Banner                                                                                             |          2 |        228 |         35 |         85 |        348 |
+| components\Home\Digital1                                                                                           |          2 |        136 |          7 |         31 |        174 |
+| components\Home\DigitalTransformation                                                                              |          2 |        155 |         21 |         45 |        221 |
+| components\Home\HomeCareers                                                                                        |          2 |        108 |          2 |         22 |        132 |
+| components\Home\Partners                                                                                           |          2 |        188 |          6 |         31 |        225 |
+| components\Home\Services                                                                                           |          2 |        272 |         45 |         80 |        397 |
+| components\Home\Testimonials                                                                                       |          2 |        205 |          5 |         33 |        243 |
+| components\Industries                                                                                              |          2 |         29 |          0 |          3 |         32 |
+| components\InfrastructureServices                                                                                  |          2 |         69 |          0 |          7 |         76 |
+| components\Leadership                                                                                              |          6 |        398 |         23 |         78 |        499 |
+| components\Leadership (Files)                                                                                      |          2 |         32 |          2 |          6 |         40 |
+| components\Leadership\LeadershipCarousal                                                                           |          2 |         79 |          5 |         13 |         97 |
+| components\Leadership\LeadershipDetails                                                                            |          2 |        287 |         16 |         59 |        362 |
+| components\LetsTalk                                                                                                |          6 |        534 |         10 |        112 |        656 |
+| components\LetsTalk (Files)                                                                                        |          2 |         34 |          0 |          7 |         41 |
+| components\LetsTalk\Location                                                                                       |          2 |        225 |          8 |         39 |        272 |
+| components\LetsTalk\contactusComponent                                                                             |          2 |        275 |          2 |         66 |        343 |
+| components\Openings                                                                                                |          4 |        258 |          6 |         52 |        316 |
+| components\Openings (Files)                                                                                        |          2 |         26 |          0 |          3 |         29 |
+| components\Openings\CurrentOpenings                                                                                |          2 |        232 |          6 |         49 |        287 |
+| components\Services                                                                                                |          4 |        396 |         17 |         71 |        484 |
+| components\Services (Files)                                                                                        |          2 |         32 |          4 |          4 |         40 |
+| components\ServicesNav                                                                                             |          2 |        162 |         16 |         38 |        216 |
+| components\Services\ServicesDesc                                                                                   |          2 |        364 |         13 |         67 |        444 |
+| components\SubtoSubServices                                                                                        |         58 |      2,080 |         29 |        162 |      2,271 |
+| components\SubtoSubServices\AR                                                                                     |          2 |         92 |          1 |          5 |         98 |
+| components\SubtoSubServices\ApplicationSecurity                                                                    |          2 |         80 |          1 |          6 |         87 |
+| components\SubtoSubServices\CloudMigration                                                                         |          2 |         80 |          1 |          6 |         87 |
+| components\SubtoSubServices\CloudOptimization                                                                      |          2 |         80 |          1 |          6 |         87 |
+| components\SubtoSubServices\ConversationalAI                                                                       |          2 |         68 |          1 |          6 |         75 |
+| components\SubtoSubServices\DCNetwork                                                                              |          2 |         68 |          1 |          6 |         75 |
+| components\SubtoSubServices\DataAnalytics                                                                          |          2 |         80 |          1 |          6 |         87 |
+| components\SubtoSubServices\DataModelling                                                                          |          2 |         68 |          1 |          6 |         75 |
+| components\SubtoSubServices\DataVisualization                                                                      |          2 |         56 |          1 |          5 |         62 |
+| components\SubtoSubServices\Devops                                                                                 |          2 |         80 |          1 |          5 |         86 |
+| components\SubtoSubServices\DigitalIdentity                                                                        |          2 |         92 |          1 |          5 |         98 |
+| components\SubtoSubServices\DigitalTwin                                                                            |          2 |         68 |          1 |          5 |         74 |
+| components\SubtoSubServices\GovtRisk                                                                               |          2 |         56 |          1 |          5 |         62 |
+| components\SubtoSubServices\HybridCloud                                                                            |          2 |         44 |          1 |          5 |         50 |
+| components\SubtoSubServices\IAM                                                                                    |          2 |         80 |          1 |          6 |         87 |
+| components\SubtoSubServices\IOT                                                                                    |          2 |         92 |          1 |          5 |         98 |
+| components\SubtoSubServices\IPA                                                                                    |          2 |         92 |          1 |          5 |         98 |
+| components\SubtoSubServices\LegacyModernization                                                                    |          2 |         92 |          1 |          5 |         98 |
+| components\SubtoSubServices\LowCode                                                                                |          2 |         80 |          1 |          6 |         87 |
+| components\SubtoSubServices\MachineLearning                                                                        |          2 |         80 |          1 |          6 |         87 |
+| components\SubtoSubServices\MobileApp                                                                              |          2 |         80 |          1 |          6 |         87 |
+| components\SubtoSubServices\NextGenSupport                                                                         |          2 |         56 |          1 |          5 |         62 |
+| components\SubtoSubServices\Oracle                                                                                 |          2 |         44 |          1 |          5 |         50 |
+| components\SubtoSubServices\ProductEngg                                                                            |          2 |         92 |          1 |          9 |        102 |
+| components\SubtoSubServices\QualityAssurance                                                                       |          2 |         80 |          1 |          6 |         87 |
+| components\SubtoSubServices\SAP                                                                                    |          2 |         44 |          1 |          5 |         50 |
+| components\SubtoSubServices\SalesForce                                                                             |          2 |         44 |          1 |          5 |         50 |
+| components\SubtoSubServices\ServiceNow                                                                             |          2 |         44 |          1 |          5 |         50 |
+| components\SubtoSubServices\Workplace                                                                              |          2 |         68 |          1 |          6 |         75 |
+| components\common                                                                                                  |         28 |      1,578 |        340 |        310 |      2,228 |
+| components\common\BannerComponent                                                                                  |          2 |         86 |         79 |         24 |        189 |
+| components\common\BannerForInside                                                                                  |          2 |         65 |         60 |         21 |        146 |
+| components\common\DescriptionCommon                                                                                |          2 |        109 |          6 |         17 |        132 |
+| components\common\DropdownMenu                                                                                     |          2 |        256 |          6 |          9 |        271 |
+| components\common\FlippedDescCommon                                                                                |          2 |        101 |          7 |         16 |        124 |
+| components\common\Footer                                                                                           |          2 |        155 |          0 |         33 |        188 |
+| components\common\Navbar                                                                                           |          2 |        188 |         66 |         57 |        311 |
+| components\common\PresenceComp                                                                                     |          2 |         94 |          1 |         15 |        110 |
+| components\common\SubServicesCommon                                                                                |          4 |        176 |         18 |         48 |        242 |
+| components\common\SubServicesCommon (Files)                                                                        |          2 |         32 |          2 |          2 |         36 |
+| components\common\SubServicesCommon\SubServicesDesc                                                                |          2 |        144 |         16 |         46 |        206 |
+| components\common\SubtoSubServicesCommon                                                                           |          4 |        205 |         93 |         49 |        347 |
+| components\common\SubtoSubServicesCommon (Files)                                                                   |          2 |         33 |         72 |          4 |        109 |
+| components\common\SubtoSubServicesCommon\SubtoSubServicesDesc                                                      |          2 |        172 |         21 |         45 |        238 |
+| components\common\casestudy                                                                                        |          2 |        102 |          3 |         16 |        121 |
+| components\common\connectwithus                                                                                    |          2 |         41 |          1 |          5 |         47 |
+| components\dummySlider                                                                                             |          2 |        124 |         14 |          8 |        146 |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                           | language       | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\ketan\colon33\src\App.js                                                                                  | JavaScript     |        102 |          1 |          5 |        108 |
+| c:\Users\ketan\colon33\src\App.scss                                                                                | SCSS           |          3 |          4 |          8 |         15 |
+| c:\Users\ketan\colon33\src\App.test.js                                                                             | JavaScript     |          7 |          0 |          2 |          9 |
+| c:\Users\ketan\colon33\src\components\Aboutus\Aboutus.jsx                                                          | JavaScript JSX |         41 |          0 |          5 |         46 |
+| c:\Users\ketan\colon33\src\components\Aboutus\Values\Values.jsx                                                    | JavaScript JSX |         80 |          0 |          9 |         89 |
+| c:\Users\ketan\colon33\src\components\Aboutus\Values\values.scss                                                   | SCSS           |         99 |          3 |         22 |        124 |
+| c:\Users\ketan\colon33\src\components\Aboutus\aboutus.scss                                                         | SCSS           |          6 |          0 |          1 |          7 |
+| c:\Users\ketan\colon33\src\components\ApplicationEngg\ApplicationEngg.jsx                                          | JavaScript JSX |         85 |          0 |          6 |         91 |
+| c:\Users\ketan\colon33\src\components\ApplicationEngg\appengg.scss                                                 | SCSS           |          8 |          0 |          5 |         13 |
+| c:\Users\ketan\colon33\src\components\Careers\CareersTestimonials\CareersTestimonials.jsx                          | JavaScript JSX |         96 |          0 |         15 |        111 |
+| c:\Users\ketan\colon33\src\components\Careers\CareersTestimonials\careerstestimonials.scss                         | SCSS           |        208 |          2 |         39 |        249 |
+| c:\Users\ketan\colon33\src\components\Careers\Carrers.jsx                                                          | JavaScript JSX |         35 |          0 |          5 |         40 |
+| c:\Users\ketan\colon33\src\components\Careers\Network\Network.jsx                                                  | JavaScript JSX |         26 |          0 |          5 |         31 |
+| c:\Users\ketan\colon33\src\components\Careers\Network\network.scss                                                 | SCSS           |         54 |          0 |         10 |         64 |
+| c:\Users\ketan\colon33\src\components\Careers\careers.scss                                                         | SCSS           |          6 |          0 |          0 |          6 |
+| c:\Users\ketan\colon33\src\components\Careers\cultureComp\CultureComp.jsx                                          | JavaScript JSX |         61 |          0 |         10 |         71 |
+| c:\Users\ketan\colon33\src\components\Careers\cultureComp\culture.scss                                             | SCSS           |         85 |          0 |         12 |         97 |
+| c:\Users\ketan\colon33\src\components\CloudEngg\CloudEngg.jsx                                                      | JavaScript JSX |         73 |          0 |          5 |         78 |
+| c:\Users\ketan\colon33\src\components\CloudEngg\cloudengg.scss                                                     | SCSS           |          8 |          0 |          2 |         10 |
+| c:\Users\ketan\colon33\src\components\Data&Analytics\Data&Analytics.jsx                                            | JavaScript JSX |         73 |          0 |          7 |         80 |
+| c:\Users\ketan\colon33\src\components\Data&Analytics\data&analytics.scss                                           | SCSS           |          8 |          0 |          1 |          9 |
+| c:\Users\ketan\colon33\src\components\DigitalDefence\DigitalDefense.jsx                                            | JavaScript JSX |         73 |          0 |          7 |         80 |
+| c:\Users\ketan\colon33\src\components\DigitalDefence\digitaldefense.scss                                           | SCSS           |          0 |          0 |          1 |          1 |
+| c:\Users\ketan\colon33\src\components\DigitalInnovation\DigitalInnovation.jsx                                      | JavaScript JSX |         85 |          0 |          6 |         91 |
+| c:\Users\ketan\colon33\src\components\DigitalInnovation\digital-innovation.scss                                    | SCSS           |          8 |          0 |          4 |         12 |
+| c:\Users\ketan\colon33\src\components\EnterpriseApplications\Enterprise.jsx                                        | JavaScript JSX |         73 |          0 |          7 |         80 |
+| c:\Users\ketan\colon33\src\components\EnterpriseApplications\enterprise.scss                                       | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\Home\Banner\Banner.jsx                                                       | JavaScript JSX |         80 |         25 |         17 |        122 |
+| c:\Users\ketan\colon33\src\components\Home\Banner\banner.scss                                                      | SCSS           |        148 |         10 |         68 |        226 |
+| c:\Users\ketan\colon33\src\components\Home\Digital1\Digital1.jsx                                                   | JavaScript JSX |         57 |          0 |          5 |         62 |
+| c:\Users\ketan\colon33\src\components\Home\Digital1\digital1.scss                                                  | SCSS           |         79 |          7 |         26 |        112 |
+| c:\Users\ketan\colon33\src\components\Home\DigitalTransformation\Digital.jsx                                       | JavaScript JSX |         51 |         14 |         14 |         79 |
+| c:\Users\ketan\colon33\src\components\Home\DigitalTransformation\digital.scss                                      | SCSS           |        104 |          7 |         31 |        142 |
+| c:\Users\ketan\colon33\src\components\Home\Home.jsx                                                                | JavaScript JSX |         26 |          1 |          2 |         29 |
+| c:\Users\ketan\colon33\src\components\Home\HomeCareers\HomeCareers.jsx                                             | JavaScript JSX |         35 |          0 |          7 |         42 |
+| c:\Users\ketan\colon33\src\components\Home\HomeCareers\homecareers.scss                                            | SCSS           |         73 |          2 |         15 |         90 |
+| c:\Users\ketan\colon33\src\components\Home\Partners\Partners.jsx                                                   | JavaScript JSX |         96 |          0 |         13 |        109 |
+| c:\Users\ketan\colon33\src\components\Home\Partners\partners.scss                                                  | SCSS           |         92 |          6 |         18 |        116 |
+| c:\Users\ketan\colon33\src\components\Home\Services\Services.jsx                                                   | JavaScript JSX |         84 |          1 |         29 |        114 |
+| c:\Users\ketan\colon33\src\components\Home\Services\services.scss                                                  | SCSS           |        188 |         44 |         51 |        283 |
+| c:\Users\ketan\colon33\src\components\Home\Testimonials\Testimonials.jsx                                           | JavaScript JSX |        102 |          0 |         14 |        116 |
+| c:\Users\ketan\colon33\src\components\Home\Testimonials\testimonials.scss                                          | SCSS           |        103 |          5 |         19 |        127 |
+| c:\Users\ketan\colon33\src\components\Home\home.scss                                                               | SCSS           |          9 |          0 |          2 |         11 |
+| c:\Users\ketan\colon33\src\components\Industries\Industries.jsx                                                    | JavaScript JSX |         21 |          0 |          2 |         23 |
+| c:\Users\ketan\colon33\src\components\Industries\industries.scss                                                   | SCSS           |          8 |          0 |          1 |          9 |
+| c:\Users\ketan\colon33\src\components\InfrastructureServices\Infra.jsx                                             | JavaScript JSX |         61 |          0 |          7 |         68 |
+| c:\Users\ketan\colon33\src\components\InfrastructureServices\infra.scss                                            | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\Leadership\Leadership.jsx                                                    | JavaScript JSX |         26 |          2 |          5 |         33 |
+| c:\Users\ketan\colon33\src\components\Leadership\LeadershipCarousal\LeadershipCarousal.jsx                         | JavaScript JSX |         52 |          3 |          5 |         60 |
+| c:\Users\ketan\colon33\src\components\Leadership\LeadershipCarousal\carousal.scss                                  | SCSS           |         27 |          2 |          8 |         37 |
+| c:\Users\ketan\colon33\src\components\Leadership\LeadershipDetails\LeadershipDetails.jsx                           | JavaScript JSX |        130 |          7 |         25 |        162 |
+| c:\Users\ketan\colon33\src\components\Leadership\LeadershipDetails\leadershipDetails.scss                          | SCSS           |        157 |          9 |         34 |        200 |
+| c:\Users\ketan\colon33\src\components\Leadership\leadership.scss                                                   | SCSS           |          6 |          0 |          1 |          7 |
+| c:\Users\ketan\colon33\src\components\LetsTalk\Letstalk.jsx                                                        | JavaScript JSX |         28 |          0 |          6 |         34 |
+| c:\Users\ketan\colon33\src\components\LetsTalk\Location\Location.jsx                                               | JavaScript JSX |         90 |          0 |         20 |        110 |
+| c:\Users\ketan\colon33\src\components\LetsTalk\Location\location.scss                                              | SCSS           |        135 |          8 |         19 |        162 |
+| c:\Users\ketan\colon33\src\components\LetsTalk\contactusComponent\Contact.jsx                                      | JavaScript JSX |        144 |          0 |         39 |        183 |
+| c:\Users\ketan\colon33\src\components\LetsTalk\contactusComponent\contact.scss                                     | SCSS           |        131 |          2 |         27 |        160 |
+| c:\Users\ketan\colon33\src\components\LetsTalk\letstalk.scss                                                       | SCSS           |          6 |          0 |          1 |          7 |
+| c:\Users\ketan\colon33\src\components\Openings\CurrentOpenings\CurrentOpenings.jsx                                 | JavaScript JSX |        110 |          0 |         21 |        131 |
+| c:\Users\ketan\colon33\src\components\Openings\CurrentOpenings\current.scss                                        | SCSS           |        122 |          6 |         28 |        156 |
+| c:\Users\ketan\colon33\src\components\Openings\Openings.jsx                                                        | JavaScript JSX |         20 |          0 |          2 |         22 |
+| c:\Users\ketan\colon33\src\components\Openings\openings.scss                                                       | SCSS           |          6 |          0 |          1 |          7 |
+| c:\Users\ketan\colon33\src\components\ServicesNav\ServicesNav.jsx                                                  | JavaScript JSX |         83 |          4 |         22 |        109 |
+| c:\Users\ketan\colon33\src\components\ServicesNav\servicesnav.scss                                                 | SCSS           |         79 |         12 |         16 |        107 |
+| c:\Users\ketan\colon33\src\components\Services\Services.jsx                                                        | JavaScript JSX |         26 |          4 |          4 |         34 |
+| c:\Users\ketan\colon33\src\components\Services\ServicesDesc\ServicesDesc.jsx                                       | JavaScript JSX |        153 |          0 |         35 |        188 |
+| c:\Users\ketan\colon33\src\components\Services\ServicesDesc\servicesdesc.scss                                      | SCSS           |        211 |         13 |         32 |        256 |
+| c:\Users\ketan\colon33\src\components\Services\services1.scss                                                      | SCSS           |          6 |          0 |          0 |          6 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\AR\AR.jsx                                                   | JavaScript JSX |         84 |          1 |          5 |         90 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\AR\ar.scss                                                  | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\ApplicationSecurity\ApplicationSecurity.jsx                 | JavaScript JSX |         72 |          1 |          6 |         79 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\ApplicationSecurity\app-security.scss                       | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\CloudMigration\CloudMigration.jsx                           | JavaScript JSX |         72 |          1 |          6 |         79 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\CloudMigration\cloudmigration.scss                          | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\CloudOptimization\Cloudoptimization.jsx                     | JavaScript JSX |         72 |          1 |          6 |         79 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\CloudOptimization\cloudoptimization.scss                    | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\ConversationalAI\Conversationalai.jsx                       | JavaScript JSX |         60 |          1 |          6 |         67 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\ConversationalAI\conversationalai.scss                      | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DCNetwork\DCNetwork.jsx                                     | JavaScript JSX |         60 |          1 |          6 |         67 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DCNetwork\dcnetwork.scss                                    | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DataAnalytics\DataAnalytics.jsx                             | JavaScript JSX |         72 |          1 |          6 |         79 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DataAnalytics\dataanalytics.scss                            | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DataModelling\DataModelling.jsx                             | JavaScript JSX |         60 |          1 |          6 |         67 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DataModelling\datamodelling.scss                            | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DataVisualization\DataVisualization.jsx                     | JavaScript JSX |         48 |          1 |          5 |         54 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DataVisualization\datavisualization.scss                    | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\Devops\Devops.jsx                                           | JavaScript JSX |         72 |          1 |          5 |         78 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\Devops\devops.scss                                          | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DigitalIdentity\DigitalIdentity.jsx                         | JavaScript JSX |         84 |          1 |          5 |         90 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DigitalIdentity\digitalidentity.scss                        | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DigitalTwin\DigitalTwin.jsx                                 | JavaScript JSX |         60 |          1 |          5 |         66 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\DigitalTwin\digitaltwin.scss                                | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\GovtRisk\GovtRisk.jsx                                       | JavaScript JSX |         48 |          1 |          5 |         54 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\GovtRisk\govtrisk.scss                                      | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\HybridCloud\HybridCloud.jsx                                 | JavaScript JSX |         36 |          1 |          5 |         42 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\HybridCloud\hybridcloud.scss                                | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\IAM\IAM.jsx                                                 | JavaScript JSX |         72 |          1 |          6 |         79 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\IAM\iam.scss                                                | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\IOT\iot.jsx                                                 | JavaScript JSX |         84 |          1 |          5 |         90 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\IOT\iot.scss                                                | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\IPA\IPA.jsx                                                 | JavaScript JSX |         84 |          1 |          5 |         90 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\IPA\ipa.scss                                                | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\LegacyModernization\Legacy.jsx                              | JavaScript JSX |         84 |          1 |          5 |         90 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\LegacyModernization\legacy.scss                             | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\LowCode\Lodecode.jsx                                        | JavaScript JSX |         72 |          1 |          6 |         79 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\LowCode\lowcode.scss                                        | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\MachineLearning\MachineLearning.jsx                         | JavaScript JSX |         72 |          1 |          6 |         79 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\MachineLearning\machinelearning.scss                        | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\MobileApp\AppDevelopment.jsx                                | JavaScript JSX |         72 |          1 |          6 |         79 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\MobileApp\appdev.scss                                       | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\NextGenSupport\NextGenSupport.jsx                           | JavaScript JSX |         48 |          1 |          5 |         54 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\NextGenSupport\nextgensupport.scss                          | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\Oracle\Oracle.jsx                                           | JavaScript JSX |         36 |          1 |          5 |         42 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\Oracle\oracle.scss                                          | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\ProductEngg\ProductEngg.jsx                                 | JavaScript JSX |         84 |          1 |          5 |         90 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\ProductEngg\productengg.scss                                | SCSS           |          8 |          0 |          4 |         12 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\QualityAssurance\QualityAssurance.jsx                       | JavaScript JSX |         72 |          1 |          6 |         79 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\QualityAssurance\qualityassurance.scss                      | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\SAP\Sap.jsx                                                 | JavaScript JSX |         36 |          1 |          5 |         42 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\SAP\sap.scss                                                | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\SalesForce\SalesForce.jsx                                   | JavaScript JSX |         36 |          1 |          5 |         42 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\SalesForce\salesforce.scss                                  | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\ServiceNow\ServiceNow.jsx                                   | JavaScript JSX |         36 |          1 |          5 |         42 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\ServiceNow\servicenow.scss                                  | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\Workplace\Workplace.jsx                                     | JavaScript JSX |         60 |          1 |          6 |         67 |
+| c:\Users\ketan\colon33\src\components\SubtoSubServices\Workplace\workplace.scss                                    | SCSS           |          8 |          0 |          0 |          8 |
+| c:\Users\ketan\colon33\src\components\common\BannerComponent\BannerComponent.jsx                                   | JavaScript JSX |         42 |         24 |         10 |         76 |
+| c:\Users\ketan\colon33\src\components\common\BannerComponent\bannercomp.scss                                       | SCSS           |         44 |         55 |         14 |        113 |
+| c:\Users\ketan\colon33\src\components\common\BannerForInside\BannerInside.jsx                                      | JavaScript JSX |         18 |          0 |          6 |         24 |
+| c:\Users\ketan\colon33\src\components\common\BannerForInside\bannerinside.scss                                     | SCSS           |         47 |         60 |         15 |        122 |
+| c:\Users\ketan\colon33\src\components\common\DescriptionCommon\DescriptionCommon.jsx                               | JavaScript JSX |         39 |          1 |          5 |         45 |
+| c:\Users\ketan\colon33\src\components\common\DescriptionCommon\descommon.scss                                      | SCSS           |         70 |          5 |         12 |         87 |
+| c:\Users\ketan\colon33\src\components\common\DropdownMenu\DropdownServices.js                                      | JavaScript     |         52 |          6 |          3 |         61 |
+| c:\Users\ketan\colon33\src\components\common\DropdownMenu\DropdownServices1.js                                     | JavaScript     |        204 |          0 |          6 |        210 |
+| c:\Users\ketan\colon33\src\components\common\FlippedDescCommon\Flipped.jsx                                         | JavaScript JSX |         31 |          0 |          7 |         38 |
+| c:\Users\ketan\colon33\src\components\common\FlippedDescCommon\flipped.scss                                        | SCSS           |         70 |          7 |          9 |         86 |
+| c:\Users\ketan\colon33\src\components\common\Footer\Footer.jsx                                                     | JavaScript JSX |         51 |          0 |         13 |         64 |
+| c:\Users\ketan\colon33\src\components\common\Footer\footer.scss                                                    | SCSS           |        104 |          0 |         20 |        124 |
+| c:\Users\ketan\colon33\src\components\common\Navbar\Navbar.jsx                                                     | JavaScript JSX |         86 |         30 |         16 |        132 |
+| c:\Users\ketan\colon33\src\components\common\Navbar\navbar.scss                                                    | SCSS           |        102 |         36 |         41 |        179 |
+| c:\Users\ketan\colon33\src\components\common\PresenceComp\Presence.jsx                                             | JavaScript JSX |         45 |          0 |          7 |         52 |
+| c:\Users\ketan\colon33\src\components\common\PresenceComp\presence.scss                                            | SCSS           |         49 |          1 |          8 |         58 |
+| c:\Users\ketan\colon33\src\components\common\SubServicesCommon\SubServicesCommon.jsx                               | JavaScript JSX |         26 |          2 |          2 |         30 |
+| c:\Users\ketan\colon33\src\components\common\SubServicesCommon\SubServicesDesc\SubServicesDesc.jsx                 | JavaScript JSX |         45 |          0 |         23 |         68 |
+| c:\Users\ketan\colon33\src\components\common\SubServicesCommon\SubServicesDesc\subservicesdesc.scss                | SCSS           |         99 |         16 |         23 |        138 |
+| c:\Users\ketan\colon33\src\components\common\SubServicesCommon\subservicescommon.scss                              | SCSS           |          6 |          0 |          0 |          6 |
+| c:\Users\ketan\colon33\src\components\common\SubtoSubServicesCommon\SubtoSubServicesCommon.jsx                     | JavaScript JSX |         27 |         72 |          4 |        103 |
+| c:\Users\ketan\colon33\src\components\common\SubtoSubServicesCommon\SubtoSubServicesDesc\SubtoSubServicesDesc.jsx  | JavaScript JSX |         49 |          4 |         19 |         72 |
+| c:\Users\ketan\colon33\src\components\common\SubtoSubServicesCommon\SubtoSubServicesDesc\subtosubservicesdesc.scss | SCSS           |        123 |         17 |         26 |        166 |
+| c:\Users\ketan\colon33\src\components\common\SubtoSubServicesCommon\subtosubservices.scss                          | SCSS           |          6 |          0 |          0 |          6 |
+| c:\Users\ketan\colon33\src\components\common\casestudy\CaseStudy.jsx                                               | JavaScript JSX |         23 |          1 |          2 |         26 |
+| c:\Users\ketan\colon33\src\components\common\casestudy\casestudy.scss                                              | SCSS           |         79 |          2 |         14 |         95 |
+| c:\Users\ketan\colon33\src\components\common\connectwithus\Connectwithus.jsx                                       | JavaScript JSX |         16 |          0 |          2 |         18 |
+| c:\Users\ketan\colon33\src\components\common\connectwithus\connectwithus.scss                                      | SCSS           |         25 |          1 |          3 |         29 |
+| c:\Users\ketan\colon33\src\components\dummySlider\DummySlider.jsx                                                  | JavaScript JSX |        117 |         14 |          8 |        139 |
+| c:\Users\ketan\colon33\src\components\dummySlider\dummys.scss                                                      | SCSS           |          7 |          0 |          0 |          7 |
+| c:\Users\ketan\colon33\src\index.css                                                                               | CSS            |         13 |          1 |          2 |         16 |
+| c:\Users\ketan\colon33\src\index.js                                                                                | JavaScript     |         12 |          3 |          3 |         18 |
+| c:\Users\ketan\colon33\src\logo.svg                                                                                | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\ketan\colon33\src\reportWebVitals.js                                                                      | JavaScript     |         12 |          0 |          2 |         14 |
+| c:\Users\ketan\colon33\src\setupTests.js                                                                           | JavaScript     |          1 |          4 |          1 |          6 |
+| Total                                                                                                              |                |      8,405 |        595 |      1,379 |     10,379 |
++--------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
