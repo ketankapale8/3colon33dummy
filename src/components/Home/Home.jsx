@@ -10,6 +10,7 @@ import Digital1 from './Digital1/Digital1';
 import Testimonials from './Testimonials/Testimonials';
 import Navbar from '../common/Navbar/Navbar';
 import DummySlider from '../dummySlider/DummySlider';
+import BoxComponent from './BoxComponent/BoxComponent';
 
 const Home = () => {
   return (
@@ -18,7 +19,8 @@ const Home = () => {
       {/* <Banner/> */}
       <Digital1/>
       <Services/>
-      <HomeCareers/>
+      <BoxComponent/>
+      {/* <HomeCareers/> */}
       <Partners/>
       <Testimonials/>
       <Footer/>
