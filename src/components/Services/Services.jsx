@@ -12,9 +12,10 @@ const Services = () => {
     const title = "SERVICES";
     const pageName = "Overview"
     const descTitle = "TITLE";
-  const subtitle = "Overview";
+  const subtitle = "Pivot your business today";
   const commonImg = servicesRightImg;
-  const content1 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived."
+  const content1 = "The business environment today demands every organization to continuously reinvent themselves so that they can create perceivable value. For lasting success, they need an integrated approach that combines technology suited to their business needs, embracing new business models, and creating sustainable benefits for their customers. "
+  const content2 = "We help your organization take an all-around view to innovation and mine hidden sources of value so that you can achieve measurable success."
     // const pageName1 = "";
   
     // const pageTitle = "Join our Community";
@@ -24,7 +25,7 @@ const Services = () => {
   return (
     <div className='services1'>
         <BannerComponent img={img} title={title} pageName={pageName} icon={icon}/>
-        <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1}  commonImg={commonImg} showBtn={false} />
+        <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1} content2={content2}  commonImg={commonImg} showBtn={false} />
         <ServicesDesc/>
         <Footer/>
     </div>

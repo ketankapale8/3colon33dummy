@@ -1,7 +1,7 @@
 .servicesdesc {
     top: 0px;
     width: 100%;
-    height: 1900px;
+    height: 2100px;
     display: flex;
     // margin-left: 90px;
     // margin-right: 90px;
@@ -62,9 +62,11 @@
             display: flex;
             flex-direction: column;
             width: 220px;
-            height: 400px;
+            height: 450px;
             padding: 25px;
             margin: 30px;
+            // max-height: 430px;
+            // min-height: 430px;
             
             .box1 {
               display: flex;
@@ -72,7 +74,7 @@
               align-items: flex-start;
               justify-content: center;
               width: 220px;
-              height: 350px;
+              height: 190px;
               position: relative;
               box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
               // background-color: #477DFF;
@@ -80,6 +82,8 @@
               .boxImg {
                 width: 100%;
                 height: 100%;
+                object-fit: cover;
+
               }
             }
     
@@ -88,7 +92,7 @@
               flex-direction: column;
               text-align: start;
               width: 100%;
-              height: 90%;
+              height: 100%;
               background-color: white;
               box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   
@@ -117,9 +121,11 @@
             display: flex;
             flex-direction: column;
             width: 220px;
-            height: 400px;
+            height: 450px;
             padding: 25px;
             margin: 30px;
+            // max-height: 430px;
+            // min-height: 430px;
             
             .box1 {
               display: flex;
@@ -127,7 +133,7 @@
               align-items: flex-start;
               justify-content: center;
               width: 220px;
-              height: 350px;
+              height: 190px;
               position: relative;
               box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
               // background-color: #477DFF;
@@ -136,6 +142,7 @@
                 width: 100%;
                 height: 100%;
                 display: flex;
+                // object-fit: cover;
                 // background-image: linear-gradient(rgba(0, 0, 0, 0.7), #477dff);
               }
             }
@@ -173,7 +180,7 @@
               display: flex;
               flex-direction: column;
               width: 220px;
-              height: 400px;
+              height: 450px;
               padding: 25px;
               margin: 30px;
               
@@ -183,7 +190,7 @@
                 align-items: flex-start;
                 justify-content: center;
                 width: 220px;
-                height: 350px;
+                height: 190px;
                 position: relative;
                 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
                 // background-color: #477DFF;
@@ -228,7 +235,7 @@
       justify-content: center;
       align-items: center;
       padding: 30px;
-      padding-top: 50px;
+      padding-top: 90px;
       margin: 40px;
 
       .subtitle{

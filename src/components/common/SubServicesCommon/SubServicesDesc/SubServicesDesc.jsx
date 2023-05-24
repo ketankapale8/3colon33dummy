@@ -42,7 +42,7 @@ const SubServicesDesc = ({subServicesArray}) => {
               <div className="box">
                   <img alt="divider" className='line' src={item.line}/>
                     <p>{item.content}</p>
-                    <p>{item.content1}</p>
+                    {/* <p>{item.content1}</p> */}
                     <Link style={{textDecoration:'none'}} to={item.path}>
                         <button className='roleBtn'>Learn More..</button>
                     

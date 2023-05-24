@@ -12,9 +12,9 @@ import CaseStudy from '../casestudy/CaseStudy';
 import Connectwithus from '../connectwithus/Connectwithus';
 // import ServicesDesc from './ServicesDesc/ServicesDesc'
 
-const SubServicesCommon = ({title , pageName , descTitle , subtitle , subServicesArray , caseStudySituation1 , caseStudySituation2 , casestudytitle , casestudyBanner}) => {
+const SubServicesCommon = ({title , pageName , descTitle , subtitle , subServicesArray , caseStudySituation1 , caseStudySituation2 , casestudytitle , casestudyBanner , content1}) => {
   const commonImg = servicesRightImg;
-  const content1 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived."
+  // const content1 = "We support your business in deriving the maximum digital value and increasing longevity of their complex applications, as well as unifying them. We also help you assess and navigate the application environment suited to your organization’s needs. The result? Your enterprise will get the agility that it needs to gain competitive advantage"
   return (
     <div className='subservicescommon'>
     <BannerComponent img={img} title={title} pageName={pageName} icon={icon}/>

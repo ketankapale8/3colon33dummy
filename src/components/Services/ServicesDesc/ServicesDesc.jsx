@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const sliderArray1 = [
     {
         title : "Application Engineering",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, odio!",
+        desc : "Modernize your enterprise today, for tomorrow. We support your business in deriving the maximum digital value and increasing longevity of their complex applications, as well as unifying them. The result? Your enterprise will get the agility that it needs to gain competitive advantage. ",
         img : one,
         id : 1,
         more:"Learn More..",
@@ -18,7 +18,7 @@ const sliderArray1 = [
     },
     {
         title : "Cloud Engineering",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, odio!",
+        desc : "Harness the power of cloud to create compelling customer experiences and ease of business. We come with proven cross-sector experience and deep understanding of critical platforms, enabling your business to create end-to-end cloud strategies and harness change. ",
         img : two,
         id : 2,
         more:"Learn More..",
@@ -26,7 +26,7 @@ const sliderArray1 = [
     },
     {
         title : "Digital Innovation",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, odio!",
+        desc : "Make smarter decisions on your technology investments. We help you assess and implement your technology readiness and strategic adoption and scaling of key technologies suited to your business needs. So that you can simply focus on growth and profitability. ",
         img : three,
         id : 3,
         more:"Learn More..",
@@ -38,7 +38,7 @@ const sliderArray1 = [
 const sliderArray2 = [
     {
         title : "Data & Analytics",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, odio!",
+        desc : "Your business needs insights-driven intelligence. We help you unlock new value from your data, so that you can accelerate better decision-making, improve business processes and enhance your customer experience. ",
         img : four,
         id : 1,
         more:"Learn More..",
@@ -46,7 +46,7 @@ const sliderArray2 = [
     },
     {
         title : "Infrastructure Services",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, odio!",
+        desc : "Make your infrastructure as good as your business aspirations. We enable you to give your IT infrastructure the agility it needs for rapid business transformation at scale - so that your enterprise is nimble, efficient, and intelligent, all the time. ",
         img : one,
         id : 2,
         more:"Learn More..",
@@ -55,7 +55,7 @@ const sliderArray2 = [
 
     {
         title : "Enterprise Applications",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, odio!",
+        desc : "Value, agility, and speed – that is what your enterprise needs. Through our suite of enterprise application services range from modernization, maintenance, and management we can help you make the right choices for technology adoption, while supporting you throughout the implementation process. ",
         img : four,
         id : 3,
         more:"Learn More..",
@@ -68,7 +68,7 @@ const sliderArray2 = [
 const sliderArray3 = [
     {
         title : "Digital Defense",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, odio!",
+        desc : "Safeguarding your business is just as important as driving bottom-line growth. We help you mitigate risks, pre-empt cybersecurity threats, thereby securing your business and enabling you to adopt an ‘always-on’ approach when it comes to external vulnerabilities. ",
         img : four,
         id : 1,
         more:"Learn More..",
@@ -87,7 +87,7 @@ const ServicesDesc = () => {
         <div className="top">
         <div className="subtitle">Our Services</div>
         <div className="divBelowsubtitle"></div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, dolorum a? Illum, quo magnam? Nam quas fugiat consectetur repellendus labore, corporis, iure quis ut perspiciatis, et tempore recusandae veritatis nostrum!</p>
+        <p>Embracing change has a different meaning for each industry and organization. At 3:33, we understand that – that is why we offer you customized services that best fits your organization and its goals. Take a look at our suite of services.</p>
         </div>
         <div className="bottom">
             
@@ -98,7 +98,6 @@ const ServicesDesc = () => {
                     <div className="containerOne" key={item.id}>
                             <div className="box1">
                                 <img src={item.img} className="boxImg"/>
-                                
                             </div>
                             <div className="box2">
                                 <h4>{item.title}</h4>
