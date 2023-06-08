@@ -7,13 +7,12 @@ const Network = () => {
     <div className='network'>
         <div className="networkContainer">
         <div className="networkTop">
-                <h4 className='title'>TITLE</h4>
+                {/* <h4 className='title'>TITLE</h4> */}
                     <div className="subtitle">Global Network</div>
                         <div className='divBelowsubtitle'/>
                         <div className="descriptionDiv">
                             <p className='desc'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry’s standard . 
+                            Harness the collective strength of a talented and energetic global community of professionals – join us.
                             </p>
                         </div>
 

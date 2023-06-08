@@ -51,13 +51,11 @@ const Values = () => {
       <div className="servicesTop">
         <div className="valuesDesc">
           <div className="title">CORE VALUES</div>
-          <div className="subtitle">Committed to Excellence</div>
+          <div className="subtitle">Our promise is a commitment to excellence</div>
           <div className="divBelowsubtitle" />
           <div className="descriptionDiv">
             <p>
-              Commit to Excellence is customer service in its highest form, a
-              trait that has made us a constant in an industry that does nothing
-              but evolve.
+            We are committed to delivering excellence at every customer touchpoint, and always focused on enhancing business value for them. Along with service delivery, we enable culture change for them, enabling them to internalize their transformation, and reap long-term benefits.
             </p>
           </div>
         <img className="arrows" src={arrow} alt="navigator"/>

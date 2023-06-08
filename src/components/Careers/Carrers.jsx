@@ -17,9 +17,9 @@ const Carrers = () => {
   const pageName = "Meaningful Work "
   const pageName1 = "Meaningful Life";
   const descTitle = "TITLE";
-  const subtitle = "Find Your Next Step at 3:33";
+  const subtitle = "Be part of future-defining work.";
   const commonImg = careers;
-  const content1 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived."
+  const content1 = "If you are energized by the power of digital in reimagining business, you have come to the right place. With us, you will get to work with world-class technologies to solve real issues businesses face today"
   const btnTitle = "View Open Positions"
   
   return (
