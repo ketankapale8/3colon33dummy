@@ -14,8 +14,8 @@ import CareersTestimonials from './CareersTestimonials/CareersTestimonials';
 
 const Carrers = () => {
   const title = "Careers";
-  const pageName = "Meaningful Work "
-  const pageName1 = "Meaningful Life";
+  const pageName = "Harness insights "
+  const pageName1 = "Catalyze change";
   const descTitle = "TITLE";
   const subtitle = "Be part of future-defining work.";
   const commonImg = careers;

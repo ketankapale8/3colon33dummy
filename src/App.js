@@ -96,8 +96,6 @@ function App() {
           <Route element={<Oracle/>} path="/oracle"/>
           <Route element={<SAP/>} path="/sap"/>
           <Route element={<Industries/>} path="/industries"/>
-
-
         </Routes>
       </Router>
     </div>
