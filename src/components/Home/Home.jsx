@@ -15,15 +15,16 @@ import BoxComponent from './BoxComponent/BoxComponent';
 const Home = () => {
   return (
     <div className='homeComponent' >
-      <DummySlider/>
-      {/* <Banner/> */}
-      <Digital1/>
-      <Services/>
-      {/* <BoxComponent/> */}
-      <HomeCareers/>
-      <Partners/>
-      <Testimonials/>
-      <Footer/>
+        <DummySlider/>
+        {/* <Banner/> */}
+        <Digital1/>
+        <Services/>
+        {/* <BoxComponent/> */}
+        <HomeCareers/>
+        <Partners/>
+        <Testimonials/>
+        <Footer/>
+
     </div>
   )
 }

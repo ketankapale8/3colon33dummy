@@ -29,6 +29,14 @@ const sliderArray = [
         id : 2,
         batch : 0
     },
+    // {
+    //     title : "AWS",
+    //     logo : two,
+    //     desc : 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+    //     img : seven,
+    //     id : 2,
+    //     batch : 0
+    // },
     {
         title : "GOOGLE CLOUD",
         logo : three,
@@ -76,7 +84,7 @@ const Partners = () => {
               {current.map(item=>{
                   return (
                     <>
-                      <img src={four} style={{width:'55px', height:"25px", marginTop:'490px' , position:'absolute' , marginRight:'590px' , cursor:'pointer'}} onClick={()=>onRight(item.batch)}/>
+                      <img src={four} style={{width:'55px', height:"25px", marginTop:'560px' , position:'absolute' , marginRight:'920px' , cursor:'pointer'}} onClick={()=>onRight(item.batch)}/>
               <div className="containerOne" key={item.id}>
                   <div className="box1">
                       <img src={item.img} className="boxImg"/>

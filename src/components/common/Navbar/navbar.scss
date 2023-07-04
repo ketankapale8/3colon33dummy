@@ -15,15 +15,17 @@
     //     display: flex;
     //     flex: 1;
         .logoContainer{
-
             // flex : 0.3;
             // display: flex;
-            justify-content: center;
+            justify-content: 'flex-start';
+            padding-right: 20%;
+            padding-top: 70px;
     
     
             .logo{
-                width: 120px;
-                height: 40px;
+
+                width: 210px;
+                height: 76px;
             }
         }
     
@@ -39,21 +41,24 @@
             width: 50vw; 
             height: 85px;
             // justify-content: end;
-            margin-right: 2rem;
+            // margin-right: 2rem;
             z-index: 13;
 
             .nav-menu{
                 display: flex;
                 flex-direction: row;
-                margin-right: 2rem;
+                // margin-right: 1rem;
                 z-index: 13;
 
                 .nav-item{
-                    margin-top: 50px;
+                    margin-top: 120px;
                     height: 85px;
+                    font-size: 17px;
+                    letter-spacing: 4px;
                     list-style: none;
                     text-decoration: none;
-                    padding-left: 30px;
+                    // padding-left: 30px;
+                    padding-left: 69px;
                 }
             }
 
@@ -109,12 +114,17 @@
     
                 // flex : 0.3;
                 // display: flex;
+                padding-top: 10px;
+                justify-content: 'flex-start';
+                padding-right: 10px;
                 justify-content: center;
+                padding-right: 20%;
+                
         
         
                 .logo{
-                    width: 120px;
-                    height: 40px;
+                    width: 140px;
+                    height: 50px;
                 }
             }
         
@@ -130,17 +140,21 @@
                 width: 50vw; 
                 height: 85px;
                 // justify-content: end;
-                margin-right: 2rem;z-index: 13;
+                // margin-right: 2rem;
+                z-index: 13;
     
                 .nav-menu{
                     display: flex;
                     flex-direction: row;
-                    margin-right: 2rem;
+                    // margin-right: 2rem;
                     z-index: 13;
+                    gap: 30px;
     
                     .nav-item{
-                        margin-top: 50px;
+                        margin-top: 60px;
                         height: 85px;
+                        font-size: 17px;
+                        letter-spacing: 4px;
                         list-style: none;
                         text-decoration: none;
                         padding-left: 30px;
@@ -150,6 +164,7 @@
                 .links{
                     text-decoration: none;
                     list-style: none;
+                    line-height: 40px;
                 
         
                     // h4{

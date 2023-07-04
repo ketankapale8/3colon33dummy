@@ -80,7 +80,7 @@ const Testimonials = () => {
                 return (
                   <>
                   <img src={left} alt="leftarrow" style={{width: '50px' , height:'50px', marginLeft:'-20px' , position:'absolute', paddingTop:'180px' , cursor:'pointer'}}  onClick={()=>onLeft(item.id)}/>
-                  <img src={right} style={{width: '50px' , height:'50px', paddingLeft:'580px' , position:'absolute' ,paddingTop:'180px' , cursor:'pointer'}} onClick={()=>onRight(item.id)} alt="rightArrow"/>
+                  <img src={right} style={{width: '50px' , height:'50px', paddingLeft:'1280px' , position:'absolute' ,paddingTop:'180px' , cursor:'pointer'}} onClick={()=>onRight(item.id)} alt="rightArrow"/>
                   <div className="boxContainer" key={item.id}>
                     <div className="photoContainer">
                       <img src={item.titleImg} alt="reviewerImg" className='reviewerImg'/>

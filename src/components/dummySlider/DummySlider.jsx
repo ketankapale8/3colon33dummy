@@ -16,29 +16,32 @@ const DummySlider = () => {
     const Comp = () =>{
         return (
         <AutoplaySlider cssModule={styles}
-        play={true}
+        organicArrows={true}
+        bullets={false}
+        play={false}
         cancelOnInteraction={false}
-        interval={2000}
+        interval={1000}
         >
-    <div data-src={one} style={{position:"absolute"}}>
-        <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'110px' , paddingLeft:'75px'}}>
+    <div data-src={one} style={{position:"absolute" , height: '962px'}}>
+        <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'110px' , paddingLeft:'75px', lineHeight: '105px'}}>
         
-        <div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}> 
-        Harnessing insights.
+        <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}}> 
+        Harnessing insights
                       </div>
-                      <div className='title'style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}} >
-                      Catalyzing change
+                      <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}} >
+                       Catalyzing change
                       </div>
-                      {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
-                      world
-                      </div> */}
+                 
         <div>
-        <p style={{fontSize:'1rem', color:"#FFFF"}}>
-        Accelerating business growth through digital transformation, 
-                  </p>
-                  <p style={{fontSize:'1rem', color:"#FFFF"}}>
-                  optimizing operations and unlocking innovation. 
-                  </p>
+          <div style={{lineHeight: '20px', paddingTop: '5px'}}>
+            <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
+            Accelerating business growth through digital transformation, 
+                      </p>
+                      <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
+                      optimizing operations and unlocking innovation. 
+                      </p>
+
+          </div>
                   {/* <p style={{fontSize:'1rem', color:"#FFFF"}}>
                   standard dummy text ever since the 1500s.
                   </p> */}
@@ -46,52 +49,52 @@ const DummySlider = () => {
         </div>
       {/* <p style={{color:'red' , paddingTop:'150px' , position:"relative"}}>I want to see what you got.</p> */}
     </div>
-    <div data-src={two} style={{position:"absolute"}}>
+    <div data-src={two} style={{position:"absolute" , height: '962px'}}>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
-        <div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}> 
+        <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'925px'}}> 
                       Digital Quality
                       </div>
-                      <div className='title'style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}} >
+                      <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'925px'}} >
                       Assurance
                       </div>
                       {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
                       world
                       </div> */}
         <div>
-        <p style={{fontSize:'1rem', color:"#FFFF"}}>
+        <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   Lorem Ipsum is simply dummy text of the printing and 
                   </p>
-                  <p style={{fontSize:'1rem', color:"#FFFF"}}>
+                  <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   typesetting industry. Lorem Ipsum has been the industry’s 
                   </p>
-                  <p style={{fontSize:'1rem', color:"#FFFF"}}>
+                  <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   standard dummy text ever since the 1500s.
                   </p>
         </div>
         </div>
       {/* <p style={{color:'red' , paddingTop:'150px' , position:"relative"}}>I want to see what you got.</p> */}
     </div>
-    <div data-src={three} style={{position:"absolute"}}>
+    <div data-src={three} style={{position:"absolute" , height: '962px'}}>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
-        <div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}> 
+        <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'895px'}}> 
                       A Brigde to a
                       </div>
-                      <div className='title'style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}} >
+                      <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'895px'}} >
                       Brighter future.
                       </div>
                       {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
                       world
                       </div> */}
         <div>
-        <p style={{fontSize:'1rem', color:"#FFFF"}}>
+        <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   Lorem Ipsum is simply dummy text of the printing and 
                   </p>
-                  <p style={{fontSize:'1rem', color:"#FFFF"}}>
+                  <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   typesetting industry. Lorem Ipsum has been the industry’s 
                   </p>
-                  <p style={{fontSize:'1rem', color:"#FFFF"}}>
+                  <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   standard dummy text ever since the 1500s.
                   </p>
         </div>
@@ -101,23 +104,23 @@ const DummySlider = () => {
     <div data-src={four} style={{position:"absolute"}}>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
-        <div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}> 
+        <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}}> 
                       A key towards
                       </div>
-                      <div className='title'style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}} >
+                      <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}} >
                       a better tomorrow.
                       </div>
                       {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
                       world
                       </div> */}
         <div>
-        <p style={{fontSize:'1rem', color:"#FFFF"}}>
+        <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   Lorem Ipsum is simply dummy text of the printing and 
                   </p>
-                  <p style={{fontSize:'1rem', color:"#FFFF"}}>
+                  <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   typesetting industry. Lorem Ipsum has been the industry’s 
                   </p>
-                  <p style={{fontSize:'1rem', color:"#FFFF"}}>
+                  <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   standard dummy text ever since the 1500s.
                   </p>
         </div>

@@ -1,6 +1,7 @@
 .services{
     width: 100%;
-    height: 960px;
+    height: 1100px;
+ 
     background-color: #040E56;
     display: flex;
     flex-direction: row;
@@ -16,12 +17,13 @@
    }
 
    .servicesContainer{
-    margin-left: 190px;
-    margin-right: 190px;
+    margin-left: 150px;
+    margin-right: 150px;
     height: 100%;
     display: flex;
     flex-direction: row;
-    flex: 1;
+    gap: 30px;
+    // flex: 1;
 
     
 
@@ -84,19 +86,19 @@
                 display: flex;
                 align-items: flex-start;
                 margin-top: 150px;
-                flex : 0.5;
+                // flex : 0.5;
                 flex-direction: column;
                 z-index: 1;
                 position: absolute;
-                margin-left: -650px;
-                width: 450px;
+                margin-left: -700px;
+                width: 470px;
 
                 .title{
                     color : #FFFF;
                 }
                 .subtitle{
                     color: #FFFF;
-                    font-size: 2.5rem;
+                    font-size: 2.3rem;
                     font-weight: bold;
                 }
                 .divBelowsubtitle{
@@ -115,22 +117,22 @@
                         color: #FFFF;
                         text-align: start;
                         padding-top: 20px;
-                        font-size: 1rem;
+                        font-size: 1.2rem;
                         width: 95%;
                         display: flex;
     
                     }
-    
-    
                 }
             }
-        
             .servicesRight{
                 display: flex;
-                flex: 0.5;
+                // flex: 0.5;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
+                width: 100%;
+                padding-left: 40px;
+                gap: 18px;
                 // padding: 420px;
         
                 .containerOne{
@@ -138,19 +140,20 @@
                     flex-direction: column;
                     width: 320px;
                     height: 800px;
+                    gap: 20px;
         
                     .box1{
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
-                        justify-content: center;
-                        width: 300px;
-                        height: 350px;
-                    
+                        width: 390px;
+                        height: 388px; 
                         background-color: #477DFF;
-        
+                        
                         .logo{
-                            padding-left: 30px;
+                            padding-top: 50px;
+                            padding-bottom: 20px;
+                            padding-left: 60px;
                             width: 70px;
                             height: 70px;
                             
@@ -159,16 +162,19 @@
                         .title{
                             text-transform: uppercase;
                             color: #FFFFFF;
-                            font-size: 1.0rem;
-                            padding-left: 30px;
+                            font-size: 1.7rem;
+                            letter-spacing: 3px;
+                             padding-left: 60px;
+                            padding-right: 60px;
         
                         }
         
                         .desc{
                             text-align: start;
                             color: #FFFFFF;
-                            padding-left: 20px;
-                            padding-right: 10px;
+                            font-size: 1.2rem;
+                            padding-left: 60px;
+                            padding-right: 60px;
                         }
                     }
         
@@ -178,12 +184,13 @@
                         flex-direction: column;
                         align-items: flex-start;
                         justify-content: center;
-                        width: 300px;
-                        height: 350px;
+                        width: 390px;
+                        height: 388px;
                         background-color: #56FFBD;
         
                         .logo{
-                            padding-left: 30px;
+                            padding-top: 50px;
+                            padding-left: 60px;
                             width: 70px;
                             height: 70px;
                             color: #FFFFFF;
@@ -192,15 +199,17 @@
                         .title{
                             text-transform: uppercase;
                             color: #020E5A;
-                            font-size: 1.0rem;
-                            padding-left: 30px;
+                            font-size: 1.7rem;
+                            letter-spacing: 3px;
+                             padding-left: 60px;
+                            padding-right: 60px;
                         }
         
                         .desc{
                             text-align: start;
                             color: #020E5A;
-                            padding-left: 20px;
-                            padding-right: 10px;
+                            padding-left: 60px;
+                            padding-right: 60px;
                         }
                     }
                 }
@@ -211,18 +220,22 @@
                     width: 320px;
                     height: 800px;
                     padding-top: 100px;
+                    padding-left: 90px;
+                    gap: 18px;
+        
         
                     .box3{
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
                         justify-content: center;
-                        width: 300px;
-                        height: 350px;
+                       width: 390px;
+                        height: 388px;
                         background-color: #56FFBD;
         
                         .logo{
-                            padding-left: 30px;
+                            padding-top: 50px;
+                            padding-left: 60px;
                             width: 70px;
                             height: 70px;
                         }
@@ -230,15 +243,17 @@
                         .title{
                             text-transform: uppercase;
                             color: #020E5A;
-                            padding-left: 30px;
-                            font-size: 1.0rem;
+                            font-size: 1.7rem;
+                            letter-spacing: 3px;
+                             padding-left: 60px;
+                            padding-right: 60px;
                         }
         
                         .desc{
                             text-align: start;
                             color: #020E5A;
-                            padding-left: 20px;
-                            padding-right: 10px;
+                            padding-left: 60px;
+                            padding-right: 60px;
                         }
                     }
         
@@ -247,14 +262,15 @@
                         flex-direction: column;
                         align-items: flex-start;
                         justify-content: center;
-                        width: 300px;
-                        height: 350px;
+                        width: 390px;
+                        height: 388px;
                         margin-top: 20px;
                 
                         background-color: #56FFBD;
         
                         .logo{
-                            padding-left: 30px;
+                            padding-top: 50px;
+                            padding-left: 60px;
                             width: 70px;
                             height: 70px;
                         }
@@ -262,15 +278,17 @@
                         .title{
                             text-transform: uppercase;
                             color: #020E5A;
-                            padding-left: 30px;
-                            font-size: 1.0rem;
+                            font-size: 1.7rem;
+                            letter-spacing: 3px;
+                             padding-left: 60px;
+                            padding-right: 60px;
                         }
         
                         .desc{
                             text-align: start;
                             color: #020E5A;
-                            padding-left: 20px;
-                            padding-right: 10px;
+                            padding-left: 60px;
+                            padding-right: 60px;
                         }
                     }
                 }

@@ -69,13 +69,21 @@ const Services = () => {
                 <div className="containerOne">              
                   <div className="box1">
                     <img alt="box1Img" src={container1.item1.img} className="logo"/>
-                    <h3 className="title">{container1.item1.title}</h3>
-                    <p className="desc">{container1.item1.desc}</p>
+                    <div className="items" style={{lineHeight: '28px'}}>
+                      <h3 className="title">{container1.item1.title}</h3>
+                      <p className="desc">{container1.item1.desc}</p>
+
+                    </div>
                   </div>
                   <div className="box2">
                   <img alt="box2Img" src={container1.item2.img} className="logo"/>
+                  <div className="items" style={{lineHeight: '28px'}}>
+
                     <h3 className="title">{container1.item2.title}</h3>
                     <p className="desc">{container1.item2.desc}</p>
+
+                  </div>
+
 
                   </div>
 
@@ -83,14 +91,21 @@ const Services = () => {
                 <div className="containerTwo">
                 <div className="box3">
                 <img alt="box2Img" src={container2.item1.img} className="logo"/>
+                <div className="items" style={{lineHeight: '28px'}}>
                     <h3 className="title">{container2.item1.title}</h3>
                     <p className="desc">{container2.item1.desc}</p>
 
                 </div>
+                
+
+                </div>
                   <div className="box4">
                   <img alt="box2Img" src={container2.item2.img} className="logo"/>
+                  <div className="items" style={{lineHeight: '28px'}}>
+
                     <h3 className="title">{container2.item2.title}</h3>
                     <p className="desc">{container2.item2.desc}</p>
+                    </div>
 
 
 
