@@ -16,7 +16,7 @@ const SubtosubServicesDesc = ({subtosubServicesArray}) => {
         <div className="subservicesContainer">
          
             <div className="subservicesLeft">
-              <div className="subcontainer">
+              <div className="subcontainer1">
                 {subtosubServicesArray.map(item=>{
                   return (
                     <>
@@ -26,7 +26,7 @@ const SubtosubServicesDesc = ({subtosubServicesArray}) => {
                       <img className='icons' alt="servicesIcons" src={item.icon}/>
 
                     </div>
-                    <div className="boxright">
+                    <div className="boxright1">
                     
                       
                       <p>{item.title}</p>
@@ -45,7 +45,7 @@ const SubtosubServicesDesc = ({subtosubServicesArray}) => {
               
            
           <div className="subservicesRight">
-            <div className="container1">
+            <div className="container2">
               {subtosubServicesArray.map(item=>{
                 return (
               <div className="box">

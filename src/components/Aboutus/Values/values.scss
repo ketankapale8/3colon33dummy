@@ -17,8 +17,8 @@
     
 
     .servicesTop{
-        margin-left: 90px;
-        margin-right: 90px;
+        margin-left: 150px;
+        margin-right: 150px;
         display: flex;
         align-items: column;
         justify-content: flex-start;
@@ -78,6 +78,7 @@
     }
 
     .servicesBottom{
+        
         display: flex;
         flex: 0.3;
         width: 100%;
@@ -89,8 +90,8 @@
 
         .valuesContainer{
 
-            padding-left: 90px;
-            padding-right: 90px;
+            padding-left: 150px;
+            padding-right: 120px;
             display: flex;
             align-self: flex-start;
             flex-direction: column;

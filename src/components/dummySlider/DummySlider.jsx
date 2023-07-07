@@ -101,7 +101,7 @@ const DummySlider = () => {
         </div>
       {/* <p style={{color:'red' , paddingTop:'150px' , position:"relative"}}>I want to see what you got.</p> */}
     </div>
-    <div data-src={four} style={{position:"absolute"}}>
+    <div data-src={four} style={{position:"absolute" ,  height: '962px'}}>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
         <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}}> 

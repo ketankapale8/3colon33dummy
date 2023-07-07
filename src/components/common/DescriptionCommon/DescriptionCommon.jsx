@@ -24,7 +24,7 @@ const DescriptionCommon = ({
           <div className="divBelowsubtitle"></div>
           <div className="descriptionDiv">
             <p>{content1}</p>
-            <p>{content2}</p>
+            <p>{content2} </p>
           </div>
           <Link style={{textDecoration : 'none'}} to={to}>
             <div style={{paddingBottom:'30px'}}>

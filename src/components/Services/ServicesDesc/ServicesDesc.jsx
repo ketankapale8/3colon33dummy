@@ -62,7 +62,6 @@ const sliderArray2 = [
         path : '/enterprise-applications',
     },
    
-  
 ]
 
 const sliderArray3 = [
@@ -87,7 +86,7 @@ const ServicesDesc = () => {
         <div className="top">
         <div className="subtitle">Our Services</div>
         <div className="divBelowsubtitle"></div>
-        <p>Embracing change has a different meaning for each industry and organization. At 3:33, we understand that – that is why we offer you customized services that best fits your organization and its goals. Take a look at our suite of services.</p>
+        <p className='description'>Embracing change has a different meaning for each industry and organization. At 3:33, we understand that – that is why we offer you customized services that best fits your organization and its goals. Take a look at our suite of services.</p>
         </div>
         <div className="bottom">
             
@@ -101,9 +100,9 @@ const ServicesDesc = () => {
                             </div>
                             <div className="box2">
                                 <h4>{item.title}</h4>
-                                <p style={{fontSize:'0.6rem' , textAlign:'start'}}>{item.desc}</p>
+                                <p style={{fontSize:'0.7rem' , textAlign:'start'}}>{item.desc}</p>
                                 <Link to={item.path} style={{textDecoration:'none'}}>
-                                    <p style={{fontSize:'0.6rem' , textAlign:'start' , textTransform:'uppercase', color:"#D1299B" , cursor:'pointer'}}>{item.more}</p>
+                                    <p style={{fontSize:'0.8rem' , textAlign:'start' , textTransform:'uppercase', color:"#D1299B" , cursor:'pointer'}}>{item.more}</p>
                                 </Link>
 
                             </div>
@@ -127,9 +126,9 @@ const ServicesDesc = () => {
                             </div>
                             <div className="box2">
                                 <h4 >{item.title}</h4>
-                                <p style={{fontSize:'0.6rem' , textAlign:'start'}}>{item.desc}</p>
+                                <p style={{fontSize:'0.7rem' , textAlign:'start'}}>{item.desc}</p>
                                 <Link to={item.path} style={{textDecoration:'none'}}>
-                                    <p style={{fontSize:'0.6rem' , textAlign:'start' , textTransform:'uppercase', color:"#D1299B" , cursor:'pointer'}}>{item.more}</p>
+                                    <p style={{fontSize:'0.8rem' , textAlign:'start' , textTransform:'uppercase', color:"#D1299B" , cursor:'pointer'}}>{item.more}</p>
 
                                 </Link>
                             </div>
@@ -153,9 +152,9 @@ const ServicesDesc = () => {
                             </div>
                             <div className="box2">
                                 <h4 >{item.title}</h4>
-                                <p style={{fontSize:'0.6rem' , textAlign:'start'}}>{item.desc}</p>
+                                <p style={{fontSize:'0.7rem' , textAlign:'start'}}>{item.desc}</p>
                                 <Link to={item.path} style={{textDecoration:'none'}}>
-                                    <p style={{fontSize:'0.6rem' , textAlign:'start' , textTransform:'uppercase', color:"#D1299B" , cursor:'pointer'}}>{item.more}</p>
+                                    <p style={{fontSize:'0.8rem' , textAlign:'start' , textTransform:'uppercase', color:"#D1299B" , cursor:'pointer'}}>{item.more}</p>
                                 </Link>
                             </div>
 

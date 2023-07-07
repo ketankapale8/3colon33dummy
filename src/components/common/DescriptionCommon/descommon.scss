@@ -8,17 +8,18 @@
   // flex: 1;
 
   .desccommonContainer {
-    margin-left: 190px;
-    margin-right: 190px;
+    margin-left: 150px;
+    margin-right: 150px;
     height: 100%;
     display: flex;
     flex-direction: row;
-    flex: 1;
+    gap: 20px;
+    // flex: 1;
     padding-top: 100px;
 
     .descLeft {
       display: flex;
-      flex: 0.5;
+      // flex: 0.5;
       align-items: flex-start;
       flex-direction: column;
       text-align: start;
@@ -71,7 +72,8 @@
     .descRight {
       margin-left: 150px;
       display: flex;
-      flex: 0.5;
+      padding-left: 115px;
+      // flex: 0.5;
       // z-index: 1;
       
       

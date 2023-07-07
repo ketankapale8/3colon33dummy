@@ -22,7 +22,7 @@ const SubServicesDesc = ({subServicesArray}) => {
                     <div className="boxright">
                     
                       
-                      <p>{item.title}</p>
+                      <p>{item.title} </p>
 
                     </div>
                     </div>
@@ -39,7 +39,7 @@ const SubServicesDesc = ({subServicesArray}) => {
             <div className="container1">
               {subServicesArray.map(item=>{
                 return (
-              <div className="box">
+              <div className="box1">
                   <img alt="divider" className='line' src={item.line}/>
                     <p>{item.content}</p>
                     {/* <p>{item.content1}</p> */}
