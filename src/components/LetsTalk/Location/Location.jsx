@@ -67,7 +67,7 @@ const Location = () => {
                             </div>
                             <div className="box2">
                                 <h4>{item.title}</h4>
-                                <p style={{fontSize:'0.6rem' , textAlign:'start'}}>{item.desc}</p>
+                                <p style={{fontSize:'1rem' , textAlign:'start'}}>{item.desc}</p>
                             </div>
 
                         </div>
@@ -89,7 +89,7 @@ const Location = () => {
                             </div>
                             <div className="box2">
                                 <h4 >{item.title}</h4>
-                                <p style={{fontSize:'0.6rem' , textAlign:'start'}}>{item.desc}</p>
+                                <p style={{fontSize:'1rem' , textAlign:'start'}}>{item.desc}</p>
                             </div>
 
                         </div>
