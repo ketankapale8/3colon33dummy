@@ -9,11 +9,11 @@
 
     .partnersContainer{
         margin-left: 150px;
-        margin-right: 150px;
+        margin-right: 150px ;
         height: 100%;
         display: flex;
         flex-direction: row;
-        gap: 30px;
+        gap: 60px;
         // flex: 1;
 
         .partnersLeft{
@@ -32,7 +32,7 @@
             }
             .subtitle{
                 color: #020E5A;
-                font-size: 2.3rem;
+                font-size: 2.9rem;
                 font-weight: bold;
             }
             .divBelowsubtitle{
@@ -44,20 +44,19 @@
             .descriptionDiv{
                 display: flex;
                 align-items: start;
+                line-height: 33px;
                 margin-right: 50px;
                 // justify-content: flex-start;
                 
                 .desc{
                     color: 'black';
                     text-align: start;
-
                     padding-top: 20px;
                     font-size: 1.2rem;
-                    width: 85%;
+                    width: 100%;
                     display: flex;
 
                 }
-
 
             }
         }
@@ -69,30 +68,31 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            margin-left: 750px;
-            gap: 10px;
+            padding-left: 750px;
             position: absolute;
     
             .containerOne{
                 display: flex;
                 flex-direction: column;
-                width: 350px;
-                height: 500px;
+                width: 390px;
+                height: 800px;
                 padding: 25px;
+                gap: 0px;
     
                 .box1{
                     display: flex;
                     flex-direction: column;
                     align-items: flex-start;
                     justify-content: center;
-                    width: 350px;
-                    height: 350px;
+                    width: 390px;
+                    height: 300px;
                     position: relative;
+
                     // background-color: #477DFF;
     
                     .boxImg{
-                        width: 100%;
-                        height: 100%;
+                        width: 90%;
+                        height: 320px;
                         display: flex;
                         background-image: linear-gradient(rgba(0,0,0,0.7),#477DFF);
     
@@ -105,8 +105,9 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
-                    width: 350px;
-                    height: 350px;
+                    width: 90%;
+                    height: 150px;
+                    // height: 150px;
                     background-color: white;
                 }
     
@@ -116,3 +117,20 @@
     }
 
 }
+
+@media (min-width : 960px) {
+    .partnersContainer{
+        padding-left: auto;
+        padding-right: auto;
+
+        .partnersRight{
+            padding-left: auto;
+
+            .containerOne{
+                padding: auto;
+            }
+        }
+    }
+    
+}
+

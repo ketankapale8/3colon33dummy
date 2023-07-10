@@ -10,6 +10,9 @@ import five from '../../../assets/partners/5.png';
 import four from '../../../assets/partners/4.png';
 import six from '../../../assets/partners/6.png';
 import seven from '../../../assets/partners/7.png';
+import colonasset0 from '../../../assets/partners/colonasset0.jpeg'
+import colonasset1 from '../../../assets/partners/colonasset1.jpeg'
+
 
 
 const sliderArray = [
@@ -17,7 +20,7 @@ const sliderArray = [
         title : "MICROSOFT",
         logo : one,
         desc : 'Lorem Ipsum is simply dummy text of the printing and typesetting',
-        img : six,
+        img : colonasset0,
         id : 1,
         batch : 0,
     },
@@ -25,7 +28,7 @@ const sliderArray = [
         title : "AWS",
         logo : two,
         desc : 'Lorem Ipsum is simply dummy text of the printing and typesetting',
-        img : seven,
+        img : colonasset1,
         id : 2,
         batch : 0
     },
@@ -84,16 +87,16 @@ const Partners = () => {
               {current.map(item=>{
                   return (
                     <>
-                      <img src={four} style={{width:'55px', height:"25px", marginTop:'560px' , position:'absolute' , marginRight:'920px' , cursor:'pointer'}} onClick={()=>onRight(item.batch)}/>
+                      <img src={four} style={{width:'55px', height:"25px", marginTop:'60px' , position:'absolute' , marginRight:'1220px' , cursor:'pointer'}} onClick={()=>onRight(item.batch)}/>
               <div className="containerOne" key={item.id}>
                   <div className="box1">
                       <img src={item.img} className="boxImg"/>
-                      <img src={item?.logo} style={{width:'140px', height:'60px', position:'absolute', paddingLeft:'23%'}}/>
+                      {/*   <img src={item?.logo} style={{width:'140px', height:'60px', position:'absolute', paddingLeft:'23%'}}/> */}
                       
                   </div>
                   <div className="box2">
                       <h4>{item.title}</h4>
-                      <p style={{fontWeight:'0.7rem' , padding:'10px' , textAlign:'start'}}>{item.desc}</p>
+                      {/* <p style={{fontWeight:'0.7rem' , padding:'10px' , textAlign:'start'}}>{item.desc}</p> */}
                   </div>
 
               </div>

@@ -12,8 +12,8 @@ const HomeCareers = () => {
         </div>
         <div className="homecareersRight">
         {/* <h4 className='title'>CAREERS</h4> */}
-                  <div className="subtitle">Give your career the </div>
-                  <div className="subtitle"> 3:33 edge</div>
+                  <div className="subtitle">Give your career the 3:33 edge </div>
+                  {/* <div className="subtitle"> </div> */}
                   <div className='divBelowsubtitle'/>
                   <div className="descriptionDiv">
                       <p className='desc'>

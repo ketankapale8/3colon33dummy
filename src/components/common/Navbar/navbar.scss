@@ -51,6 +51,7 @@
                 z-index: 13;
 
                 .nav-item{
+                    width: 135px;
                     margin-top: 120px;
                     height: 85px;
                     font-size: 17px;
@@ -151,6 +152,7 @@
                     gap: 30px;
     
                     .nav-item{
+                        width: 95px;
                         margin-top: 60px;
                         height: 85px;
                         font-size: 17px;
@@ -191,4 +193,28 @@
         // }
         
     
+}
+
+// @media (min-width : 1810px)  {
+//     .navbar .linksContainer .nav-menu .nav-item {
+//         font-size:14px;
+//         padding-left: auto;
+//     }
+// }
+
+
+@media (min-width : 960px)  {
+    .navbar-active .linksContainer .nav-menu .nav-item {
+        font-size:15px;
+        height: 95px;
+        letter-spacing: 2px;
+        padding-left: auto;
+    }
+}
+
+@media (max-width : 720px) {
+    .navbar .linksContainer .nav-menu .nav-item {
+        font-size:12px;
+
+    }
 }

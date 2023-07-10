@@ -4,6 +4,57 @@
     .title{
         font-weight: bold;
         font-size: 65px;
-        color :#FFFFFF;
+        padding-right:'835px';
+        color 
+        :#FFFFFF;
+    }
+    .bannerImgs{
+        height: 960px;
+    }
+}
+
+
+@media (min-width : 960px){
+    .styles{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    title{
+        font-size: auto;
+    }
+
+    .bannerImgs{
+        height: auto;
+    }
+}
+
+@media (min-width : 720px){
+    .styles{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    title{
+        font-size: 25px;
+    }
+
+    .bannerImgs{
+        height: auto;
+    }
+}
+
+@media (min-width : 480px){
+    .styles{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    title{
+        font-size: auto;
+    }
+
+    .bannerImgs{
+        height: auto;
     }
 }

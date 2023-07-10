@@ -8,27 +8,27 @@ import one from '../../assets/sliderbanner/1.png'
 import two from '../../assets/sliderbanner/2.png'
 import three from '../../assets/sliderbanner/3.png'
 import four from '../../assets/sliderbanner/4.png';
-import styles from './dummys.scss'
+import './dummys.scss'
 
 // const AutoplaySlider = withCaption(AwesomeSlider);
 const DummySlider = () => {
     const AutoplaySlider = withAutoplay(AwesomeSlider);
     const Comp = () =>{
         return (
-        <AutoplaySlider cssModule={styles}
+        <AutoplaySlider 
         organicArrows={true}
         bullets={false}
         play={false}
         cancelOnInteraction={false}
         interval={1000}
         >
-    <div data-src={one} style={{position:"absolute" , height: '962px'}}>
+    <div data-src={one} style={{position:"absolute" , }} className='bannerImgs'>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'110px' , paddingLeft:'75px', lineHeight: '105px'}}>
         
         <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}}> 
         Harnessing insights
                       </div>
-                      <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}} >
+                      <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}} >
                        Catalyzing change
                       </div>
                  
@@ -49,7 +49,7 @@ const DummySlider = () => {
         </div>
       {/* <p style={{color:'red' , paddingTop:'150px' , position:"relative"}}>I want to see what you got.</p> */}
     </div>
-    <div data-src={two} style={{position:"absolute" , height: '962px'}}>
+    <div data-src={two} style={{position:"absolute" , }} className='bannerImgs'>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
         <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'925px'}}> 
@@ -75,7 +75,7 @@ const DummySlider = () => {
         </div>
       {/* <p style={{color:'red' , paddingTop:'150px' , position:"relative"}}>I want to see what you got.</p> */}
     </div>
-    <div data-src={three} style={{position:"absolute" , height: '962px'}}>
+    <div data-src={three} style={{position:"absolute" , }} className='bannerImgs'>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
         <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'895px'}}> 
@@ -101,7 +101,7 @@ const DummySlider = () => {
         </div>
       {/* <p style={{color:'red' , paddingTop:'150px' , position:"relative"}}>I want to see what you got.</p> */}
     </div>
-    <div data-src={four} style={{position:"absolute" ,  height: '962px'}}>
+    <div data-src={four} style={{position:"absolute" ,  }} className='bannerImgs'>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
         <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}}> 

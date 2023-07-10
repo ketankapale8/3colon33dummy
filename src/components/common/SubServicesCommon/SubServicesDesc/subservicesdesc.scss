@@ -87,8 +87,8 @@
                 flex-direction: column;
                 padding-top: 55px;
                 border-radius: 1px solid black;
-                width: 350px;
-                width: 150%;
+                // width: 350px;
+                // width: auto;
                 
                 .box1{
                     display: flex;
@@ -96,7 +96,7 @@
                     // align-items: center;
                     // justify-content: center;    
                     margin-top: 10px;
-                    width: 1150px;
+                    width: 150%;
                     height: 255px;
                     margin-left: 50px;
                     text-align: start;
@@ -138,5 +138,36 @@
         
     }
 
+    
+}
+
+@media (min-width : 960px) {
+    .subservicesdesc .subservicesContainer{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+
+        
+
+       
+    }
+
+    .subservicesContainer .subservicesRight .container1 .box1{
+        width: auto;
+        height: auto;
+    }
+
+    .box1{
+        p: auto;
+        
+    }
+
+    .line{
+        width: auto;
+    }
+    .roleBtn{
+        margin-top: auto;
+    }
     
 }
