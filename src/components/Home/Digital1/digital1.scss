@@ -26,7 +26,7 @@
 
             .leftImg{
                 width: 585px;
-                height: 665px;
+                height: 695px;
                 z-index: 1;
                 // position: relative;
     
@@ -87,12 +87,13 @@
                 justify-content: center;
                 width: 843px;
                 height: 226px;
-                margin-top: 370px;
+                margin-top: 0px;
                 // object-position: 672px 1640px;
                 background-color: #477DFF;
-                position: absolute;
+                position: sticky;
+                // position: absolute;
                 z-index: 2;
-                right: 440px;
+                margin-left: -360px;
                 gap: 60px;
                 // left: 950px;
                 line-height: 0.2;
@@ -127,55 +128,81 @@
     }
 }
 
-@media (min-width : 960px) {
+// @media (min-width : 960px) {
+//     .digital .digitalContainer{
+//         margin-top: 40px;
+//         padding-left: auto;
+//         padding-right: auto;
+
+//         .digitalRight{
+//             padding-left: auto;
+
+//             .subtitle{
+//                 width: auto;
+//             }
+
+//             .descriptionDiv{
+//                 width: auto;
+//             }
+//             // .descriptionImg{
+//             //     position: sticky;
+//             //     margin-top: 50px;
+//             //     gap: auto;
+//             //     position: auto;
+//             // }
+//         }
+
+//     }
+    
+// }
+
+@media (min-width : 760px) and (max-width: 1500px) {
     .digital .digitalContainer{
         margin-top: 40px;
         padding-left: auto;
         padding-right: auto;
 
+       
+
         .digitalRight{
             padding-left: auto;
 
             .subtitle{
-                width: auto;
+                width: 20%;
+                font-size: 2.7rem;
             }
 
             .descriptionDiv{
-                width: auto;
+                .desc{
+                    line-height: 23px;
+                    font-size: 1rem;
+                }
+            }
+
+            .descriptionImg{
+                width: 743px;
+                height: 120px;
+                line-height: 0.1;
+                gap: 20px;
+
+                .descTitle{
+                    font-size: 1rem;
+
+                }
+
+                .descNo{
+                    font-size: 2rem;
+                }
             }
         }
 
-        .descriptionImg{
-            margin-top: 60px;
-            margin-top: auto;
-            gap: auto;
-            position: auto;
-        }
-    }
-    
-}
-
-@media (min-width : 760px) {
-    .digital .digitalContainer{
-        margin-top: 40px;
-        padding-left: auto;
-        padding-right: auto;
-
-        .digitalRight{
-            padding-left: auto;
-
-            .subtitle{
-                width: auto;
-            }
-        }
-
-        .descriptionImg{
-            margin-top: 400px;
-            right: auto;
-            margin-top: auto;
-            gap: auto;
-            position: auto;
-        }
+        // .descriptionImg{
+        //     margin-top: 400px;
+        //     right: auto;
+        //     margin-top: auto;
+        //     gap: auto;
+        //     position: auto;
+        // }
     }
     
 }

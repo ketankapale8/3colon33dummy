@@ -44,15 +44,15 @@ const container2 = {
 const Services = () => {
   return (
     <div className="services">
-        <img
+
+        <div className="servicesContainer">
+              <div className="servicesLeft">
+        {/* <img
           src={servicesImg}
           alt="servicesImg"
           className="servicesbannerImg"
           // style={{ width: "694px", height: "955px", zIndex: 0 }}
-        />
-
-        <div className="servicesContainer">
-              <div className="servicesLeft">
+        /> */}
               {/* <h4 className='title'>TITLE</h4> */}
               <div className="subtitle">What We do?</div>
                 <div className='divBelowsubtitle'/>

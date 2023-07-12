@@ -27,8 +27,8 @@ const Digital1 = () => {
 
             <div className="digitalRight">
                 {/* <h4 className='title'>TITLE</h4> */}
-                <div className="subtitle">Creating continuous value </div>
-                <div className="subtitle"> at the intersection of change</div>
+                <div className="subtitle">Creating continuous value  at the intersection of change</div>
+                {/* <div className="subtitle"> at the intersection of change</div> */}
                 <div className='divBelowsubtitle'/>
                 <div className="descriptionDiv">
                     <p className='desc'>
