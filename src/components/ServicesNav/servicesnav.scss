@@ -5,7 +5,7 @@
     padding-right: 10px;
     position: absolute;
     left: 740px;
-    top: 90px;
+    top: 110px;
     height: 520px;
     background: rgb(22,22,21);
     background: radial-gradient(circle, rgba(53, 53, 52, 0.895) 100%, rgb(212, 212, 201) 100%);
@@ -100,8 +100,20 @@
     display: none;
 }
 
-@media screen and (max-width: 960px) {
-    .fa-caret-down {
+// @media screen and (max-width: 960px) {
+//     .fa-caret-down {
+//       display: none;
+//     }
+//   }
+
+  @media (min-width : 760px) and (max-width: 1500px) {
+    .dropdown-menu{
+      left: 540px;
+      top: 110px;
+    }
+     .fa-caret-down {
       display: none;
     }
   }
+
+  

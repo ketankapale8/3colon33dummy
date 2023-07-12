@@ -38,7 +38,7 @@
             justify-content: center;
             text-decoration: none;
             list-style: none;
-            width: 50vw; 
+            width: 40vw; 
             height: 85px;
             // justify-content: end;
             // margin-right: 2rem;
@@ -59,7 +59,7 @@
                     list-style: none;
                     text-decoration: none;
                     // padding-left: 30px;
-                    padding-left: 49px;
+                    padding-left: 30px;
                 }
             }
 
@@ -212,9 +212,19 @@
     }
 }
 
-@media (max-width : 720px) {
+@media (min-width : 720px) and (max-width : 1500px) {
     .navbar .linksContainer .nav-menu .nav-item {
-        font-size:12px;
+        font-size:16px;
 
+    }
+
+    .navbar{
+        .logoContainer{
+            padding-right: 35%;
+        }
+
+       .nav-menu{
+        margin-right: 230px;
+       }
     }
 }

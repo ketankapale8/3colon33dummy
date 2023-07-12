@@ -170,3 +170,12 @@
 
     
 }
+@media (min-width : 760px) and (max-width: 1500px) {
+    .subservicesContainer{
+        .subservicesRight{
+            .box{
+                width: 680px !important;
+            }
+        }
+    }
+}

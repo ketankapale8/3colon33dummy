@@ -23,6 +23,7 @@
                 color : #817F7F;
             }
             .subtitle{
+                padding-top: 10px;
                 color: #FFFF;
                 font-size: 2.5rem;
                 font-weight: bold;
@@ -96,4 +97,20 @@
 
 }
     }
+}
+
+@media (min-width : 760px) and (max-width: 1500px) {
+    .culture .cultureBottom{
+        padding-top: 440px;
+        padding-left: 80px;
+        padding-right: 0px;
+        .bottomContainer{
+            
+            padding-top: 30px;
+            .desc{
+                width: 350px;
+            }
+        }
+    }
+    
 }

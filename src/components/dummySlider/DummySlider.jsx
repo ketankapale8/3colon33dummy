@@ -52,17 +52,18 @@ const DummySlider = () => {
     <div data-src={two} style={{position:"absolute" , }} className='bannerImgs'>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
-        <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'925px'}}> 
+        <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}}> 
                       Digital Quality
                       </div>
-                      <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'925px'}} >
+                      <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}} >
                       Assurance
                       </div>
                       {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
                       world
                       </div> */}
         <div>
-        <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
+        <div style={{lineHeight: '20px', paddingTop: '5px'}}>
+        <p style={{fontSize:'1.5rem',  color:"#FFFF"}}>
                   Lorem Ipsum is simply dummy text of the printing and 
                   </p>
                   <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
@@ -71,6 +72,8 @@ const DummySlider = () => {
                   <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   standard dummy text ever since the 1500s.
                   </p>
+
+        </div>
         </div>
         </div>
       {/* <p style={{color:'red' , paddingTop:'150px' , position:"relative"}}>I want to see what you got.</p> */}
@@ -78,17 +81,18 @@ const DummySlider = () => {
     <div data-src={three} style={{position:"absolute" , }} className='bannerImgs'>
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
-        <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'895px'}}> 
-                      A Brigde to a
+        <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}}> 
+                      A Brigde to a Brighter
                       </div>
-                      <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'895px'}} >
-                      Brighter future.
+                      <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}} >
+                       future.
                       </div>
                       {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
                       world
                       </div> */}
         <div>
-        <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
+        <div style={{lineHeight: '20px', paddingTop: '5px'}}>
+        <p style={{fontSize:'1.5rem',  color:"#FFFF"}}>
                   Lorem Ipsum is simply dummy text of the printing and 
                   </p>
                   <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
@@ -97,6 +101,8 @@ const DummySlider = () => {
                   <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   standard dummy text ever since the 1500s.
                   </p>
+
+        </div>
         </div>
         </div>
       {/* <p style={{color:'red' , paddingTop:'150px' , position:"relative"}}>I want to see what you got.</p> */}
@@ -105,16 +111,17 @@ const DummySlider = () => {
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
         <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}}> 
-                      A key towards
+                      A key towards a better
                       </div>
                       <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}} >
-                      a better tomorrow.
+                       tomorrow.
                       </div>
                       {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
                       world
                       </div> */}
         <div>
-        <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
+        <div style={{lineHeight: '20px', paddingTop: '5px'}}>
+        <p style={{fontSize:'1.5rem',  color:"#FFFF"}}>
                   Lorem Ipsum is simply dummy text of the printing and 
                   </p>
                   <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
@@ -123,6 +130,8 @@ const DummySlider = () => {
                   <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   standard dummy text ever since the 1500s.
                   </p>
+
+        </div>
         </div>
         </div>
       {/* <p style={{color:'red' , paddingTop:'150px' , position:"relative"}}>I want to see what you got.</p> */}

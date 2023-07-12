@@ -32,7 +32,7 @@ const CultureComp = () => {
         <div className="cultureContainer">
 
             <div className="cultureTop">
-                <h4 className='title'>TITLE</h4>
+                {/* <h4 className='title'>TITLE</h4> */}
                     <div className="subtitle">Our Culture</div>
                         <div className='divBelowsubtitle'/>
                         <div className="descriptionDiv">

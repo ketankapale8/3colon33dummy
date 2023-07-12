@@ -255,11 +255,52 @@
 }
 
 
-@media (min-width : 960px) {
+@media (min-width : 760px) and (max-width: 1500px) {
    
-    .servicesContainer{
-        margin-left: auto;
-        margin-right: auto;
+    .services .servicesContainer{
+        padding-left: auto;
+        padding-right: auto;
+        
+        .servicesLeft{
+            .descriptionDiv{
+                margin-right: 0px;
+
+                .desc{
+                    width: 76%;
+                    line-height: 23px;
+                }
+            }
+        }
+
+        .servicesRight{
+            padding-right: 120px;
+            .containerOne{
+                width: 260px;
+
+                .box1{
+                    width: 330px;
+                }
+
+                .box2{
+                    width: 330px;
+                }
+
+                
+            }
+            
+            .containerTwo{
+                width: 220px;
+                .box3{
+                    width: 330px;
+                }
+    
+                .box4{
+                    width: 330px;
+                }
+            }
+        }
+
+        
     }
     
 }

@@ -141,33 +141,29 @@
     
 }
 
-@media (min-width : 960px) {
+@media (min-width : 760px) and (max-width: 1500px) {
     .subservicesdesc .subservicesContainer{
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: auto;
-        padding-right: auto;
+        margin-left: 100px;
+        margin-right: 100px;
+        // padding-left: auto;
+        // padding-right: auto;
 
         
 
        
     }
 
-    .subservicesContainer .subservicesRight .container1 .box1{
-        width: auto;
-        height: auto;
+    .subservicesRight {
+        padding-right: 290px;
+        .container1 .box1{
+            
+          width: 200% !important
+             
+            
+        }
     }
+    
 
-    .box1{
-        p: auto;
-        
-    }
 
-    .line{
-        width: auto;
-    }
-    .roleBtn{
-        margin-top: auto;
-    }
     
 }

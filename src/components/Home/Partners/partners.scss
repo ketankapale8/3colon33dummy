@@ -68,8 +68,9 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            padding-left: 750px;
+            padding-left: auto;
             position: absolute;
+            padding-left: 550px;
     
             .containerOne{
                 display: flex;
@@ -118,16 +119,46 @@
 
 }
 
-@media (min-width : 960px) {
+@media (min-width : 760px) and (max-width: 1500px) {
     .partnersContainer{
         padding-left: auto;
         padding-right: auto;
+        gap: 50px;
+
+        .partnersLeft{
+            width: 370px;
+
+            .descriptionDiv{
+                line-height: 23px;
+                
+                .desc{
+                    width: 80%;
+                }
+            }
+        }
 
         .partnersRight{
-            padding-left: auto;
+            // padding-left: auto;
+            padding-left: 450px;
 
             .containerOne{
-                padding: auto;
+                width: 290px;
+                height: 600px;
+                padding: 15px;
+
+                .box1{
+                    width: 250px;
+
+                    .boxImg{
+                        width: 60%;
+                        height: 220px;
+                    }
+                }
+
+                .box2{
+                    width: 60%;
+                    height: 100px;
+                }
             }
         }
     }
