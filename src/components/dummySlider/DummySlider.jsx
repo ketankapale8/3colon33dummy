@@ -1,7 +1,7 @@
 import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
-import AwsSliderStyles from 'react-awesome-slider/src/components/react-awesome-frame/styles.scss'
+// import AwsSliderStyles from 'react-awesome-slider/src/components/react-awesome-frame/styles.scss'
 import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/captioned.css';
 import one from '../../assets/sliderbanner/1.png'
