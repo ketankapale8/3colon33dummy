@@ -22,7 +22,7 @@ const Home = () => {
         {/* <BoxComponent/> */}
         <HomeCareers/>
         <Partners/>
-        <Testimonials/>
+        {/* <Testimonials/> */}
         <Footer/>
 
     </div>

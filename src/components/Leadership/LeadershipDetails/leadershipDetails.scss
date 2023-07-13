@@ -1,6 +1,6 @@
 .leadershipDetails {
   width: 100%;
-  height: 860px;
+  height: 960px;
 
   .leadershipDetailsContainer {
     margin-left: 90px;
@@ -83,7 +83,7 @@
 
           .paragraph {
             padding-top: 10px;
-            font-size: 0.6rem;
+            font-size: 0.9rem;
           }
         }
       }
@@ -117,7 +117,7 @@
             // }
             
             .carousal {
-              padding-top: 20px;
+              padding-top: 60px;
             display: flex;
           position: relative;
           align-items: center;
@@ -150,7 +150,7 @@
               h5{
                 position: absolute;
                 margin-left: 20px;
-                padding-top: 100px;
+                padding-top: 150px;
                 text-transform: uppercase;
                 font-size: 0.7rem;
                 color: white
@@ -159,7 +159,7 @@
               .imagedesc{
                 position: absolute;
                 margin-left: 20px;
-                padding-top: 135px;
+                padding-top: 155px;
                 // text-transform: uppercase;
                 font-size: 0.5rem;
                 color: #5BF0D9
@@ -175,7 +175,7 @@
 
             .carousal_buttons {
               position: absolute;
-              top: 40%;
+              top: 43%;
 
               .carousel__button-left {
                 position: relative;
@@ -186,7 +186,7 @@
               
               .carousel__button-right {
                 position: relative;
-                left: 500px;
+                left: 970px;
                 width: 21px;
                 height: 38px;
               }
