@@ -11,14 +11,14 @@ const container1 = {
   item1 : {
     title : "Digital Services",
     img : img1,
-    desc : "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    desc : " Tailored solutions to enhance businesses, improve user experiences, and optimize online presence"
 
   },
    
   item2 : {
     title : "Data center and network ",
     img : img2,
-    desc : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
+    desc : 'Build & maintain robust infrastructures, ensuring efficient data storage, secure networking, and reliable connectivity'
 
   }
   
@@ -28,14 +28,14 @@ const container2 = {
   item1 : {
     title : "Artificial Intelligence",
     img : img3,
-    desc : "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    desc : " Intelligent systems, leveraging machine learning and advanced algorithms to automate tasks, make predictions, and gain valuable insights from data"
 
   },
    
   item2 : {
     title : "Customer Experience",
     img : img4,
-    desc : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
+    desc : 'Prioritize satisfaction by implementing strategies and technologies that foster meaningful interactions'
 
   }
   

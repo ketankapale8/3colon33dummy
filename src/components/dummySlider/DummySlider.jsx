@@ -64,14 +64,14 @@ const DummySlider = () => {
         <div>
         <div style={{lineHeight: '20px', paddingTop: '5px'}}>
         <p style={{fontSize:'1.5rem',  color:"#FFFF"}}>
-                  Lorem Ipsum is simply dummy text of the printing and 
+        Unlocking Excellence in the Digital Realm: 
                   </p>
                   <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
-                  typesetting industry. Lorem Ipsum has been the industry’s 
+                  Elevate Your Quality Assurance!
                   </p>
-                  <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
+                  {/* <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   standard dummy text ever since the 1500s.
-                  </p>
+                  </p> */}
 
         </div>
         </div>
@@ -82,10 +82,10 @@ const DummySlider = () => {
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
         <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}}> 
-                      A Brigde to a Brighter
+                      A Brigde to a 
                       </div>
                       <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}} >
-                       future.
+                      Brighter future.
                       </div>
                       {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
                       world
@@ -93,14 +93,14 @@ const DummySlider = () => {
         <div>
         <div style={{lineHeight: '20px', paddingTop: '5px'}}>
         <p style={{fontSize:'1.5rem',  color:"#FFFF"}}>
-                  Lorem Ipsum is simply dummy text of the printing and 
+        Bridging Dreams, Building Futures
                   </p>
                   <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
-                  typesetting industry. Lorem Ipsum has been the industry’s 
+                  Connecting for a Brighter Tomorrow
                   </p>
-                  <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
+                  {/* <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   standard dummy text ever since the 1500s.
-                  </p>
+                  </p> */}
 
         </div>
         </div>
@@ -111,10 +111,10 @@ const DummySlider = () => {
         <div style={{display: 'flex', flexDirection:'column', alignItems:'flex-start' , position:'relative', paddingTop:'120px' , paddingLeft:'75px'}}>
         
         <div className='title' style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}}> 
-                      A key towards a better
+        Innovation Unleashed: Transforming  
                       </div>
                       <div className='title'style={{fontWeight:'bold', fontSize:'80px', color:"#FFFF" , paddingRight:'835px'}} >
-                       tomorrow.
+                      Possibilities into Reality!
                       </div>
                       {/* < div className='title' style={{fontWeight:'bold', fontSize:'65px', color:"#FFFF" , paddingRight:'835px'}}>
                       world
@@ -122,14 +122,14 @@ const DummySlider = () => {
         <div>
         <div style={{lineHeight: '20px', paddingTop: '5px'}}>
         <p style={{fontSize:'1.5rem',  color:"#FFFF"}}>
-                  Lorem Ipsum is simply dummy text of the printing and 
+        Driving Forward, 
                   </p>
                   <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
-                  typesetting industry. Lorem Ipsum has been the industry’s 
+                  Embracing Change : Unleashing Continuous Progress!
                   </p>
-                  <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
+                  {/* <p style={{fontSize:'1.5rem', color:"#FFFF"}}>
                   standard dummy text ever since the 1500s.
-                  </p>
+                  </p> */}
 
         </div>
         </div>
