@@ -87,11 +87,11 @@
                 justify-content: center;
                 width: 843px;
                 height: 226px;
-                margin-top: 0px;
+                margin-top: 390px;
                 // object-position: 672px 1640px;
                 background-color: #477DFF;
-                position: sticky;
-                // position: absolute;
+                // position: sticky;
+                position: absolute;
                 z-index: 2;
                 margin-left: -360px;
                 gap: 60px;
@@ -156,34 +156,50 @@
     
 // }
 
-@media (min-width : 760px) and (max-width: 1500px) {
+@media (min-width : 600px) and (max-width: 1600px) {
     .digital .digitalContainer{
+        overflow-x: hidden;
         margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        
+        
         padding-left: auto;
         padding-right: auto;
+        align-items: center;
+
+        .digitalLeft{
+            
+            .leftImg{
+                width: auto;
+                height: auto;
+            }
+        }
 
        
 
         .digitalRight{
-            padding-left: auto;
+            padding-left: 50px;
 
             .subtitle{
-                width: 20%;
-                font-size: 2.7rem;
+                width: 100%;
+                font-size: 2.2rem;
             }
 
             .descriptionDiv{
                 .desc{
                     line-height: 23px;
                     font-size: 1rem;
+                    text-align: justify;
                 }
             }
 
             .descriptionImg{
+                display: none;
                 width: 543px;
                 height: 120px;
                 line-height: 0.1;
-                gap: 20px;
+                // gap: 20px;
 
                 .descTitle{
                     font-size: 1rem;
@@ -207,22 +223,40 @@
     
 }
 
-@media (min-width : 480px) {
+@media (max-width : 600px) {
     .digital .digitalContainer{
-        margin-top: 40px;
-        padding-left: auto;
-        padding-right: auto;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+        align-items: center;
+
+        .digitalLeft{
+            .leftImg{
+                width: 300px;
+                height: 300px;
+            }
+        }
 
         .digitalRight{
-            padding-left: auto;
-
+            padding-left: 50px;
             .subtitle{
-                width: auto;
+                width: 100%;
+                font-size: 1rem;
+                line-height: 22px;
+            }
+
+            .desc{
+                width: 100%;
+                text-align: justify;
+                font-size: 1rem;
+                line-height: 15px;
             }
         }
 
         .descriptionImg{
-            display: none;
+            display: none !important;
             // right: auto;
             // margin-top: auto;
             // gap: auto;

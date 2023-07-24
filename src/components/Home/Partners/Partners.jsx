@@ -75,7 +75,7 @@ const Partners = () => {
             {/* <h4 className='title'>PARTNERS</h4> */}
               <div className="subtitle">Our service partners</div>
                 <div className='divBelowsubtitle'/>
-                <div className="descriptionDiv">
+                <div className="descriptionDiv1">
                     <p className='desc'>
                     We work with the world’s leading technology partners to bring in the right balance of strategy, expertise and technology for your business, at the right time. 
                     </p>
@@ -87,7 +87,7 @@ const Partners = () => {
               {current.map(item=>{
                   return (
                     <>
-                      <img src={four} style={{width:'55px', height:"25px", marginTop:'60px' , position:'absolute' , marginRight:'1220px' , cursor:'pointer'}} onClick={()=>onRight(item.batch)}/>
+                      <img src={four} className="arrow" onClick={()=>onRight(item.batch)}/>
               <div className="containerOne" key={item.id}>
                   <div className="box1">
                       <img src={item.img} className="boxImg"/>

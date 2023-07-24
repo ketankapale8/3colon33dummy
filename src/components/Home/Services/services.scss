@@ -1,5 +1,7 @@
 .services{
+    overflow-x: hidden;
     width: 100%;
+    overflow-x: hidden;
     height: auto;
     padding-bottom: 60px;
     padding-top: 60px;
@@ -20,15 +22,15 @@
         
         
         .servicesLeft{
-            position: relative;
-                .servicesbannerImg{
-                   width: 694px;
-                   height: 955px;
-                   top: 0;
-                   object-position: 0 , 2055 ;
-                   position: absolute;
-                   z-index: 0;
-               }
+            // position: relative;
+            //     .servicesbannerImg{
+            //        width: 694px;
+            //        height: 955px;
+            //        top: 0;
+            //        object-position: 0 , 2055 ;
+            //        position: absolute;
+            //        z-index: 0;
+            //    }
                 display: flex;
                 align-items: flex-start;
                 margin-top: 150px;
@@ -77,7 +79,7 @@
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
-                width: 100%;
+                width: 120%;
                 // padding-left: 40px;
                 gap: 18px;
                 // padding-left: 30px;
@@ -255,15 +257,16 @@
 }
 
 
-@media (min-width : 760px) and (max-width: 1500px) {
+@media (min-width : 600px) and (max-width: 1800px) {
    
     .services .servicesContainer{
-        padding-left: auto;
-        padding-right: auto;
+        
+        overflow-x: hidden;
+        margin-left: 50px !important;
+        // margin-right: 50px !important;
         
         .servicesLeft{
             .descriptionDiv{
-                margin-right: 0px;
 
                 .desc{
                     width: 76%;
@@ -316,3 +319,427 @@
     }
     
 }
+
+@media (min-width : 600px) and (max-width: 1400px) {
+   
+    .services .servicesContainer{
+        overflow-x: hidden;
+        display: flex;
+        overflow-x: hidden;
+        flex-direction: column;
+        padding-left: 20px;
+        // padding-right: 20px;
+        // margin-left: 10px;
+        // margin-right: 10px;
+       
+        align-items: center;
+        justify-content: center;
+        
+        .servicesLeft{
+            align-items: center;
+            justify-content: center;
+            .descriptionDiv{
+                width: 100%;
+                margin-right: 0px;
+
+                .desc{
+                    display: flex;
+                    width: 100%;
+                    text-align: justify;
+                    line-height: 23px;
+                }
+            }
+        }
+
+        .servicesRight{
+            display: flex;
+          
+            align-items: center;
+            // padding-right: 120px;
+            padding-left: 5px;
+            padding-right: 5px;
+            
+            .containerOne{
+                width: 260px;
+
+                .box1{
+                    width: 330px;
+                    .desc{
+                        font-size: 0.6rem;
+                    }
+                }
+
+                .box2{
+                    width: 330px;
+                    .desc{
+                        font-size: 0.6rem;
+                    }
+                }
+
+                
+            }
+            
+            .containerTwo{
+                width: 220px;
+                .box3{
+                    width: 330px;
+                    .desc{
+                        font-size: 0.6rem;
+                    }
+                }
+    
+                .box4{
+                    width: 330px;
+                    .desc{
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+        }
+
+        
+    }
+    
+}
+
+@media  (max-width: 600px) {
+   
+    .services .servicesContainer{
+        overflow-x: hidden;
+        display: flex;
+        overflow-x: hidden;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+        align-items: center;
+
+        height: auto;
+        margin-bottom: 20px;
+        
+        .servicesLeft{
+            align-items: center !important;
+            justify-content: center;
+            margin-top: 10px;
+            
+            .descriptionDiv{
+                margin-right: 0px;
+
+                .desc{
+                    display: flex;
+                    width: 100%;
+                    text-align: justify;
+                    line-height: 23px;
+                }
+            }
+        }
+
+        .servicesRight{
+            align-items: center !important;
+            justify-content: center !important;
+            gap:18px;
+            display: flex;
+            // padding-right: 120px;
+            
+            .containerOne{
+                padding-right: 5px !important;
+                padding-left: 5px !important;
+                align-items: center;
+                justify-content: center;
+                width: 160px;
+                height: 600px;
+
+                .box1{
+                    width: 160px;
+                    padding: 10px 10px;
+                    height: 240px;
+
+                    .logo{
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+                        padding-left: 10px;
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    .title{
+                        font-size: 1rem;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                    .desc{
+                        font-size: 0.6rem;
+                        line-height: 12px;
+                        padding-left: 15px;
+                        padding-right: 15px
+                    }
+                }
+
+                .box2{
+                    padding: 10px 10px;
+                    padding-top: 20px;
+                    width: 160px;
+                    height: 240px;
+                    .logo{
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+                        padding-left: 10px;
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    .title{
+                        font-size: 1rem;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                    .desc{
+                        font-size: 0.6rem;
+                        line-height: 12px;
+                        padding-left: 15px;
+                        padding-right: 15px
+                    }
+                }
+
+                
+            }
+            
+            .containerTwo{
+                width: 160px;
+                height: 600px;
+                align-items: center;
+                justify-content: center;
+                padding-right: 5px !important;
+                padding-left: 5px !important;
+                gap: 5px;
+                margin-top: 20px;
+                .box3{
+                    width: 160px;
+                    padding-right: 10px;
+                    // padding: 10px 10px;
+                    
+                    height: 240px;
+                    .logo{
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+                        padding-left: 10px;
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    .title{
+                        font-size: 1rem;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                    .desc{
+                        font-size: 0.6rem;
+                        line-height: 12px;
+                        padding-left: 15px;
+                        padding-right: 15px
+                    }
+                }
+    
+                .box4{
+                    padding-top: 25px;
+                    width: 160px;
+                    height: 240px;
+                    padding-right: 10px;
+                    // padding: 10px 10px;
+                    .logo{
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+                        padding-left: 10px;
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    .title{
+                        font-size: 1rem;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                    .desc{
+                        font-size: 0.6rem;
+                        line-height: 12px;
+                        padding-left: 15px;
+                        padding-right: 15px
+                    }
+                }
+            }
+        }
+
+        
+    }
+    
+}
+
+// @media  (max-width: 300px) {
+   
+//     .services .servicesContainer{
+//         display: flex;
+//         flex-direction: column;
+//         padding-top: 20px;
+//         padding-right: 15px !important;
+//         padding-left: 15px !important;
+//         align-items: center;
+
+//         height: auto;
+//         margin-bottom: 20px;
+        
+//         .servicesLeft{
+//             align-items: center !important;
+//             justify-content: center;
+//             margin-top: 10px;
+            
+//             .descriptionDiv{
+//                 margin-right: 0px;
+
+//                 .desc{
+//                     display: flex;
+//                     width: 100%;
+//                     text-align: justify;
+//                     line-height: 23px;
+//                 }
+//             }
+//         }
+
+//         .servicesRight{
+//             align-items: center !important;
+//             justify-content: center !important;
+//             gap: 5px;
+//             display: flex;
+//             // padding-right: 120px;
+            
+//             .containerOne{
+//                 padding-right: 15px !important;
+//                 padding-left: 15px !important;
+//                 align-items: center;
+//                 justify-content: center;
+//                 width: 160px;
+//                 height: 600px;
+
+//                 .box1{
+//                     width: 160px;
+//                     padding: 10px 10px;
+//                     height: 240px;
+
+//                     .logo{
+//                         padding-top: 2px;
+//                         padding-bottom: 2px;
+//                         padding-left: 10px;
+//                         width: 40px;
+//                         height: 40px;
+//                     }
+
+//                     .title{
+//                         font-size: 1rem;
+//                         padding-left: 20px;
+//                         padding-right: 20px;
+//                     }
+//                     .desc{
+//                         font-size: 0.6rem;
+//                         line-height: 12px;
+//                         padding-left: 15px;
+//                         padding-right: 15px
+//                     }
+//                 }
+
+//                 .box2{
+//                     padding: 10px 10px;
+//                     padding-top: 20px;
+//                     width: 160px;
+//                     height: 240px;
+//                     .logo{
+//                         padding-top: 2px;
+//                         padding-bottom: 2px;
+//                         padding-left: 10px;
+//                         width: 40px;
+//                         height: 40px;
+//                     }
+
+//                     .title{
+//                         font-size: 1rem;
+//                         padding-left: 20px;
+//                         padding-right: 20px;
+//                     }
+//                     .desc{
+//                         font-size: 0.6rem;
+//                         line-height: 12px;
+//                         padding-left: 15px;
+//                         padding-right: 15px
+//                     }
+//                 }
+
+                
+//             }
+            
+//             .containerTwo{
+//                 width: 160px;
+//                 height: 600px;
+//                 align-items: center;
+//                 justify-content: center;
+//                 padding-right: 15px !important;
+//                 padding-left: 15px !important;
+//                 gap: 10px;
+//                 margin-top: 20px;
+//                 .box3{
+//                     width: 160px;
+//                     padding-right: 10px;
+//                     // padding: 10px 10px;
+                    
+//                     height: 240px;
+//                     .logo{
+//                         padding-top: 2px;
+//                         padding-bottom: 2px;
+//                         padding-left: 10px;
+//                         width: 40px;
+//                         height: 40px;
+//                     }
+
+//                     .title{
+//                         font-size: 1rem;
+//                         padding-left: 20px;
+//                         padding-right: 20px;
+//                     }
+//                     .desc{
+//                         font-size: 0.6rem;
+//                         line-height: 12px;
+//                         padding-left: 15px;
+//                         padding-right: 15px
+//                     }
+//                 }
+    
+//                 .box4{
+//                     padding-top: 25px;
+//                     width: 160px;
+//                     height: 240px;
+//                     padding-right: 10px;
+//                     // padding: 10px 10px;
+//                     .logo{
+//                         padding-top: 2px;
+//                         padding-bottom: 2px;
+//                         padding-left: 10px;
+//                         width: 40px;
+//                         height: 40px;
+//                     }
+
+//                     .title{
+//                         font-size: 1rem;
+//                         padding-left: 20px;
+//                         padding-right: 20px;
+//                     }
+//                     .desc{
+//                         font-size: 0.6rem;
+//                         line-height: 12px;
+//                         padding-left: 15px;
+//                         padding-right: 15px
+//                     }
+//                 }
+//             }
+//         }
+
+        
+//     }
+    
+// }

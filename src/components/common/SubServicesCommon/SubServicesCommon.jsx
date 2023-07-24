@@ -20,7 +20,7 @@ const SubServicesCommon = ({title , pageName , descTitle , subtitle , subService
     <BannerComponent img={img} title={title} pageName={pageName} icon={icon}/>
     <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1}  commonImg={commonImg} showBtn={false} />
     <SubServicesDesc subServicesArray={subServicesArray}/>
-    <CaseStudy casestudytitle={casestudytitle} caseStudySituation1={caseStudySituation1} caseStudySituation2={caseStudySituation2} casestudyBanner={casestudyBanner}/>
+    {/* <CaseStudy casestudytitle={casestudytitle} caseStudySituation1={caseStudySituation1} caseStudySituation2={caseStudySituation2} casestudyBanner={casestudyBanner}/> */}
     <Connectwithus/>
     <Footer/>
 </div>

@@ -1,6 +1,7 @@
 .footer{
     width: 100%;
-    height: 380px;
+    height: auto;
+    padding-bottom: 20px;
     // padding-left: 150px;
     // padding-right: 150px;
     background-color: #040E56;
@@ -128,4 +129,120 @@
 
         }
     }
+}
+
+@media (min-width: 600px ) and (max-width: 1600px) {
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse !important;
+        align-items: center;
+        height: auto;
+        gap: -20px;
+
+        .footerLeft{
+            height: auto;
+            flex-direction: column;
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            gap: 0px;
+            align-items: center;
+
+            .copyright{
+                padding-top: 20px;
+            }
+            
+            
+        }
+
+        .footerRight{
+            display: flex;
+            align-items: center;
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+
+            .middle{
+                padding-left: 0px;
+            }
+
+            
+        }
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse !important;
+        height: auto;
+        gap: -20px;
+
+        .footerLeft{
+            height: auto;
+            flex-direction: column;
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            gap: 0px;
+            align-items: center;
+
+            .copyright{
+                padding-top: 20px;
+            }
+
+            
+            
+            
+        }
+
+        .footerRight{
+            display: flex;
+            align-items: center;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+
+            .top{
+                padding-left: 20px !important;
+            }
+
+            .middle{
+                padding-left: 10px;
+                padding-right: 10px;
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center;
+                height: auto;
+                gap: 10px;
+                .name .email .submitBtn {
+                    padding-left: 0px;
+                    width: 60px !important;
+                    height: 40px !important;
+                    
+                }
+            }
+            .social{
+                padding-left: 23%;
+                .mediaImg{
+                    width: 55px;
+                    height: 55px;
+                }
+            }
+
+            .bottom{
+                display: flex;
+                flex-direction: row !important;
+                padding-left: 5px;
+                padding-right: 5px;
+
+                p{
+                    padding-top: 40px !important;
+                    padding: 15px;
+                }
+            }
+
+            
+        }
+    }
+    
 }

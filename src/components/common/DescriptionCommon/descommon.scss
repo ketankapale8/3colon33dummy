@@ -1,10 +1,11 @@
 .desccommon {
   width: 100%;
-  height: 770px;
+  height: auto;
+  padding-bottom: 40px;
   // display: flex;
   // flex-direction: row;
   background-color: #ffffff;
-  position: relative;
+  // position: relative;
   // flex: 1;
 
   .desccommonContainer {
@@ -83,6 +84,66 @@
         width: 494px;
         height: 555px;
         z-index: 1;
+      }
+    }
+  }
+}
+
+@media (min-width : 520px) and (max-width : 1600px){
+  .desccommon{
+    padding-bottom: 20px;
+    .desccommonContainer{
+      padding-top: 10px !important;
+      margin-left: 30px;
+      margin-right: 30px;
+      display: flex;
+      flex-direction: column !important;
+
+      .descLeft{
+        .divBelowsubtitle{
+          margin-top: 5px;
+        }
+      }
+
+      .descRight{
+        margin-left: 10px;
+        padding-left: 20px;
+        align-items: center;
+
+        .descbannerImg{
+          width: 700px;
+          height: 650px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width : 320px) and (max-width : 520px){
+  .desccommon{
+    padding-bottom: 20px;
+    .desccommonContainer{
+      padding-top: 20px !important;
+      margin-left: 30px;
+      margin-right: 30px;
+      display: flex;
+      flex-direction: column !important;
+
+      .descLeft{
+        .divBelowsubtitle{
+          margin-top: 5px;
+        }
+      }
+
+      .descRight{
+        margin-left: 10px;
+        padding-left: 20px;
+
+        .descbannerImg{
+          width: 300px;
+          height: 350px;
+        }
       }
     }
   }
