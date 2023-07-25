@@ -55,3 +55,98 @@
 
   }
 }
+
+@media (min-width: 720px) and (max-width: 1600px) {
+  .presence{
+    width: 100%;
+    // padding-top: 50px !important;
+    height: 50px !important;
+    padding-bottom: 20px !important;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+
+    .presenceContainer{
+      display: flex;
+      flex-direction: row !important;
+      align-items: center !important;
+      justify-content: center !important;
+      line-height: 0.5 !important;
+      gap: 15px !important;
+      .list{
+        
+        gap: 10px !important;
+        padding: 10px !important;
+        align-items: center !important;
+        // justify-content: center !important;
+
+        .no{
+          padding-top: 0px;
+          font-size: 2.2rem;
+
+        }
+        .desc{
+
+          padding-top: 10px !important;
+          line-height: 1;
+          font-size: 2.2rem;
+          align-self: center;
+        }
+
+      }
+      .lineContainer{
+        padding-left: 20px;
+        height: 59px !important;
+      }
+    }
+   }
+    
+}
+@media (min-width: 320px) and (max-width: 720px) {
+   .presence{
+    width: 100%;
+    // padding-top: 50px !important;
+    height: 50px !important;
+    padding-bottom: 20px !important;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+
+    .presenceContainer{
+      display: flex;
+      flex-direction: column !important;
+      align-items: center !important;
+      // justify-content: center !important;
+      line-height: 0.5 !important;
+      gap: 15px !important;
+      .list{
+        display: flex !important;
+        gap: 10px !important;
+        padding: 10px !important;
+        align-items: flex-start !important;
+        // justify-content: center !important;
+
+        .no{
+          font-size: 2.5rem;
+          padding-top: 0px;
+          padding-left: 5px;
+
+        }
+        .desc{
+
+          padding-top: 10px !important;
+          line-height: 1.2;
+          font-size: 2.2rem;
+        }
+
+      }
+      .lineContainer{
+        display: none !important;
+      }
+    }
+   }
+
+   } 
+

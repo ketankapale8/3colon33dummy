@@ -35,7 +35,10 @@ const Aboutus = () => {
     <div className='aboutus'>
       <BannerComponent img={img} title={title} pageName={pageName} pageName1={pageName1} icon={icon}/>
       <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1} commonImg={commonImg} showBtn={false}/>
-      <PresenceComp style={{paddingLeft:'50%'}}/>
+      <div style={{height:'300px', paddingTop: '130px'}}>
+        <PresenceComp />
+
+      </div>
       <Values />
       <Flipped descTitle2={descTitle2} subtitle2={subtitle2} contenta={contenta} contentb={contentb} commonImg2={commonImg2} showBtn={true} btnTitle={btnTitle} to={to}/>
       <Footer/>

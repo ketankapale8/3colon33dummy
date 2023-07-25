@@ -29,7 +29,7 @@ const Carrers = () => {
       <CultureComp/>
       <Network/>
       <Values/>
-      <CareersTestimonials/>
+      {/* <CareersTestimonials/> */}
       <Footer />
 
 
