@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 
 const SubServicesDesc = ({subServicesArray}) => {
   return (
-    <div className="subservicesdesc">
-        <div className="subservicesContainer">
+    <div className="subservicesdesc1">
+        <div className="subservicesContainer1">
          
             <div className="subservicesLeft">
               <div className="container">

@@ -93,16 +93,22 @@
   .desccommon{
     padding-bottom: 20px;
     .desccommonContainer{
-      padding-top: 10px !important;
+      padding-top: 20px !important;
       margin-left: 30px;
       margin-right: 30px;
+      align-items: center !important;
+      justify-content: center !important;
       display: flex;
-      flex-direction: column !important;
+      flex-direction:column-reverse !important;
 
       .descLeft{
         .divBelowsubtitle{
-          margin-top: 5px;
+          margin-top: 25px;
         }
+
+        
+
+        
       }
 
       .descRight{
@@ -127,20 +133,39 @@
       padding-top: 20px !important;
       margin-left: 30px;
       margin-right: 30px;
+      align-items: center !important;
+      justify-content: center !important;
       display: flex;
-      flex-direction: column !important;
+      flex-direction: column-reverse !important;
 
       .descLeft{
         .divBelowsubtitle{
           margin-top: 5px;
         }
+
+        .roleBtn {
+        // margin-top: -150px;
+        width: 193px !important;
+        height: 34px !important;
+        background-color: #d22599;
+        color: #ffff;
+        border: none;
+        border-radius: 30px;
+        font-size: 1rem;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+      }
       }
 
       .descRight{
         margin-left: 10px;
-        padding-left: 20px;
+        padding-left: 5px;
+        display: flex;
+        align-items: center !important  ;
 
         .descbannerImg{
+          object-fit: contain;
           width: 300px;
           height: 350px;
         }

@@ -207,17 +207,36 @@
             }
 
             .middle{
-                padding-left: 10px;
-                padding-right: 10px;
+                // padding-left: 10px !important;
+                padding-right: 10px !important;
                 display: flex !important;
                 flex-direction: column !important;
                 align-items: center;
                 height: auto;
                 gap: 10px;
-                .name .email .submitBtn {
+                .name {
                     padding-left: 0px;
-                    width: 60px !important;
-                    height: 40px !important;
+                    width: 220px !important;
+                    height: 30px !important;
+                    margin-left: 30px;
+                    padding-left: 20px;
+                    
+                }
+                .email {
+                    padding-left: 0px;
+                    width: 220px !important;
+                    height: 30px !important;
+                    margin-left: 30px;
+                    padding-left: 20px;
+                    
+                }
+
+                .submitBtn {
+                    padding-left: 0px;
+                    width: 220px !important;
+                    height: 30px !important;
+                    margin-left: 30px;
+                    padding-left: 20px;
                     
                 }
             }

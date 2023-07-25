@@ -28,3 +28,24 @@
     }
     
 }
+
+@media (min-width: 320px)  and (max-width: 1600px){
+    .connectwithusBox{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center;
+
+        .subtitle{
+            font-size: 1.1rem;
+            margin-right: 0px !important;
+        }
+        .roleBtn{
+            margin-top: 20px !important;
+            width: 173px;
+            height: 34px;
+            border-radius: 30px;
+        }
+    }
+}
