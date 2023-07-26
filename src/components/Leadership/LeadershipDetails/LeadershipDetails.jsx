@@ -79,8 +79,8 @@ const LeadershipDetails = () => {
   const [selected , setSelected] = useState([]);
 
   useEffect(()=>{
-    // handleClick()
-    // handleClick()
+    handleClick()
+    handleClick()
   },[])
   
   const handleClick = (id) =>{

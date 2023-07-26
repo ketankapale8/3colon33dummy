@@ -1,6 +1,7 @@
 .flipped {
   width: 100%;
-  height: 900px;
+  height: auto;
+  padding-bottom: 20px ;
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
@@ -80,6 +81,107 @@
         margin-top: 70px;
         border: none;
         cursor: pointer;
+      }
+    }
+  }
+}
+
+
+@media (min-width : 520px) and (max-width : 1600px){
+  .flipped{
+    height: auto !important;
+    padding-bottom: 20px;
+    .flippedContainer{
+      padding-top: 20px !important;
+      margin-left: 10px;
+      margin-right: 10px;
+      align-items: center !important;
+      justify-content: center !important;
+      display: flex;
+      flex-direction: column!important;
+
+      .flippedRight{
+        margin-left: 20px !important;
+        .divBelowsubtitle{
+          margin-top: 5px;
+        }
+
+        .roleBtn {
+        // margin-top: -150px;
+        width: 193px !important;
+        height: 34px !important;
+        background-color: #d22599;
+        color: #ffff;
+        border: none;
+        border-radius: 30px;
+        font-size: 1rem;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+      }
+      }
+
+      .flippedLeft{
+        margin-left: 10px;
+        padding-left: 5px;
+        display: flex;
+        align-items: center !important  ;
+
+        .descbannerImg{
+          object-fit: contain;
+          width: 600px;
+          height: 550px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width : 320px) and (max-width : 520px){
+  .flipped{
+    height: auto !important;
+    padding-bottom: 20px;
+    .flippedContainer{
+      padding-top: 20px !important;
+      margin-left: 10px;
+      margin-right: 10px;
+      align-items: center !important;
+      justify-content: center !important;
+      display: flex;
+      flex-direction: column!important;
+
+      .flippedRight{
+        margin-left: 20px !important;
+        .divBelowsubtitle{
+          margin-top: 5px;
+        }
+
+        .roleBtn {
+        // margin-top: -150px;
+        width: 193px !important;
+        height: 34px !important;
+        background-color: #d22599;
+        color: #ffff;
+        border: none;
+        border-radius: 30px;
+        font-size: 1rem;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+      }
+      }
+
+      .flippedLeft{
+        margin-left: 10px;
+        padding-left: 5px;
+        display: flex;
+        align-items: center !important  ;
+
+        .descbannerImg{
+          object-fit: contain;
+          width: 300px;
+          height: 350px;
+        }
       }
     }
   }
