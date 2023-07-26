@@ -104,6 +104,16 @@
       .descLeft{
         .divBelowsubtitle{
           margin-top: 25px;
+
+          .descriptionDiv{
+
+            .desc {
+              padding-top: 20px;
+              font-size: 2.5rem !important;
+              width: 75%;
+              display: flex;
+            }
+          }
         }
 
         

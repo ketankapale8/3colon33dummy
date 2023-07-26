@@ -131,12 +131,13 @@
         display: flex;
         flex-direction: column;
         padding-top: 20px;
-        padding-left: 20px !important;
+        padding-left: 10px !important;
         padding-right: 20px !important;
         margin-right: 10px !important;
         margin-left: 10px !important;
         align-items: center;
         justify-content: center;
+        gap: 10px !important;
 
         .homecareersLeft{
            align-items: center !important;
@@ -150,6 +151,7 @@
 
         .homecareersRight{
             width: 90%;
+            padding-left: 20px !important;
             // padding-left: 20px;
             .subtitle{
                 font-size: 2rem;
