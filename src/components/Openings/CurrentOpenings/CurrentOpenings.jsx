@@ -62,7 +62,7 @@ const openings = [
         title : "HTML Developer/Designer – Ionic + Angular",
         experience : "Experience : 2-3 years",
         location : " Location - Noida",
-        position : "Contract/Part-time"
+        position : "Part-time"
 
     },
     {

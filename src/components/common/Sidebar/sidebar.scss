@@ -100,7 +100,7 @@
   }
   .active {
     border-right: 4px solid white;
-    background: rgb(45, 51, 89);
+    background: transparent
   }
   .link_text {
     white-space: nowrap;
@@ -143,5 +143,9 @@
 
     .link_text{
         font-size: 0.8rem;
+    }
+
+    .active{
+        background: transparent;
     }
   }
