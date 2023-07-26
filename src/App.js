@@ -46,6 +46,7 @@ import Oracle from './components/SubtoSubServices/Oracle/Oracle';
 import SAP from './components/SubtoSubServices/SAP/Sap';
 import Industries from './components/Industries/Industries';
 
+
 function App() {
   return (
     <div className="App">
