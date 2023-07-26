@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { FaBars, FaHome, FaLock, FaMoneyBill, FaUser } from "react-icons/fa";
 import {SiAboutdotme} from 'react-icons/si';
-import {GrServices} from 'react-icons/gr';
+import {MdOutlineMiscellaneousServices} from 'react-icons/md';
 import {LiaIndustrySolid} from 'react-icons/lia'
 import {AiOutlineCodepenCircle} from 'react-icons/ai';
 import {GiTalk} from 'react-icons/gi'
@@ -30,7 +30,7 @@ const routes = [
   {
     path: "/services",
     name: "Services",
-    icon: <GrServices />,
+    icon: <MdOutlineMiscellaneousServices />,
   },
   {
     path: "/industries",
