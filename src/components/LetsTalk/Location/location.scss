@@ -23,7 +23,6 @@
       align-items: center;
       // justify-content: center;
       flex-direction: column;
-      align-items: center;
       // flex: 0.3;
 
       .subtitle {
@@ -171,11 +170,10 @@
 
 @media (min-width : 1200px) and (max-width: 1600px) {
   .location{
-    height: 850px !important;
+    height: 1450px !important;
     margin-left: 20px !important ;
     margin-right: 20px !important;
     .locationContainer{
-      gap: 10px;
       align-items: center !important;
       display: flex !important;
       padding-left: 500px !important;
@@ -213,7 +211,6 @@
       }
 
       .bottom {
-        padding-top: 150px !important;
         display: flex;
         margin-left: 10px !important;
         margin-right: 10px !important;
