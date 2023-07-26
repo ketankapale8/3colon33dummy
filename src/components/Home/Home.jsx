@@ -11,11 +11,14 @@ import Testimonials from './Testimonials/Testimonials';
 import Navbar from '../common/Navbar/Navbar';
 import DummySlider from '../dummySlider/DummySlider';
 import BoxComponent from './BoxComponent/BoxComponent';
+import DummySlider1 from '../dummySlider1/DummySlider1';
+import DummySlider2 from '../dummyslider2/DummySlider2';
 
 const Home = () => {
   return (
     <div className='homeComponent' >
-        <DummySlider/>
+        {/* <DummySlider/> */}
+      <DummySlider2/>
         {/* <Banner/> */}
         <Digital1/>
         <Services/>

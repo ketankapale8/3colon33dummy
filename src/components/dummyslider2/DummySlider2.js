@@ -1,18 +1,36 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-import Carousel from "nuka-carousel"
+import './styles.scss';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import one from '../../assets/sliderbanner/1.png'
 import two from '../../assets/sliderbanner/2.png'
 import three from '../../assets/sliderbanner/3.png'
 import four from '../../assets/sliderbanner/4.png';
 
-import './dummys1.scss'
-
-export default function DummySlider1() {
-
+export default function DummySlider2() {
   return (
     <>
-         <div className='main'>
+        <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+        <div className='main'>
            <div>
             <img src={one} />
             <div className='title'>
@@ -33,7 +51,8 @@ export default function DummySlider1() {
            
            </div>
         </div>
-
+        </SwiperSlide>
+        <SwiperSlide>
         <div className='main'>
         <div className='title'>
                 <h2>Digital Quality</h2>
@@ -54,31 +73,33 @@ export default function DummySlider1() {
         <img src={two} />
         </div>
 
-
+        </SwiperSlide>
+        <SwiperSlide>
         <div className='main'>
 
-        <img src={three} />
+<img src={three} />
 
-        <div className='title'>
-                <h2>A Brigde to a </h2>
-                <h2 > Brighter future.</h2>
+<div className='title'>
+        <h2>A Brigde to a </h2>
+        <h2 > Brighter future.</h2>
 
-            </div>
+    </div>
 
-            <div className='desc'>
+    <div className='desc'>
 
-            <p >
-            Bridging Dreams, Building Futures
-            </p>
-                      <p  >
-                      Connecting for a Brighter Tomorrow
-                      </p>
-            </div>
-        </div>
-        
+    <p >
+    Bridging Dreams, Building Futures
+    </p>
+              <p  >
+              Connecting for a Brighter Tomorrow
+              </p>
+    </div>
+</div>
+        </SwiperSlide>
+        <SwiperSlide>
         <div className='main'>
         <div className='title'>
-                <h2>Innovation Unleashed: Transforming  </h2>
+                <h2>Innovation Unleashed: Transforming </h2>
                 <h2 >Possibilities into Reality!</h2>
 
             </div>
@@ -97,8 +118,9 @@ export default function DummySlider1() {
         <img src={four} />
 
         </div> 
-    
+        </SwiperSlide>
+        
+      </Swiper>
     </>
-
   )
 }

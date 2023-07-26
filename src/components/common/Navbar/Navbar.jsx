@@ -4,6 +4,7 @@ import BrandLogo from '../../../assets/logo.png';
 import footerLogo from '../../../assets/footer/logoc.png'
 import { Link } from 'react-router-dom';
 import ServicesDropdown from '../../ServicesNav/ServicesNav';
+import SideBar from '../Sidebar/Sidebar';
 
 const Navbar = () => {
 
@@ -13,6 +14,14 @@ const Navbar = () => {
   const closeMobileMenu = () => setClick(false);
   const [navbarChange ,setNavbarChange] = useState(false);
   const [changeLogo , setChangeLogo] = useState(BrandLogo)
+
+  let [w , setW] = React.useState(1440)
+
+  function updateSize(){
+    let width = window.innerWidth;
+    setW(width)
+
+  }
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
       setDropdown(false);
@@ -39,8 +48,10 @@ const Navbar = () => {
   }
 
   window.addEventListener('scroll', changeBackground)
+  window.addEventListener('resize', updateSize)
   useEffect(()=>{
     changeBackground()
+    updateSize()
   },[])
 
   // const navItems = [
@@ -66,7 +77,9 @@ const Navbar = () => {
   //   }
   // ]
   return (
-    <div className={navbarChange  ? 'navbar-active': 'navbar'}>
+    <>
+    
+    <div className={ navbarChange  ? 'navbar-active': 'navbar'}>
       {/* <div className="navContainer"> */}
         <div className="logoContainer">
           <Link to="/">
@@ -126,6 +139,8 @@ const Navbar = () => {
 
       {/* </div> */}
     </div>
+    
+    </>
   )
 }
 

@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.scss';
+import React from 'react';
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Navbar from './components/common/Navbar/Navbar';
@@ -45,13 +46,34 @@ import SalesForce from './components/SubtoSubServices/SalesForce/SalesForce';
 import Oracle from './components/SubtoSubServices/Oracle/Oracle';
 import SAP from './components/SubtoSubServices/SAP/Sap';
 import Industries from './components/Industries/Industries';
+import SideBar from './components/common/Sidebar/Sidebar';
 
 
 function App() {
+   let [w , setW] = React.useState(1440)
+  function updateSize(){
+    let width = window.innerWidth;
+    setW(width)
+
+  }
+  console.log(w)
+
+  const renderSideBar = () =>{
+    return (
+      <>
+        <div style={{position: 'absolute' , zIndex: 999, top: '0px' }}>
+        <SideBar/>
+        </div>
+      </>
+    )
+  }
+   
+  window.addEventListener('resize', updateSize)
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        { w > 1200 ? <Navbar /> : renderSideBar()}
+        {/* <Navbar/> */}
         <Routes>
           <Route element={<Home/>} path="/"/>
           <Route element={<Aboutus/>} path="/aboutus" />
