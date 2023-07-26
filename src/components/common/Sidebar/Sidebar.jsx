@@ -1,5 +1,11 @@
 import { NavLink } from "react-router-dom";
 import { FaBars, FaHome, FaLock, FaMoneyBill, FaUser } from "react-icons/fa";
+import {SiAboutdotme} from 'react-icons/si';
+import {GrServices} from 'react-icons/gr';
+import {LiaIndustrySolid} from 'react-icons/lia'
+import {AiOutlineCodepenCircle} from 'react-icons/ai';
+import {GiTalk} from 'react-icons/gi'
+
 import { MdMessage } from "react-icons/md";
 import { BiAnalyse, BiSearch } from "react-icons/bi";
 import { BiCog } from "react-icons/bi";
@@ -19,22 +25,22 @@ const routes = [
   {
     path: "/aboutus",
     name: "About Us",
-    icon: <FaHome />,
+    icon: <SiAboutdotme />,
   },
   {
     path: "/services",
     name: "Services",
-    icon: <FaUser />,
+    icon: <GrServices />,
   },
   {
     path: "/industries",
     name: "Industries",
-    icon: <MdMessage />,
+    icon: <LiaIndustrySolid />,
   },
   {
     path: "/careers",
     name: "Careers",
-    icon: <BiAnalyse />,
+    icon: <AiOutlineCodepenCircle />,
   },
   // {
   //   path: "/file-manager",
@@ -61,7 +67,7 @@ const routes = [
   {
     path: "/letstalk",
     name: "Lets Talk",
-    icon: <BsCartCheck />,
+    icon: <GiTalk />,
   },
   // {
   //   path: "/settings",

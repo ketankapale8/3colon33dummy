@@ -94,7 +94,9 @@ const ServicesDesc = () => {
                 {sliderArray1.map(item=>{
                     return (
                         <>
+                        <Link to={item.path} style={{textDecoration:'none' , color:'inherit'}}>
                     <div className="containerOne" key={item.id}>
+                        
                             <div className="box1">
                                 <img src={item.img} className="boxImg"/>
                             </div>
@@ -108,6 +110,8 @@ const ServicesDesc = () => {
                             </div>
 
                         </div>
+                        </Link>
+
                         
                         </>
                     )
@@ -119,6 +123,7 @@ const ServicesDesc = () => {
                 {sliderArray2.map(item=>{
                     return (
                         <>
+                        <Link to={item.path} style={{textDecoration:'none' , color:'inherit'}}>
                     <div className="containerOne" key={item.id}>
                             <div className="box1">
                                 <img src={item.img} className="boxImg"/>
@@ -134,6 +139,8 @@ const ServicesDesc = () => {
                             </div>
 
                         </div>
+
+                        </Link>
                         
                         </>
                     )
@@ -145,6 +152,7 @@ const ServicesDesc = () => {
                 {sliderArray3.map(item=>{
                     return (
                         <>
+                        <Link to={item.path} style={{textDecoration:'none' , color:'inherit'}}>
                     <div className="containerOne" key={item.id}>
                             <div className="box1">
                                 <img src={item.img} className="boxImg"/>
@@ -159,6 +167,8 @@ const ServicesDesc = () => {
                             </div>
 
                         </div>
+
+                        </Link>
                         
                         </>
                     )
