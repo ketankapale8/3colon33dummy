@@ -47,18 +47,18 @@
                 .subtitle{
                     color: #FFFF;
                     font-size: 2.9rem;
+                    line-height: 52px;
                     font-weight: bold;
                 }
                 .divBelowsubtitle{
-                    margin-top: 30px;
                     width: 76px;
+                    margin-top: 4px !important;
                     height: 2px;
                     background-color: #C13895;
                 }
-                .descriptionDiv{
+                .descriptionDiv1{
                     display: flex;
                     align-items: start;
-                    margin-right: 50px;
                     // justify-content: flex-start;
                     
                     .desc{
@@ -67,7 +67,7 @@
                         padding-top: 20px;
                         line-height: 33px;
                         font-size: 1.2rem;
-                        width: 90%;
+                        width: auto !important;
                         display: flex;
     
                     }
@@ -320,7 +320,7 @@
     
 }
 
-@media (min-width : 600px) and (max-width: 1400px) {
+@media (min-width : 850px) and (max-width: 1400px) {
    
     .services .servicesContainer{
         overflow-x: hidden;
@@ -338,12 +338,13 @@
         .servicesLeft{
             align-items: center;
             justify-content: center;
-            .descriptionDiv{
+            .descriptionDiv1{
                 width: 100%;
                 margin-right: 0px;
 
                 .desc{
                     display: flex;
+                    font-size: 18px !important;
                     width: 100%;
                     text-align: justify;
                     line-height: 23px;
@@ -402,7 +403,7 @@
     
 }
 
-@media  (max-width: 600px) {
+@media  (max-width: 850px) {
    
     .services .servicesContainer{
         overflow-x: hidden;
@@ -410,10 +411,9 @@
         overflow-x: hidden;
         flex-direction: column;
         padding-top: 20px;
-        padding-right: 25px !important;
-        padding-left: 25px !important;
+        padding-right: 15px !important;
+        padding-left: 15px !important;
         align-items: center;
-
         height: auto;
         margin-bottom: 20px;
         
@@ -421,15 +421,25 @@
             align-items: center !important;
             justify-content: center;
             margin-top: 10px;
-            
-            .descriptionDiv{
-                margin-right: 0px;
 
+            .subtitle{
+                font-size: 18px !important;
+            }
+
+            .divBelowsubtitle{
+                margin-left: 10% !important;
+            }
+            
+            .descriptionDiv1{
+                margin-right: 0px;
+                
                 .desc{
+                    font-family: 'Poppins';
+                    font-size: 18px !important;
                     display: flex;
-                    width: 100%;
-                    text-align: justify;
-                    line-height: 23px;
+                    line-height: 22px;
+                    width: auto !important;
+                    text-align: start !important;
                 }
             }
         }
@@ -439,7 +449,144 @@
             justify-content: center !important;
             gap:18px;
             display: flex;
+            // padding-left: 10px !important;
             // padding-right: 120px;
+
+            .mobileContainers{
+                display: flex;
+                flex-direction: column !important;
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+                height: auto !important;
+                padding-bottom: 20px !important;
+
+                .containerOne{
+                    padding-right: 5px !important;
+                    padding-left: 5px !important;
+                    align-items: center;
+                    justify-content: center;
+                    width: 270px;
+                    height: 300px;
+    
+                    .box1{
+                        width: 252px;
+                        padding: 10px 10px;
+                        height: 240px;
+    
+                        .logo{
+                            padding-top: 12px;
+                            padding-bottom: 2px;
+                            padding-left: 10px;
+                            width: 48px;
+                            height: 48px;
+                        }
+    
+                        .title{
+                            font-size: 1rem;
+                            padding-left: 20px;
+                            padding-right: 20px;
+                        }
+                        .desc{
+                            font-size: 0.9rem;
+                            line-height: 16px;
+                            padding-left: 15px;
+                            padding-right: 15px
+                        }
+                    }
+    
+                    .box2{
+                        padding: 10px 10px;
+                        padding-top: 20px;
+                        width: 252px;
+                        height: 240px;
+                        .logo{
+                            padding-top: 12px;
+                            padding-bottom: 2px;
+                            padding-left: 10px;
+                            width: 48px;
+                            height: 48px;
+                        }
+    
+                        .title{
+                            font-size: 1rem;
+                            padding-left: 20px;
+                            padding-right: 20px;
+                        }
+                        .desc{
+                            font-size: 0.9rem;
+                            line-height: 16px;
+                            padding-left: 15px;
+                            padding-right: 15px
+                        }
+                    }
+                }
+                
+                .containerTwo{
+                    padding-right: 5px !important;
+                    padding-left: 5px !important;
+                    align-items: center;
+                    justify-content: center;
+                    padding-top: 0px !important;
+                    width: 270px !important;
+                    height: 300px !important;
+
+                    .box3{
+                        width: 252px;
+                        padding: 10px 10px;
+                        height: 240px;
+    
+                        .logo{
+                            padding-top: 12px;
+                            padding-bottom: 2px;
+                            padding-left: 10px;
+                            width: 48px;
+                            height: 48px;
+                        }
+    
+                        .title{
+                            font-size: 1rem;
+                            padding-left: 20px;
+                            padding-right: 20px;
+                        }
+                        .desc{
+                            font-size: 0.9rem;
+                            line-height: 16px;
+                            padding-left: 15px;
+                            padding-right: 15px
+                        }
+                    }
+    
+                    .box4{
+                        padding: 10px 10px;
+                        padding-top: 20px;
+                        width: 252px;
+                        height: 240px;
+                        .logo{
+                            padding-top: 12px;
+                            padding-bottom: 2px;
+                            padding-left: 10px;
+                            width: 48px;
+                            height: 48px;
+                        }
+    
+                        .title{
+                            font-size: 1rem;
+                            padding-left: 20px;
+                            padding-right: 20px;
+                        }
+                        .desc{
+                            font-size: 0.9rem;
+                            line-height: 16px;
+                            padding-left: 15px;
+                            padding-right: 15px
+                        }
+                    }
+    
+                }
+            }
+
+
+
             
             .containerOne{
                 padding-right: 5px !important;

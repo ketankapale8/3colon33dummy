@@ -28,7 +28,7 @@ const menuItemAnimation = {
     },
   }),
   show: (i) => ({
-    x: 0,
+    y: "100%",
     transition: {
       duration: (i + 1) * 0.1,
     },

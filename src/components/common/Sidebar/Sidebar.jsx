@@ -112,7 +112,7 @@ const SideBar = ({ children }) => {
       },
     },
     show: {
-      width: "140px",
+      width: "100px",
       padding: "5px 15px",
       transition: {
         duration: 0.2,
@@ -142,9 +142,10 @@ const SideBar = ({ children }) => {
       <div className="main-container" style={{position: 'relative'}}>
         <motion.div
           animate={{
-            width: isOpen ? "200px" : "45px",
+            width: isOpen ? "100px" : "45px",
 
             transition: {
+              
               duration: 0.5,
               type: "spring",
               damping: 10,
@@ -208,7 +209,7 @@ const SideBar = ({ children }) => {
                   className="link"
                   activeClassName="active"
                 >
-                  <div className="icon">{route.icon}</div>
+                  {/* <div className="icon">{route.icon}</div> */}
                   <AnimatePresence>
                     {isOpen && (
                       <motion.div

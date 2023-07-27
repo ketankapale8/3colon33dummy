@@ -129,12 +129,12 @@
     .homeCareers .homeCareersContainer{
         overflow-x: hidden;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse !important;
         padding-top: 20px;
-        padding-left: 10px !important;
-        padding-right: 20px !important;
-        margin-right: 10px !important;
-        margin-left: 10px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        // margin-right: 10px !important;
+        // margin-left: 10px !important;
         align-items: center;
         justify-content: center;
         gap: 10px !important;
@@ -144,21 +144,52 @@
 
             .leftImg{
                 object-fit: contain;
-                width: 280px;
-                height: 280px;
+                width: 297px !important;
+                height: 315px !important;
             }
         }
 
         .homecareersRight{
-            width: 90%;
-            padding-left: 20px !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 10px !important;
             // padding-left: 20px;
             .subtitle{
-                font-size: 2rem;
+                font-size: 18px !important;
             }
 
-            .desc{
-                text-align: justify;
+            .divBelowsubtitle{
+                margin-top: 10px;
+            width: 76px;
+            height: 2px;
+            background-color: #C13895;
+            }
+            
+            .descriptionDiv{
+                margin-right: 0px;
+                
+                .desc{
+                    font-family: 'Poppins';
+                    font-size: 18px !important;
+                    display: flex;
+                    line-height: 22px;
+                    width: auto !important;
+                    text-align: start !important;
+                }
+            }
+
+            .roleBtn{
+                width:196px ;
+                 height: 50px !important;
+                 background-color: #D22599;
+                 color: #FFFF;
+                 border: none;
+                 font-size: 1.2rem;
+                border-radius:70px;
+                margin-top:30px ;
+                border:none;
+                cursor: pointer;
             }
         }
 

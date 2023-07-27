@@ -68,7 +68,7 @@ function App() {
   const RenderSideBar = () =>{
     return (
       <>
-        <div style={{position: 'absolute' , zIndex: 999, top: '0px' }}>
+        <div style={{position: 'absolute' , zIndex: 999, top: '0px'  }}>
         <LazySidebar/>
         </div>
       </>
