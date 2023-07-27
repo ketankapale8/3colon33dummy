@@ -11,7 +11,7 @@ const Industries = () => {
   return (
     <div className='industries'>
       <BannerComponent img={img} title={title} pageName={pageName}  icon={icon}/>
-      <h1 style={{paddingLeft:'35%'}}>Content will be updated soon..</h1>
+      <h1 style={{paddingLeft:'65px' , display:'flex', alignContent:"center" , justifyContent:'center'}}>Content will be updated soon..</h1>
       <div  style={{marginTop:'550px'}}>
         <Footer/>
 
