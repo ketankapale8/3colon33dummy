@@ -50,8 +50,7 @@ import Navbar from './components/common/Navbar/Navbar';
 
 const LazyNavbar = React.lazy(()=> import('./components/common/Navbar/Navbar'));
 const LazySidebar = React.lazy(()=> import('./components/common/Sidebar/Sidebar'));
-
-
+const LazyHome = React.lazy(() => import('./components/Home/Home'))
 
 
 
@@ -84,7 +83,12 @@ function App() {
         </Suspense>
         {/* <Navbar/> */}
         <Routes>
-          <Route element={<Home/>} path="/"/>
+          
+          <Route index element={
+            <Suspense fallback={ <h4>loading Home..</h4>}>
+                <LazyHome/>
+            </Suspense>
+          } path="/"/>
           <Route element={<Aboutus/>} path="/aboutus" />
           <Route  element={<Careers/>} path="/careers"/>
           <Route  element={<Leadership/>} path="/leadership"/>
