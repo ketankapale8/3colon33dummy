@@ -335,8 +335,9 @@
             // padding-left: 450px;
 
             .arrow{
+                display: none !important;
                 padding-top: 560px;
-                padding-left: 90%;
+                padding-left: 0% !important;
             }
 
             .containerOne{
