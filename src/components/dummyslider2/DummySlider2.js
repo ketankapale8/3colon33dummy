@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import './styles.scss';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, Keyboard, Mousewheel } from 'swiper/modules';
 import one from '../../assets/sliderbanner/1.png'
 import two from '../../assets/sliderbanner/2.png'
 import three from '../../assets/sliderbanner/3.png'
@@ -16,18 +16,22 @@ export default function DummySlider2() {
   return (
     <>
         <Swiper
+        direction={'horizontal'}
         spaceBetween={30}
         centeredSlides={true}
+        mousewheel={true}
         autoplay={{
-          delay: 3500,
+          delay: 4500,
           disableOnInteraction: false,
         }}
-        onNavigationHide={true}
         pagination={{
           clickable: true,
         }}
+        keyboard={{
+          enabled: true,
+        }}
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Mousewheel,Keyboard, Pagination, Navigation , Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -37,7 +41,6 @@ export default function DummySlider2() {
             <div className='title'>
                 <h2>Harnessing insights</h2>
                 <h2 >Catalyzing change</h2>
-
             </div>
 
             <div className='desc'>
