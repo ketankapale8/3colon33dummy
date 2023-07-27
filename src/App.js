@@ -1,9 +1,8 @@
 // import logo from './logo.svg';
 import './App.scss';
-import React from 'react';
+import React , {lazy , Suspense} from 'react';
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import Home from './components/Home/Home';
-import Navbar from './components/common/Navbar/Navbar';
 import Aboutus from './components/Aboutus/Aboutus';
 import Careers from './components/Careers/Carrers';
 import Leadership from './components/Leadership/Leadership';
@@ -47,6 +46,13 @@ import Oracle from './components/SubtoSubServices/Oracle/Oracle';
 import SAP from './components/SubtoSubServices/SAP/Sap';
 import Industries from './components/Industries/Industries';
 import SideBar from './components/common/Sidebar/Sidebar';
+import Navbar from './components/common/Navbar/Navbar';
+
+const LazyNavbar = React.lazy(()=> import('./components/common/Navbar/Navbar'));
+const LazySidebar = React.lazy(()=> import('./components/common/Sidebar/Sidebar'));
+
+
+
 
 
 function App() {
@@ -58,11 +64,11 @@ function App() {
   }
   console.log(w)
 
-  const renderSideBar = () =>{
+  const RenderSideBar = () =>{
     return (
       <>
         <div style={{position: 'absolute' , zIndex: 999, top: '0px' }}>
-        <SideBar/>
+        <LazySidebar/>
         </div>
       </>
     )
@@ -72,7 +78,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-        { w > 1200 ? <Navbar /> : renderSideBar()}
+        <Suspense fallback={<h4>Loading...</h4>}>
+          { w > 1200 ? <LazyNavbar/> : <RenderSideBar/>}
+
+        </Suspense>
         {/* <Navbar/> */}
         <Routes>
           <Route element={<Home/>} path="/"/>

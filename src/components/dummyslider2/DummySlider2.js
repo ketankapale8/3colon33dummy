@@ -19,9 +19,10 @@ export default function DummySlider2() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 3500,
           disableOnInteraction: false,
         }}
+        onNavigationHide={true}
         pagination={{
           clickable: true,
         }}
