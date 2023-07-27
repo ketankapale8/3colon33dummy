@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Banner from './Banner/Banner';
 import Digital from './DigitalTransformation/Digital';
 import './home.scss';
@@ -14,6 +14,8 @@ import BoxComponent from './BoxComponent/BoxComponent';
 import DummySlider1 from '../dummySlider1/DummySlider1';
 import DummySlider2 from '../dummyslider2/DummySlider2';
 
+const lazyFooter = React.lazy(()=> import('../../components/common/Footer/Footer'))
+
 const Home = () => {
   return (
     <div className='homeComponent' >
@@ -25,8 +27,11 @@ const Home = () => {
         {/* <BoxComponent/> */}
         <HomeCareers/>
         <Partners/>
+        <Suspense fallback={<div>...</div>}>
+          <Footer/>
+
+        </Suspense>
         {/* <Testimonials/> */}
-        <Footer/>
 
     </div>
   )

@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.scss';
-import React , {lazy , Suspense} from 'react';
+import React , {lazy , Suspense, useEffect} from 'react';
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Aboutus from './components/Aboutus/Aboutus';
@@ -54,6 +54,7 @@ const LazyHome = React.lazy(() => import('./components/Home/Home'))
 
 
 
+
 function App() {
    let [w , setW] = React.useState(1440)
   function updateSize(){
@@ -72,14 +73,17 @@ function App() {
       </>
     )
   }
+
+  useEffect(()=>{
+    window.addEventListener('resize', updateSize);
+
+  },[])
    
-  window.addEventListener('resize', updateSize)
   return (
     <div className="App">
       <Router>
         <Suspense fallback={<h4>Loading...</h4>}>
           { w > 1200 ? <LazyNavbar/> : <RenderSideBar/>}
-
         </Suspense>
         {/* <Navbar/> */}
         <Routes>
