@@ -13,6 +13,7 @@ import DummySlider from '../dummySlider/DummySlider';
 import BoxComponent from './BoxComponent/BoxComponent';
 import DummySlider1 from '../dummySlider1/DummySlider1';
 import DummySlider2 from '../dummyslider2/DummySlider2';
+import Connectwithus from '../common/connectwithus/Connectwithus';
 
 const lazyFooter = React.lazy(()=> import('../../components/common/Footer/Footer'))
 
@@ -27,6 +28,7 @@ const Home = () => {
         {/* <BoxComponent/> */}
         <HomeCareers/>
         <Partners/>
+        <Connectwithus/>
         <Suspense fallback={<div>...</div>}>
           <Footer/>
 
