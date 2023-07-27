@@ -56,13 +56,14 @@ const LazyHome = React.lazy(() => import('./components/Home/Home'))
 
 
 function App() {
-   let [w , setW] = React.useState(1440)
+   let [w , setW] = React.useState(window.innerWidth)
   function updateSize(){
     let width = window.innerWidth;
     setW(width)
 
   }
-  console.log(w)
+
+    console.log(w)
 
   const RenderSideBar = () =>{
     return (
@@ -77,7 +78,7 @@ function App() {
   useEffect(()=>{
     window.addEventListener('resize', updateSize);
 
-  },[])
+  },[w])
    
   return (
     <div className="App">
