@@ -87,7 +87,7 @@ function App() {
     <div className="App">
       <Router>
         <Suspense fallback={<h4>Loading...</h4>}>
-          { w > 870 ? <LazyNavbar/> : <RenderSideBar/>}
+          { w > 850 ? <LazyNavbar/> : <RenderSideBar/>}
 
         </Suspense>
         {/* <Navbar/> */}
