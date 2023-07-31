@@ -47,23 +47,24 @@ import SAP from './components/SubtoSubServices/SAP/Sap';
 import Industries from './components/Industries/Industries';
 import SideBar from './components/common/Sidebar/Sidebar';
 import Navbar from './components/common/Navbar/Navbar';
+import ModalSidebar from './components/ModalSidebar/ModalSidebar';
 
 const LazyNavbar = React.lazy(()=> import('./components/common/Navbar/Navbar'));
 const LazySidebar = React.lazy(()=> import('./components/common/Sidebar/Sidebar'));
 const LazyHome = React.lazy(() => import('./components/Home/Home'))
+const ModalSidebar1 = React.lazy(() => import('./components/ModalSidebar/ModalSidebar'))
 
 
 
 
 function App() {
    let [w , setW] = React.useState(window.innerWidth)
+   let width = window.innerWidth;
   function updateSize(){
-    let width = window.innerWidth;
     setW(width)
 
   }
 
-    console.log(w)
 
   const RenderSideBar = () =>{
     return (
@@ -75,6 +76,8 @@ function App() {
     )
   }
 
+
+
   useEffect(()=>{
     window.addEventListener('resize', updateSize);
 
@@ -84,7 +87,8 @@ function App() {
     <div className="App">
       <Router>
         <Suspense fallback={<h4>Loading...</h4>}>
-          { w > 1200 ? <LazyNavbar/> : <RenderSideBar/>}
+          { w > 870 ? <LazyNavbar/> : <RenderSideBar/>}
+
         </Suspense>
         {/* <Navbar/> */}
         <Routes>
@@ -137,6 +141,7 @@ function App() {
           <Route element={<Oracle/>} path="/oracle"/>
           <Route element={<SAP/>} path="/sap"/>
           <Route element={<Industries/>} path="/industries"/>
+          <Route element={<ModalSidebar/>} path="/modalsidebar" />
         </Routes>
       </Router>
     </div>

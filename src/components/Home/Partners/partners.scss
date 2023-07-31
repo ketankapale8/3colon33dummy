@@ -77,6 +77,47 @@
             // position: absolute;
             padding-left: 250px;
 
+           .arrow1{
+            width: 55px;
+                height: 25px;
+                margin-top: 220px;
+                margin-right: 20px;
+                position: absolute;
+                cursor: pointer;
+           }
+
+            .containerOneMobile{
+                display: flex;
+                flex-direction: column;
+                align-items: center !important;
+                width: 390px;
+                height: 400px !important;
+                padding: 25px;
+                gap: 0px;
+                .box1mobile{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    justify-content: center;
+                    width: 300px !important;
+                    height: 250px !important; 
+
+                    .boxImg{
+                        width: 90%;
+                        height: 100% !important;
+                        object-fit: cover;
+                        display: flex;
+                        // background-image: linear-gradient(rgba(0,0,0,0.7),#477DFF);
+    
+                      
+                    }
+                }
+
+                .box2mobile{
+                    display: none !important;
+                }
+            }
+
             .arrow{
                 width: 55px;
                 height: 25px;
@@ -279,7 +320,7 @@
     
 }
 
-@media  (max-width : 700px)  {
+@media  (max-width : 850px)  {
     .partners{
         overflow-x: hidden;
         padding-top: 20px;
@@ -309,7 +350,7 @@
 
             .subtitle{
 
-                font-size: 2rem !important;
+                font-size: 18px !important;
             }
 
             .descriptionDiv1{
@@ -319,8 +360,16 @@
                 
                 
                 .desc{
-                    width: 100%;
-                    font-size: 0.8rem;
+                   width: 100%;
+                    padding-left: 20px !important;
+                    display: flex;
+                    font-family: 'Poppins';
+                    font-size: 18px !important;
+                    justify-content: stretch;
+                    display: flex;
+                    line-height: 22px;
+                    width: auto !important;
+                    text-align: center !important;
                 }
             }
         }

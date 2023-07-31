@@ -14,8 +14,8 @@ const Flipped = ({descTitle2 ,subtitle2 , pageName2 , contenta , contentb , comm
                     <div className="subtitle">{subtitle2}</div>
                     <div className="divBelowsubtitle"></div>
                     <div className="descriptionDiv">
-                        <p>{contenta}</p>
-                        <p>{contentb}</p>
+                        <p className='desc'>{contenta}</p>
+                        <p className='desc'>{contentb}</p>
                     </div>
                     <Link style={{textDecoration:'none'}} to={to}>
                         {showBtn == true && (

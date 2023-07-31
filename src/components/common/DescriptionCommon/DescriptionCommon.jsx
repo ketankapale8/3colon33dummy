@@ -20,11 +20,11 @@ const DescriptionCommon = ({
       <div className="desccommonContainer">
         <div className="descLeft">
           {/* <div className="title">{descTitle}</div> */}
-          <div className="subtitle">{subtitle}</div>
+          <div className="subtitle11">{subtitle}</div>
           <div className="divBelowsubtitle"></div>
           <div className="descriptionDiv">
-            <p>{content1}</p>
-            <p>{content2} </p>
+            <p className="desc">{content1}</p>
+            <p  className="desc">{content2} </p>
           </div>
           <Link style={{textDecoration : 'none'}} to={to}>
             <div style={{paddingBottom:'30px'}}>

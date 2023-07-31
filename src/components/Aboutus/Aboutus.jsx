@@ -9,7 +9,8 @@ import aboutusF from '../../assets/Flipped/about2.png';
 import DescriptionCommon from '../common/DescriptionCommon/DescriptionCommon';
 import Flipped from '../common/FlippedDescCommon/Flipped';
 import Values from './Values/Values';
-import PresenceComp from '../common/PresenceComp/Presence'
+import PresenceComp from '../common/PresenceComp/Presence';
+import Connectwithus from '../common/connectwithus/Connectwithus';
 
 const Aboutus = () => {
   const title = "About Us";
@@ -30,17 +31,31 @@ const Aboutus = () => {
   const contenta = "With decades of experience in technology and managed services, our leaders are committed to building and creating a better future for our customers, employees and our communities around the world. "
   const contentb = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived."
   const btnTitle = "Meet Our Leaders"
-  const to = "/leadership"
+  const to = "/leadership";
+
+
+  let [w , setW] = React.useState(window.innerWidth)
+function updateSize(){
+  let width = window.innerWidth;
+  setW(width)
+
+}
+React.useEffect(()=>{
+  window.addEventListener('resize', updateSize);
+
+},[w])
   return (
     <div className='aboutus'>
       <BannerComponent img={img} title={title} pageName={pageName} pageName1={pageName1} icon={icon}/>
       <DescriptionCommon descTitle={descTitle} subtitle={subtitle} content1={content1} commonImg={commonImg} showBtn={false}/>
-      <div style={{height:'300px', paddingTop: '130px'}}>
+      {w> 850 && (
+      <div style={{height:'300px', paddingTop: '20px'}}>
         <PresenceComp />
-
       </div>
+      )}
       <Values />
       <Flipped descTitle2={descTitle2} subtitle2={subtitle2} contenta={contenta} contentb={contentb} commonImg2={commonImg2} showBtn={true} btnTitle={btnTitle} to={to}/>
+      <Connectwithus/>
       <Footer/>
     </div>
   )

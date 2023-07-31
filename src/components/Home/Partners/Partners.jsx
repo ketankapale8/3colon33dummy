@@ -21,7 +21,7 @@ const sliderArray = [
         logo : one,
         desc : 'Lorem Ipsum is simply dummy text of the printing and typesetting',
         img : colonasset0,
-        id : 1,
+        id : 0,
         batch : 0,
     },
     {
@@ -29,7 +29,7 @@ const sliderArray = [
         logo : two,
         desc : 'Lorem Ipsum is simply dummy text of the printing and typesetting',
         img : colonasset1,
-        id : 2,
+        id : 1,
         batch : 0
     },
     // {
@@ -45,7 +45,7 @@ const sliderArray = [
         logo : three,
         desc : 'Lorem Ipsum is simply dummy text of the printing and typesetting',
         img : six,
-        id : 3,
+        id : 2,
         batch : 1
     },
     {
@@ -53,18 +53,38 @@ const sliderArray = [
         logo : five,
         desc : 'Lorem Ipsum is simply dummy text of the printing and typesetting',
         img : seven,
-        id : 4,
+        id : 3,
         batch : 1
     }
 ]
 
 const Partners = () => {
-    const [count ,setCount] = useState(0);
+    const [count ,setCount] = useState(1);
     const current = sliderArray.filter(item=>item.batch == count)
     const onRight = (batch) =>{
         if(batch>=0 && count<1){
             setCount(count+1)
         }else if(count==1){
+            setCount(0)
+        }
+    }
+
+    let [w , setW] = React.useState(window.innerWidth)
+    function updateSize(){
+      let width = window.innerWidth;
+      setW(width)
+    
+    }
+    React.useEffect(()=>{
+      window.addEventListener('resize', updateSize);
+    
+    },[w])
+
+    const currentMobile = sliderArray.filter(item=>item.id == count)
+    const onRightMobile = (id) =>{
+        if(id>=0 && count<3){
+            setCount(count+1)
+        }else if(count==3){
             setCount(0)
         }
     }
@@ -84,26 +104,53 @@ const Partners = () => {
             </div>
 
             <div className="partnersRight">
-              {current.map(item=>{
-                  return (
-                    <>
-                      <img src={four} className="arrow" onClick={()=>onRight(item.batch)}/>
-              <div className="containerOne" key={item.id}>
-                  <div className="box1">
-                      <img src={item.img} className="boxImg"/>
-                      {/*   <img src={item?.logo} style={{width:'140px', height:'60px', position:'absolute', paddingLeft:'23%'}}/> */}
+            {w < 850 ? (<>
+            
+                {currentMobile.map(item=>{
+                      return (
+                        <>
+                        <img src={four} className="arrow1" onClick={()=>onRightMobile(item.id)}/>
+                  <div className="containerOneMobile" key={item.id}>
+                      <div className="box1mobile" style={{width : '458px' , height:'198px'}}>
+                          <img src={item.img} className="boxImg" style={{width:'100%', height:'100%', objectFit:'contain'}}/>
+                          {/*   <img src={item?.logo} style={{width:'140px', height:'60px', position:'absolute', paddingLeft:'23%'}}/> */}
+                          
+                      </div>
                       
+    
                   </div>
-                  <div className="box2">
-                      <h4>{item.title}</h4>
-                      {/* <p style={{fontWeight:'0.7rem' , padding:'10px' , textAlign:'start'}}>{item.desc}</p> */}
-                  </div>
+                        </>
+    
+                      )
+                  })}
+            </>) : (
+                <>
+                {current.map(item=>{
+                    return (
+                      <>
+                      <img src={four} className="arrow" onClick={()=>onRight(item.batch)}/>
+                <div className="containerOne" key={item.id}>
+                    <div className="box1">
+                        <img src={item.img} className="boxImg"/>
+                        {/*   <img src={item?.logo} style={{width:'140px', height:'60px', position:'absolute', paddingLeft:'23%'}}/> */}
+                        
+                    </div>
+                    <div className="box2">
+                        <h4>{item.title}</h4>
+                        {/* <p style={{fontWeight:'0.7rem' , padding:'10px' , textAlign:'start'}}>{item.desc}</p> */}
+                    </div>
+  
+                </div>
+                      </>
+  
+                    )
+                })}
+                
+                </>
 
-              </div>
-                    </>
+            )
 
-                  )
-              })}
+            }
               
 
             </div>
