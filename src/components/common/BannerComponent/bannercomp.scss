@@ -112,7 +112,7 @@
 }
 
 
-@media (min-width : 789px) and (max-width: 1400px) {
+@media (min-width : 850px) and (max-width: 1400px) {
 
   .bannercomponent{
     width: 100%;
@@ -158,7 +158,7 @@
   
 }
 
-@media (min-width : 320px) and (max-width: 790px) {
+@media (min-width : 320px) and (max-width: 850px) {
 
   .bannercomponent{
     width: 100%;
@@ -185,23 +185,30 @@
         // position: relative;
       }
 
-      h1{
-        gap: 2px !important;
-        top: 230px !important;
-        position: absolute;
-        font-size: 15px !important;
-        line-height: 0.2px !important;
+      .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1{
+          gap: 2px !important;
+          top: 230px !important;
+          position: absolute;
+          font-size: 15px !important;
+          line-height: 0.2px !important;
+        }
+  
+        h4{
+          top: 270px !important;
+          font-size: 15px;
+        }
       }
 
-      h4{
-        top: 380px !important;
-        font-size: 15px;
-      }
 
       .icon{
         width: 10px;
         height: 10px;
-        top: 340px !important;
+        top: 350px !important;
       }
     }
   }

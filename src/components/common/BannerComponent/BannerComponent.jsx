@@ -58,12 +58,15 @@ const BannerComponent = ({img , title , pageName , icon , pageName1}) => {
         </div>
         <div className="bottom">
         <img className='backgroundimg' alt='bgrndImg' src={img} />
-        {/* <div style={{display:'flex' ,position:'absolute'}}> */}
-            <h1>{pageName}</h1>
-            <h1 style={{paddingTop: '90px' ,}}>{pageName1}</h1>
+        <div className="heading">
 
+            <h1>{pageName}</h1>
+            <h1 style={{paddingTop: '20px' ,}}>{pageName1}</h1>
             <h4>{title}</h4>
             <img src={icon} className="icon"/>
+        </div>
+        {/* <div style={{display:'flex' ,position:'absolute'}}> */}
+
 
         {/* </div> */}
 
