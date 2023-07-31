@@ -86,22 +86,29 @@
       object-fit: cover;
       // position: relative;
     }
-
-    h1 {
-      top: 490px;
-      font-size: 75px;
-      color: #ffff;
-      position: absolute;
-      line-height: 3;
+    .heading{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        top: 490px;
+        font-size: 75px;
+        color: #ffff;
+        position: absolute;
+        line-height: 3;
+      }
+  
+      h4 {
+        color: #ffff;
+        top: 790px;
+        font-size: 24px;
+        position: absolute;
+        color: #00ffb8;
+      }
     }
+    
 
-    h4 {
-      color: #ffff;
-      top: 790px;
-      font-size: 24px;
-      position: absolute;
-      color: #00ffb8;
-    }
     .icon {
       position: absolute;
       width: 26px;
@@ -133,18 +140,26 @@
         width: 100% !important;
         object-fit: cover;
       }
+      
+      .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-      h1{
-        top: 230px !important;
-        position: absolute;
-        font-size: 35px;
-        line-height: 1;
+        h1{
+          top: 230px !important;
+          position: absolute;
+          font-size: 35px;
+          line-height: 1;
+        }
+  
+        h4{
+          top: 480px !important;
+          font-size: 20px;
+        }
       }
 
-      h4{
-        top: 480px !important;
-        font-size: 20px;
-      }
 
       .icon{
         width: 20px;

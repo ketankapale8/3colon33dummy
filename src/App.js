@@ -48,6 +48,7 @@ import Industries from './components/Industries/Industries';
 import SideBar from './components/common/Sidebar/Sidebar';
 import Navbar from './components/common/Navbar/Navbar';
 import ModalSidebar from './components/ModalSidebar/ModalSidebar';
+import { wait } from '@testing-library/user-event/dist/utils';
 
 const LazyNavbar = React.lazy(()=> import('./components/common/Navbar/Navbar'));
 const LazySidebar = React.lazy(()=> import('./components/common/Sidebar/Sidebar'));
@@ -76,10 +77,11 @@ function App() {
     )
   }
 
-
+console.log(w)
 
   useEffect(()=>{
     window.addEventListener('resize', updateSize);
+    // RenderSideBar()
 
   },[w])
    
@@ -87,7 +89,7 @@ function App() {
     <div className="App">
       <Router>
         <Suspense fallback={<h4>Loading...</h4>}>
-          { w > 850 ? <LazyNavbar/> : <RenderSideBar/>}
+          { w > 870 ? <Navbar/>: <RenderSideBar/>}
 
         </Suspense>
         {/* <Navbar/> */}
