@@ -156,7 +156,7 @@
     
 // }
 
-@media (min-width : 600px) and (max-width: 1600px) {
+@media (min-width : 850px) and (max-width: 1600px) {
     .digital .digitalContainer{
         overflow-x: hidden;
         margin-top: 40px;
@@ -223,7 +223,7 @@
     
 }
 
-@media (max-width : 600px) {
+@media (max-width : 850px) {
     .digital .digitalContainer{
         overflow-x: hidden;
         display: flex;
@@ -252,13 +252,18 @@
             .divBelowsubtitle{
                 margin-left: 40%;
             }
-
-            .desc{
-                font-family: 'Poppins';
-                width: auto !important;
-                text-align: start !important;
-                font-size: 8px;
+            .descriptionDiv{
+                margin-right: 0px;
+                .desc{
+                    font-family: 'Poppins';
+                    font-size: 18px !important;
+                    display: flex;
+                    line-height: 20px;
+                    width: auto !important;
+                    text-align: center !important;
+                }
             }
+
         }
 
         .descriptionImg{

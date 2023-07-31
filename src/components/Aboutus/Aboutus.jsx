@@ -38,7 +38,6 @@ const Aboutus = () => {
 function updateSize(){
   let width = window.innerWidth;
   setW(width)
-
 }
 React.useEffect(()=>{
   window.addEventListener('resize', updateSize);

@@ -74,6 +74,7 @@
         width: 353px;
         height: 54px;
         background-color: #d22599;
+        
         color: #ffff;
         font-size: 1.2rem;
         border: none;
@@ -174,16 +175,10 @@
 
         .roleBtn {
         // margin-top: -150px;
-        width: 193px !important;
-        height: 34px !important;
-        background-color: #d22599;
-        color: #ffff;
-        border: none;
+        margin-top: 20px !important;
+        width: 193px;
+        height: 34px;
         border-radius: 30px;
-        font-size: 1rem;
-        margin-top: 10px;
-        border: none;
-        cursor: pointer;
       }
       }
 
