@@ -28,7 +28,15 @@ const navItems = [
 ]
 
 const BannerComponent = ({img , title , pageName , icon , pageName1}) => {
+  let [w , setW] = React.useState(window.innerWidth)
+function updateSize(){
+  let width = window.innerWidth;
+  setW(width)
+}
+React.useEffect(()=>{
+  window.addEventListener('resize', updateSize);
 
+},[w])
   return (
     <div className='bannercomponent'>
         <div className="top">
@@ -60,8 +68,8 @@ const BannerComponent = ({img , title , pageName , icon , pageName1}) => {
         <img className='backgroundimg' alt='bgrndImg' src={img} />
         <div className="heading">
 
-            <h1>{pageName}</h1>
-            <h1 style={{paddingTop: '20px' ,}}>{pageName1}</h1>
+            <h1 >{pageName}</h1>
+            <h1 className='title' style={{ paddingTop: w> 850 ? '60px' : '20px'}}>{pageName1}</h1>
             <h4>{title}</h4>
             <img src={icon} className="icon"/>
         </div>
