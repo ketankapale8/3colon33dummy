@@ -320,7 +320,7 @@
     
 }
 
-@media  (max-width : 850px)  {
+@media (min-width : 320px) and (max-width : 850px)  {
     .partners{
         overflow-x: hidden;
         padding-top: 20px;
